@@ -128,7 +128,7 @@ Simple exercises to demonstrate the manipulation of the DOM elements.
 Here's a simple exercise to manipulate the DOM using JavaScript:
 
 1. **Add a Button in HTML**: In `index.html`, add a button element:
-2. 
+
 ```html
 <button id="changeColorButton">Change Color</button>
 ```
