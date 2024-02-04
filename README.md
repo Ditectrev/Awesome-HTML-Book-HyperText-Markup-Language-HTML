@@ -671,30 +671,43 @@ This section provides in-depth knowledge on creating and handling forms in HTML.
 ## HTML5 and Semantic Elements
 HTML5 introduced a range of semantic elements that provide meaningful structure to web content, making it more accessible and understandable both to browsers and developers.
 
+![HTML5 & Semantic Elements.](images/section6_1.png)
+
 ### Introduction to Semantic Elements
 Semantic elements clearly describe their meaning in a human- and machine-readable way. Elements like `<article>`, `<footer>`, `<header>`, `<nav>`, and `<section>` make the structure of a document more readable and accessible.
 
+![Introduction to Semantic Elements.](images/section6_2.png)
+
 ### Semantic Markup: The Backbone of the Modern Web
 HTML5 semantic markup is a cornerstone of modern web development, emphasizing the importance of using HTML elements that convey the meaning of the information they encapsulate. This approach moves beyond the visual presentation to enrich the web's semantic layer, making content more understandable to both machines and humans.
+
+![Semantic Markup: Backbone of the Modern Web.](images/section6_3.png)
 - **The Role of Context in Semantic Markup**: Every semantic element is chosen based on the context it provides to the content. This context is crucial for assistive technologies to interpret the purpose and relevance of content, enabling users with disabilities to navigate and understand web content more effectively.
 
 ### The Importance of Semantic Markup
+![Semantic Markup: Backbone of the Modern Web.](images/section6_4.png)
 - **Accessibility**: Screen readers and other assistive technologies rely on semantic elements to provide a better experience for users with disabilities.
 - **SEO**: Search engines use semantic elements to understand the structure and content of web pages more effectively, improving site visibility in search results.
 - **Maintainability**: Semantic HTML makes code easier to read and maintain.
 
 #### Enhancing Web Accessibility
 The strategic use of semantic elements directly influences the accessibility of web content. These elements serve as signposts for assistive technologies, outlining the structure of web documents in a meaningful way.
+
+![Enhancing Web Accessibility in Semantic HTML](images/enhanced_a11y.png)
 - **Semantic Landmarks for Screen Readers**: Elements like `<article>`, `<aside>`, and `<nav>` act as landmarks for screen readers, offering shortcuts to significant sections of the page, thus improving the browsing experience for visually impaired users.
 - **HTML5 and ARIA Integration**: While HTML5 semantic elements naturally embody many ARIA roles, the explicit addition of ARIA attributes to these elements can provide more detailed descriptions and states of interactive components for assistive tools.
 
 #### The SEO Advantage
 Semantic HTML5 elements are pivotal in SEO strategies, as they contribute to clearer content structuring, which search engines favor when crawling and indexing web pages.
+
+![The SEO Advantage of Semantic HTML](images/seo_advantage.png)
 - **Semantic Elements as SEO Signals**: Elements like `<header>`, `<footer>`, and `<main>` help search engines understand the layout and hierarchy of a page, potentially boosting its ranking for relevant queries.
 - **Enhancing Content Discoverability**: Properly structured content using semantic elements is more likely to be accurately indexed by search engines, improving the content's visibility and discoverability.
 
 #### Technical Aspects and Challenges
 Implementing HTML5 semantic elements involves understanding their technical aspects and addressing various challenges, from browser compatibility to the nuances of semantic integrity.
+
+![Technical Aspects and Challenges of Semantic HTML](images/technical_challenges.png)
 - **Browser Compatibility Considerations**: Although modern browsers have robust support for HTML5 elements, developers must implement fallback strategies for older browsers, using shivs or polyfills to ensure compatibility.
 - **Maintaining Semantic Integrity**: As developers incorporate more complex JavaScript-driven interactions and dynamic content loading, maintaining the semantic integrity of the document becomes a challenge, requiring careful planning and testing.
 
@@ -772,6 +785,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 - **Nested structure**: Semantic elements can be nested within each other appropriately (e.g., an `<article>` can contain sections).
 
 ### Challenges and Considerations
+![Challenges and Considerations of HTML Semantic Elements.](images/section6_5.png)
 - **Browser Support**: While modern browsers support semantic elements well, some older browsers may require additional CSS or JavaScript to correctly display semantic elements.
 - **Overuse**: Avoid using semantic elements unnecessarily or incorrectly, as misuse can lead to confusion and reduce the effectiveness of the document structure.
 
@@ -886,6 +900,7 @@ Here's an example of how to use microdata in an HTML document to define an artic
 - **Publisher Information**: Additional details about the publisher can be included using nested itemscope and itemtype attributes, further enriching the data provided to search engines.
 
 #### Impact on SEO and User Experience
+![Impact on SEO and User Experience.](images/section6_6.png)
 Implementing microdata like this can lead to the generation of rich snippets in search engine results, which may include:
 - The title of the article.
 - A thumbnail image.
@@ -897,6 +912,7 @@ Rich snippets stand out more in search results, potentially increasing click-thr
 This example demonstrates how to use microdata within an HTML document to describe an article according to the Schema.org specification. By doing so, you enhance the ability of search engines to understand and display the content of your pages in search results, thereby improving SEO and enriching the user experience with more informative search results.
 
 #### Evolution and Future Trends in HTML5 and Semantic Elements
+![Evolution and Future Trends in HTML5 and Semantic Elements.](images/section6_7.png)
 The evolution of HTML5 and its semantic elements represents a significant leap forward in web development. As we look toward the future, it's clear that the emphasis on semantics, accessibility, and machine-readable code will continue to shape the development of HTML standards and practices. In this section, we'll explore some of the current trends and future directions in the use of semantic HTML, including code examples to illustrate these concepts.
 
 ##### Increased Emphasis on Accessibility
@@ -1005,6 +1021,7 @@ In this navigation menu, we use a `<nav>` element to signify its purpose. Search
 Using a list (`<ul>`) for menu items and anchor tags (`<a>`) for links is not only semantically appropriate but also helps search engines recognize the structure of the navigation.
 
 #### Benefits of Semantic HTML for SEO
+![SEO Benefits of Semantic HTML.](images/section6_8.png)
 - **Improved Readability**: Semantic HTML makes your content more readable, which is not only important for users but also for search engines trying to understand your content.
 - **Structured Content**: Properly structured content using semantic elements helps search engines identify the hierarchy and relationships between different parts of your webpage.
 - **Keyword Optimization**: Semantic headings and tags can help you naturally incorporate relevant keywords into your content, which can improve your search engine ranking.
@@ -1013,7 +1030,7 @@ Using a list (`<ul>`) for menu items and anchor tags (`<a>`) for links is not on
 In summary, using Semantic HTML not only enhances the user experience but also boosts your website's SEO by providing clear structure and context to search engines. It's an essential practice for anyone looking to improve their website's visibility in search results.
 
 ### Accessibility Implications
-
+![Accessibility Implications of Semantic HTML .](images/section6_9.png)
 #### Semantic HTML for Accessibility
 Semantic HTML plays a crucial role in making web content more accessible to all users, including those with disabilities. By using semantic elements properly, you can convey meaning and structure to assistive technologies. Here are some code examples that illustrate accessibility implications:
 
