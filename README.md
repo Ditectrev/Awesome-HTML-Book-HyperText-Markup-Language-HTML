@@ -713,6 +713,8 @@ Implementing HTML5 semantic elements involves understanding their technical aspe
 
 #### Advanced Techniques and Considerations
 Beyond basic usage, advanced techniques involving HTML5 semantic elements can further enhance the functionality and user experience of web applications.
+
+![Advanced Techniques and Considerations of Semantic HTML](images/advanced_techniques.png)
 - **Dynamic Content and Semantic Elements**: Leveraging JavaScript and AJAX to dynamically update semantic elements without losing the overall semantic structure of the page requires meticulous attention to how content changes affect the document’s outline and accessibility features.
 - **Semantic Elements in Web Components**: With the advent of Web Components, integrating semantic HTML5 elements within custom elements can help maintain semantic clarity and accessibility in component-based architectures.
 
@@ -1167,11 +1169,185 @@ The case study of "EcoShop" demonstrates the significant advantages of incorpora
 ### Summary of HTML5 and Semantic Elements
 This section has explored the critical role of semantic elements in HTML5, demonstrating their importance in creating structured, accessible, and SEO-friendly web content. Through practical examples, we've seen how to implement these elements correctly, highlighting best practices and common considerations. Embracing semantic markup is a key step in modern web development, ensuring that content is both accessible and meaningful.
 
-## 7. **Advanced HTML Features**
-### 7.1 Iframes for Embedding Other HTML Documents
-### 7.2 Audio and Video Embedding
-### 7.3 Canvas and SVG for Graphics
-### 7.4 Custom Data Attributes (`data-*`)
+## Advanced HTML Features
+This section provides comprehensive explanations and code examples for each feature.
+
+### Multimedia Integration
+
+#### Audio Element
+The `<audio>` element in HTML5 is a powerful tool for embedding audio content directly into web pages. It offers extensive customization options for controlling audio playback.
+```html
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+```
+- The `<audio>` element is used to include audio content within a webpage.
+- The `controls` attribute adds a built-in audio player with play, pause, volume, and seek controls for user interaction.
+- Inside the `<audio>` element, the `<source>` element is used to specify the audio source file (src) and its type (type). This allows different formats to be provided for browser compatibility.
+- The "Your browser does not support the audio element" message serves as a fallback for browsers that do not support the `<audio>` element, ensuring content accessibility.
+
+### Video Element
+The `<video>` element, similar to the `<audio>` element, enables the integration of video content with customization and control over video playback.
+
+```html
+<video controls width="400" height="300">
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+```
+- The `<video>` element is employed for embedding video content in web pages.
+- The `controls` attribute adds a video player interface with standard controls.
+- The `width` and `height` attributes determine the video's dimensions.
+- Inside the `<video>` element, the `<source>` element specifies the video source file (`src`) and its type (`type`) to provide compatibility across different browsers.
+- As with the audio example, the "Your browser does not support the video element" message acts as a fallback for unsupported browsers.
+
+### Canvas for Graphics
+The `<canvas>` element is a powerful tool for creating graphics and animations directly within a web page.
+```html
+<canvas id="myCanvas" width="400" height="200"></canvas>
+```
+- The `<canvas>` element provides an empty drawing area where dynamic graphics and animations can be rendered.
+- The `id`, `width`, and `height` attributes are used to uniquely identify the canvas and specify its dimensions.
+- JavaScript is utilized to draw and manipulate graphics within the canvas. This allows for the creation of charts, games, interactive visualizations, and more.
+
+### Geolocation
+HTML5's Geolocation API empowers web applications to access a user's geographical location, enabling location-aware features.
+```html
+<button onclick="getLocation()">Get Location</button>
+
+<p id="demo"></p>
+
+<script>
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        document.getElementById("demo").innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    var latitude = position.coords.latitude;
+    var longitude = position.coords.longitude;
+    document.getElementById("demo").innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
+}
+</script>
+```
+- The Geolocation API is accessed through JavaScript, typically initiated by user action.
+- The `navigator.geolocation` object provides methods for obtaining the user's location.
+- In the example, clicking the "Get Location" button triggers the `getLocation` function, which checks for geolocation support and, if available, retrieves the user's latitude and longitude.
+- The obtained coordinates are displayed in the `p` element with the id "demo."
+
+### Web Storage
+Web Storage, comprising Local Storage and Session Storage, allows data to be stored locally in a user's browser, providing a valuable tool for caching, user preferences, and data persistence.
+
+#### Local Storage
+```html
+<button onclick="saveData()">Save Data</button>
+
+<script>
+function saveData() {
+    localStorage.setItem("username", "John");
+}
+</script>
+```
+- The `localStorage` object enables the storage of data as key-value pairs.
+- In this instance, clicking the "Save Data" button invokes the `saveData` function, which stores the username "John" in local storage.
+- Data stored in local storage remains accessible even after the browser is closed, offering long-term data persistence.
+
+#### Session Storage
+```html
+<button onclick="saveSessionData()">Save Session Data</button>
+
+<script>
+function saveSessionData() {
+    sessionStorage.setItem("theme", "light");
+}
+</script>
+```
+- `sessionStorage` functions similarly to `localStorage` but is limited to the duration of a browser session.
+- In the code, clicking the "Save Session Data" button triggers the `saveSessionData` function, which stores the theme "light" in session storage.
+- Session storage is useful for temporary data storage.
+
+### Web Workers
+Web Workers allow you to run JavaScript code in the background, improving performance and responsiveness in web applications.
+```html
+<script>
+// Create a new web worker
+var worker = new Worker("myworker.js");
+
+// Handle messages from the worker
+worker.onmessage = function(event) {
+    document.getElementById("result").innerHTML = event.data;
+};
+
+// Start the worker
+worker.postMessage("Hello from the main script!");
+</script>
+```
+- Web Workers are typically implemented in separate JavaScript files.
+- The `new Worker("myworker.js")` statement creates a new worker, which runs in the background.
+- Workers can communicate with the main script using the `postMessage` method and the `onmessage` event.
+- This enables tasks like data processing and heavy computations to be offloaded to a separate thread, preventing UI blocking.
+
+### Drag and Drop
+HTML5 introduced native support for drag-and-drop interactions, allowing users to drag elements and drop them into designated areas.
+```html
+<div id="drag" draggable="true">Drag me!</div>
+<div id="drop" ondrop="drop(event)" ondragover="allowDrop(event)">Drop here</div>
+
+<script>
+function allowDrop(event) {
+    event.preventDefault();
+}
+
+function drop(event) {
+    event.preventDefault();
+    var data = event.dataTransfer.getData("text");
+    event.target.appendChild(document.getElementById(data));
+}
+</script>
+```
+- The `draggable="true"` attribute makes an element draggable.
+- The `ondragover` and `ondrop` event handlers define drop behavior.
+- In this example, you can drag the "Drag me!" element and drop it into the "Drop here" container.
+- JavaScript functions control the behavior of the drag-and-drop interaction.
+
+### Iframes
+Iframes (Inline Frames) allow you to embed one HTML document within another. They are commonly used to include external content, such as videos, maps, or other web pages, into your own web page.
+```html
+<iframe src="https://www.example.com" width="800" height="600" frameborder="0" scrolling="auto"></iframe>
+```
+- The `<iframe>` element is used to embed external content.
+- The `src` attribute specifies the URL of the external content to be displayed within the iframe.
+- The `width` and `height` attributes determine the dimensions of the iframe.
+- The `frameborder` attribute controls whether a border is displayed around the iframe (set to "0" for no border).
+- The `scrolling` attribute defines the scroll behavior of the iframe content.
+
+### SVG (Scalable Vector Graphics)
+SVG is a powerful XML-based vector image format that can be embedded directly into HTML documents. It allows for the creation of high-quality, resolution-independent graphics and animations.
+```html
+<svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
+</svg>
+```
+- The `<svg>` element is used to define an SVG container.
+- The `width` and `height` attributes set the dimensions of the SVG canvas.
+- Inside the SVG container, various elements like `<circle>` can be used to create shapes and graphics.
+- In this example, a red circle with a black border is drawn.
+
+### Data Attributes
+Data attributes allow you to store custom data private to the page or application without needing extra non-standard attributes or external data storage. They are often used for JavaScript interaction or to provide additional information about HTML elements.
+```html
+<div id="product" data-product-id="12345" data-product-name="Widget" data-price="19.99"></div>
+```
+- Data attributes are prefixed with "data-" and can store any custom data you want.
+- In the example, a `div` element has three data attributes: `data-product-id`, `data-product-name`, and `data-price`, each storing specific information about a product.
+- JavaScript can easily access and manipulate these data attributes, making them useful for dynamic web applications.
+
+### Conclusion of Advanced HTML Features
+These advanced HTML features empower web developers to create dynamic, multimedia-rich, and interactive web applications. Understanding how to utilize multimedia elements, canvas for graphics, geolocation, web storage, web workers, and drag-and-drop interactions is essential for building modern web applications that engage users and offer a richer user experience.
 
 ## 8. **CSS Integration with HTML**
 ### 8.1 Basics of Cascading Style Sheets (CSS)
