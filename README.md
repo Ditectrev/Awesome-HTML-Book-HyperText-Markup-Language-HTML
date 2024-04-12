@@ -98,7 +98,7 @@
       - [Step 4: Submit Button](#step-4-submit-button)
       - [Explanation of the Dynamic Behavior](#explanation-of-the-dynamic-behavior)
       - [Conclusion: Step-by-Step Guide: Dynamic Form with JavaScript](#conclusion-step-by-step-guide-dynamic-form-with-javascript)
-    - [Summary: Forms and User Input](#summary-forms-and-user-input)
+  - [Summary: Forms and User Input](#summary-forms-and-user-input)
 - [HTML5 and Semantic Elements](#html5-and-semantic-elements)
   - [Introduction to Semantic Elements](#introduction-to-semantic-elements)
   - [Semantic Markup: The Backbone of the Modern Web](#semantic-markup-the-backbone-of-the-modern-web)
@@ -1119,7 +1119,7 @@ Add a submit button for the form.
 
 This example demonstrates a dynamic form that changes based on user input, showcasing the use of HTML and JavaScript for real-time interaction. The key aspect of this form is its ability to change in real-time based on user input, making it highly responsive and user-friendly. Such forms are useful in scenarios where user input dictates subsequent options or data fields, enhancing the overall usability and efficiency of the user interface. The form can be extended with more complex logic, validations, and styled with CSS for a more polished look.
 
-#### Summary: Forms and User Input
+### Summary: Forms and User Input
 
 This section provides in-depth knowledge on creating and handling forms in HTML. By mastering these elements, you can create interactive and user-friendly web applications.
 
