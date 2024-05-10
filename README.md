@@ -3,7 +3,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
+<a href="http://example.com/" target="_blank">Hello, world!</a>
 - [Introduction to HTML](#introduction-to-html)
   - [What is HTML?](#what-is-html)
     - [Brief History of HTML and Its Evolution](#brief-history-of-html-and-its-evolution)
