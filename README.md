@@ -3,7 +3,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-<a href="http://example.com/" target="_blank">Hello, world!</a>
+
 - [Introduction to HTML](#introduction-to-html)
   - [What is HTML?](#what-is-html)
     - [Brief History of HTML and Its Evolution](#brief-history-of-html-and-its-evolution)
@@ -362,10 +362,7 @@ Below is an example of a basic HTML document structure:
 </body>
 </html>
 ```
-<a href="https://codesandbox.io/p/sandbox/01-basic-html-structure-7gq85k" target="_blank">
-  <img alt="Edit 01-Basic HTML Structure" src="https://codesandbox.io/static/img/play-codesandbox.svg">
-</a>
-
+[![Edit 01-Basic HTML Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/01-basic-html-structure-7gq85k)
 
 This code demonstrates a simple HTML page structure with the essential elements: `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
 
@@ -458,10 +455,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log("Welcome to My First Website!");
 });
 ```
-<a href="https://codesandbox.io/p/sandbox/02-setting-up-a-basic-html-file-structure-hrm893" target="_blank">
-  <img alt="Edit 02-Setting Up a Basic HTML File Structure" src="https://codesandbox.io/static/img/play-codesandbox.svg">
-</a>
-
+[![Edit 02-Setting Up a Basic HTML File Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/02-setting-up-a-basic-html-file-structure-hrm893)
 
 ### Basics of Document Object Model (DOM)
 
@@ -493,6 +487,7 @@ document.getElementById('changeColorButton').addEventListener('click', function(
     document.querySelector('p').style.color = 'red';
 });
 ```
+TODO: CodeSandbox doesn't work correctly, issue: https://github.com/codesandbox/codesandbox-client/issues/1513. [![Edit 03-Exploring the DOM](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/03-exploring-the-dom-8kyhj7)
 
 This code selects the button with the ID `changeColorButton` and adds an event listener to it. When clicked, it changes the color of the first paragraph to red.
 
