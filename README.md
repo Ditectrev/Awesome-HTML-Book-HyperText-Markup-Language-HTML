@@ -362,6 +362,7 @@ Below is an example of a basic HTML document structure:
 </body>
 </html>
 ```
+[![Edit Basic HTML Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/1-basic-html-structure-7gq85k?file=%2Findex.html)
 
 This code demonstrates a simple HTML page structure with the essential elements: `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
 
