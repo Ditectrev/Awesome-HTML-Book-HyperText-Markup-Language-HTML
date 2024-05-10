@@ -362,7 +362,10 @@ Below is an example of a basic HTML document structure:
 </body>
 </html>
 ```
-[![Edit Basic HTML Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/1-basic-html-structure-7gq85k?file=%2Findex.html)
+<a href="https://codesandbox.io/p/sandbox/01-basic-html-structure-7gq85k" target="_blank">
+  <img alt="Edit 01-Basic HTML Structure" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
+
 
 This code demonstrates a simple HTML page structure with the essential elements: `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
 
@@ -455,6 +458,10 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log("Welcome to My First Website!");
 });
 ```
+<a href="https://codesandbox.io/p/sandbox/02-setting-up-a-basic-html-file-structure-hrm893" target="_blank">
+  <img alt="Edit 02-Setting Up a Basic HTML File Structure" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
+
 
 ### Basics of Document Object Model (DOM)
 
