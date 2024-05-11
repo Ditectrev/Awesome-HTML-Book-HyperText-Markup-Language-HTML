@@ -362,9 +362,11 @@ Below is an example of a basic HTML document structure:
 </body>
 </html>
 ```
-CodeSandbox URL: https://7gq85k.csb.app/, last access: May 11, 2024.
-
 [![Edit 01-Basic HTML Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/01-basic-html-structure-7gq85k)
+
+- CodeSandbox: Basic HTML Structure[^1].
+
+[^1]: [CodeSandbox: Basic HTML Structure.](https://7gq85k.csb.app/), last access: May 11, 2024.
 
 This code demonstrates a simple HTML page structure with the essential elements: `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
 
@@ -457,9 +459,11 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log("Welcome to My First Website!");
 });
 ```
-CodeSandbox URL: https://hrm893.csb.app/, last access: May 11, 2024.
-
 [![Edit 02-Setting Up a Basic HTML File Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/02-setting-up-a-basic-html-file-structure-hrm893)
+
+- CodeSandbox: Setting Up a Basic HTML File Structure[^2].
+
+[^2]: [CodeSandbox: Setting Up a Basic HTML File Structure.](https://hrm893.csb.app/), last access: May 11, 2024.
 
 ### Basics of Document Object Model (DOM)
 
@@ -491,9 +495,11 @@ document.getElementById('changeColorButton').addEventListener('click', function(
     document.querySelector('p').style.color = 'red';
 });
 ```
-CodeSandbox URL: https://8kyhj7.csb.app/, last access: May 11, 2024.
-
 [![Edit 03-Exploring the DOM](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/03-exploring-the-dom-8kyhj7)
+
+- CodeSandbox: Exploring the DOM[^3].
+
+[^3]: [CodeSandbox: Exploring the DOM.](https://8kyhj7.csb.app/), last access: May 11, 2024.
 
 This code selects the button with the ID `changeColorButton` and adds an event listener to it. When clicked, it changes the color of the first paragraph to red.
 
