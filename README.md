@@ -581,9 +581,9 @@ The DOCTYPE declaration should be the very first thing in an HTML document, befo
 ```
 [![Edit 05-Creating a Simple HTML Page](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/05-basic-html-structure-forked-gkxq6z)
 
-- CodeSandbox: Creating a Simple HTML Page][^5].
+- CodeSandbox: Creating a Simple HTML Page[^5].
 
-[^5]: [CodeSandbox: Basic Anatomy of an HTML Document.](https://gkxq6z.csb.app/), last access: May 12, 2024.
+[^5]: [CodeSandbox: Creating a Simple HTML Page.](https://gkxq6z.csb.app/), last access: May 12, 2024.
 
 ## Essential HTML Tags
 
@@ -605,9 +605,9 @@ Headings are used to define the hierarchy and importance of content on a web pag
 ```
 [![Edit 06-Using Headings](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/06-using-headings-6p6kkp)
 
-- CodeSandbox: Using Headings][^6].
+- CodeSandbox: Using Headings[^6].
 
-[^6]: [CodeSandbox: Basic Anatomy of an HTML Document.](https://6p6kkp.csb.app/), last access: May 12, 2024.
+[^6]: [CodeSandbox: Using Headings.](https://6p6kkp.csb.app/), last access: May 12, 2024.
 
 ### Paragraphs and Text Formatting (bold, italic, underline, more)
 
