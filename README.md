@@ -728,7 +728,7 @@ Tables are created with `<table>`, and their structure is defined using `<tr>` f
 
 [![Edit 11-A Simple Table](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/11-a-simple-table-jxrk65)
 
-- CodeSandbox: Embedding an Image[^11].
+- CodeSandbox: A Simple Table[^11].
 
 [^11]: [CodeSandbox: A Simple Table.](https://jxrk65.csb.app/), last access: May 13, 2024.
 
