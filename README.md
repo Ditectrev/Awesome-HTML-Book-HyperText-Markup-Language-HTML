@@ -696,9 +696,15 @@ The `<img>` tag embeds images into your HTML document. Attributes like `src`, `a
 #### Example: Embedding an Image
 
 ```html
-<img src="image.jpg" alt="Description of image" width="500" height="300">
 <!-- Image with specified width and height -->
+<img src="image.jpg" alt="Description of image" width="500" height="300">
 ```
+
+[![Edit 10-Embedding an Image](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/10-embedding-an-image-cp8ht6)
+
+- CodeSandbox: Embedding an Image[^10].
+
+[^10]: [CodeSandbox: Embedding an Image.](https://cp8ht6.csb.app/), last access: May 13, 2024.
 
 ### Creating Tables (`<table>`, `<tr>`, `<td>`, `<th>`)
 
