@@ -37,7 +37,7 @@
   - [Creating Lists](#creating-lists)
     - [Example: Lists in HTML](#example-lists-in-html)
   - [Hyperlinks (`<a>`)](#hyperlinks-a)
-    - [Example: Creating a Hyperlink```html](#example-creating-a-hyperlinkhtml)
+    - [Example: Creating a Hyperlink](#example-creating-a-hyperlink)
   - [Creating Tables (`<table>`, `<tr>`, `<td>`, `<th>`)](#creating-tables-table-tr-td-th)
     - [Example: A Simple Table](#example-a-simple-table)
   - [Line Breaks (`<br>`) and Horizontal Rules (`<hr>`)](#line-breaks-br-and-horizontal-rules-hr)
@@ -362,6 +362,7 @@ Below is an example of a basic HTML document structure:
 </body>
 </html>
 ```
+
 [![Edit 01-Basic HTML Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/01-basic-html-structure-7gq85k)
 
 - CodeSandbox: Basic HTML Structure[^1].
@@ -459,6 +460,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log("Welcome to My First Website!");
 });
 ```
+
 [![Edit 02-Setting Up a Basic HTML File Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/02-setting-up-a-basic-html-file-structure-hrm893)
 
 - CodeSandbox: Setting Up a Basic HTML File Structure[^2].
@@ -495,6 +497,7 @@ document.getElementById('changeColorButton').addEventListener('click', function(
     document.querySelector('p').style.color = 'red';
 });
 ```
+
 [![Edit 03-Exploring the DOM](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/03-exploring-the-dom-8kyhj7)
 
 - CodeSandbox: Exploring the DOM[^3].
@@ -527,6 +530,7 @@ An HTML document is structured with various elements, each serving a specific pu
 </body>
 </html>
 ```
+
 [![Edit 04-Basic Anatomy of an HTML Document](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/04-basic-html-structure-forked-cqc9qw)
 
 - CodeSandbox: Basic Anatomy of an HTML Document[^4].
@@ -579,6 +583,7 @@ The DOCTYPE declaration should be the very first thing in an HTML document, befo
 </body>
 </html>
 ```
+
 [![Edit 05-Creating a Simple HTML Page](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/05-basic-html-structure-forked-gkxq6z)
 
 - CodeSandbox: Creating a Simple HTML Page[^5].
@@ -603,6 +608,7 @@ Headings are used to define the hierarchy and importance of content on a web pag
 <h5>Sub-sub-sub-subsection Title</h5>
 <h6>Sub-sub-sub-sub-subsection Title</h6>
 ```
+
 [![Edit 06-Using Headings](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/06-using-headings-6p6kkp)
 
 - CodeSandbox: Using Headings[^6].
@@ -619,6 +625,12 @@ The `<p>` tag defines a paragraph. Other tags like `<strong>`, `<em>`, `<mark>`,
 <p>This is a standard paragraph.</p>
 <p>This paragraph contains <strong>bold text</strong>, <em>italic text</em>, <mark>highlighted text</mark>, <small>smaller text</small>, and <del>deleted text</del>.</p>
 ```
+
+[![Edit 07-Paragraphs and Formatting](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/07-paragraphs-and-formatting-hcdvjw)
+
+- CodeSandbox: Paragraphs and Formatting[^7].
+
+[^7]: [CodeSandbox: Paragraphs and Formatting.](https://hcdvjw.csb.app/), last access: May 13, 2024.
 
 ### Creating Lists
 
@@ -648,11 +660,19 @@ There are three types of lists in HTML: ordered lists (`<ol>`), unordered lists 
 </dl>
 ```
 
+[![Edit 08-Lists in HTML](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/08-lists-in-html-xlyz8s)
+
+- CodeSandbox: Lists in HTML[^8].
+
+[^8]: [CodeSandbox: Lists in HTML.](https://xlyz8s.csb.app/), last access: May 13, 2024.
+
 ### Hyperlinks (`<a>`)
 
 Hyperlinks, defined with the `<a>` tag, are crucial for navigation, allowing users to jump to different pages or sections within a page or to an external site.
 
-#### Example: Creating a Hyperlink```html
+#### Example: Creating a Hyperlink
+
+```html
 <!-- Linking to an external site -->
 <a href="https://www.example.com">Visit Example.com</a>
 <!-- Hyperlink opening in a new tab -->
@@ -661,13 +681,20 @@ Hyperlinks, defined with the `<a>` tag, are crucial for navigation, allowing use
 <a href="mailto:someone@example.com">Send Email</a>
 <!-- Linking to a phone number -->
 <a href="tel:+1234567890">Call Us</a>
-
 ```
 
+[![Edit 09-Creating a Hyperlink](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/09-creating-a-hyperlink-fqmf24)
+
+- CodeSandbox: Creating a Hyperlink[^9].
+
+[^9]: [CodeSandbox: Creating a Hyperlink.](https://fqmf24.csb.app/), last access: May 13, 2024.
+
 ### Displaying Images (`<img>`)
+
 The `<img>` tag embeds images into your HTML document. Attributes like `src`, `alt`, `width`, and `height` play crucial roles in how the image is displayed and accessed.
 
 #### Example: Embedding an Image
+
 ```html
 <img src="image.jpg" alt="Description of image" width="500" height="300">
 <!-- Image with specified width and height -->
