@@ -726,6 +726,13 @@ Tables are created with `<table>`, and their structure is defined using `<tr>` f
 </table>
 ```
 
+[![Edit 11-A Simple Table](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/11-a-simple-table-jxrk65)
+
+- CodeSandbox: Embedding an Image[^11].
+
+[^11]: [CodeSandbox: A Simple Table.](https://jxrk65.csb.app/), last access: May 13, 2024.
+
+
 ### Line Breaks (`<br>`) and Horizontal Rules (`<hr>`)
 
 The `<br>` tag inserts a single line break, useful for content separation within the same paragraph. The `<hr>` tag creates a horizontal line, useful for thematic breaks in content.
@@ -737,6 +744,12 @@ The `<br>` tag inserts a single line break, useful for content separation within
 <hr>
 <p>This is another paragraph following a horizontal rule.</p>
 ```
+
+[![Edit 12-Using Line Breaks and Horizontal Rules](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/12-using-line-breaks-and-horizontal-rules-q3p3lx)
+
+- CodeSandbox: Using Line Breaks and Horizontal Rules[^12].
+
+[^12]: [CodeSandbox: Using Line Breaks and Horizontal Rules.](https://q3p3lx.csb.app/), last access: May 13, 2024.
 
 ### Summary: Essential HTML Tags
 
