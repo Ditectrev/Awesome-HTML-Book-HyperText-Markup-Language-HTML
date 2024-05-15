@@ -771,6 +771,13 @@ Forms are essential for user interactions on websites. They are used to collect 
 </form>
 ```
 
+[![Edit 13-Basic Form Syntax](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/13-basic-form-syntax-8grgqh)
+
+- CodeSandbox: Basic Form Syntax[^13].
+
+[^13]: [CodeSandbox: Basic Form Syntax.](https://8grgqh.csb.app/), last access: May 15, 2024.
+
+
 - `action`: The URL where the form data is sent.
 - `method`: The HTTP method (GET or POST) used when submitting the form.
 
