@@ -893,7 +893,6 @@ Buttons to submit or reset the form data.
 
 [^20]: [CodeSandbox: Form Validation Basics.](https://nzcplr.csb.app/), last access: May 22, 2024.
 
-
 ### Advanced Form Features
 
 #### Example: File Uploads
@@ -902,11 +901,24 @@ Buttons to submit or reset the form data.
 <input type="file" name="document">
 ```
 
+[![Edit 021-File Uploads](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/021-file-uploads-q82hj2)
+
+- [^21]CodeSandbox: File Uploads.
+
+[^21]: [CodeSandbox: File Uploads.](https://q82hj2.csb.app/), last access: May 22, 2024.
+
+
 #### Example: HTML5 Input Types
 
 ```html
 <input type="date" name="birthday">
 ```
+
+[![Edit 022-HTML5 Input Types](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/022-html5-input-types-sjwsrk)
+
+- [^22]CodeSandbox: HTML5 Input Types.
+
+[^22]: [CodeSandbox: HTML5 Input Types.](https://sjwsrk.csb.app/), last access: May 22, 2024.
 
 ### Styling Forms
 
@@ -1150,6 +1162,12 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 });
 </script>
 ```
+
+[![Edit 023-Building a Comprehensive Registration Form](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/003-exploring-the-dom-8kyhj7)
+
+- [^23]CodeSandbox: Building a Comprehensive Registration Form.
+
+[^23]: [CodeSandbox: Exploring the DOM.](https://8kyhj7.csb.app/), last access: May 11, 2024.
 
 ##### Conclusion: Step-by-Step Guide: Building a Comprehensive Registration Form
 
