@@ -365,7 +365,7 @@ Below is an example of a basic HTML document structure:
 
 [![Edit 01-Basic HTML Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/01-basic-html-structure-7gq85k)
 
-- CodeSandbox: Basic HTML Structure[^1].
+- [^1]CodeSandbox: Basic HTML Structure.
 
 [^1]: [CodeSandbox: Basic HTML Structure.](https://7gq85k.csb.app/), last access: May 11, 2024.
 
@@ -463,7 +463,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 [![Edit 02-Setting Up a Basic HTML File Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/02-setting-up-a-basic-html-file-structure-hrm893)
 
-- CodeSandbox: Setting Up a Basic HTML File Structure[^2].
+- [^2]CodeSandbox: Setting Up a Basic HTML File Structure.
 
 [^2]: [CodeSandbox: Setting Up a Basic HTML File Structure.](https://hrm893.csb.app/), last access: May 11, 2024.
 
@@ -500,7 +500,7 @@ document.getElementById('changeColorButton').addEventListener('click', function(
 
 [![Edit 03-Exploring the DOM](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/03-exploring-the-dom-8kyhj7)
 
-- CodeSandbox: Exploring the DOM[^3].
+- [^3]CodeSandbox: Exploring the DOM.
 
 [^3]: [CodeSandbox: Exploring the DOM.](https://8kyhj7.csb.app/), last access: May 11, 2024.
 
@@ -533,7 +533,7 @@ An HTML document is structured with various elements, each serving a specific pu
 
 [![Edit 04-Basic Anatomy of an HTML Document](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/04-basic-html-structure-forked-cqc9qw)
 
-- CodeSandbox: Basic Anatomy of an HTML Document[^4].
+- [^4]CodeSandbox: Basic Anatomy of an HTML Document.
 
 [^4]: [CodeSandbox: Basic Anatomy of an HTML Document.](https://cqc9qw.csb.app/), last access: May 12, 2024.
 
@@ -586,7 +586,7 @@ The DOCTYPE declaration should be the very first thing in an HTML document, befo
 
 [![Edit 05-Creating a Simple HTML Page](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/05-basic-html-structure-forked-gkxq6z)
 
-- CodeSandbox: Creating a Simple HTML Page[^5].
+- [^5]CodeSandbox: Creating a Simple HTML Page.
 
 [^5]: [CodeSandbox: Creating a Simple HTML Page.](https://gkxq6z.csb.app/), last access: May 12, 2024.
 
@@ -611,7 +611,7 @@ Headings are used to define the hierarchy and importance of content on a web pag
 
 [![Edit 06-Using Headings](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/06-using-headings-6p6kkp)
 
-- CodeSandbox: Using Headings[^6].
+- [^6]CodeSandbox: Using Headings.
 
 [^6]: [CodeSandbox: Using Headings.](https://6p6kkp.csb.app/), last access: May 12, 2024.
 
@@ -628,7 +628,7 @@ The `<p>` tag defines a paragraph. Other tags like `<strong>`, `<em>`, `<mark>`,
 
 [![Edit 07-Paragraphs and Formatting](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/07-paragraphs-and-formatting-hcdvjw)
 
-- CodeSandbox: Paragraphs and Formatting[^7].
+- [^7]CodeSandbox: Paragraphs and Formatting.
 
 [^7]: [CodeSandbox: Paragraphs and Formatting.](https://hcdvjw.csb.app/), last access: May 13, 2024.
 
@@ -662,7 +662,7 @@ There are three types of lists in HTML: ordered lists (`<ol>`), unordered lists 
 
 [![Edit 08-Lists in HTML](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/08-lists-in-html-xlyz8s)
 
-- CodeSandbox: Lists in HTML[^8].
+- [^8]CodeSandbox: Lists in HTML.
 
 [^8]: [CodeSandbox: Lists in HTML.](https://xlyz8s.csb.app/), last access: May 13, 2024.
 
@@ -685,7 +685,7 @@ Hyperlinks, defined with the `<a>` tag, are crucial for navigation, allowing use
 
 [![Edit 09-Creating a Hyperlink](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/09-creating-a-hyperlink-fqmf24)
 
-- CodeSandbox: Creating a Hyperlink[^9].
+- [^9]CodeSandbox: Creating a Hyperlink.
 
 [^9]: [CodeSandbox: Creating a Hyperlink.](https://fqmf24.csb.app/), last access: May 13, 2024.
 
@@ -702,7 +702,7 @@ The `<img>` tag embeds images into your HTML document. Attributes like `src`, `a
 
 [![Edit 10-Embedding an Image](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/10-embedding-an-image-cp8ht6)
 
-- CodeSandbox: Embedding an Image[^10].
+- [^10]CodeSandbox: Embedding an Image.
 
 [^10]: [CodeSandbox: Embedding an Image.](https://cp8ht6.csb.app/), last access: May 13, 2024.
 
@@ -728,7 +728,7 @@ Tables are created with `<table>`, and their structure is defined using `<tr>` f
 
 [![Edit 11-A Simple Table](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/11-a-simple-table-jxrk65)
 
-- CodeSandbox: A Simple Table[^11].
+- [^11]CodeSandbox: A Simple Table.
 
 [^11]: [CodeSandbox: A Simple Table.](https://jxrk65.csb.app/), last access: May 13, 2024.
 
@@ -747,7 +747,7 @@ The `<br>` tag inserts a single line break, useful for content separation within
 
 [![Edit 12-Using Line Breaks and Horizontal Rules](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/12-using-line-breaks-and-horizontal-rules-q3p3lx)
 
-- CodeSandbox: Using Line Breaks and Horizontal Rules[^12].
+- [^12]CodeSandbox: Using Line Breaks and Horizontal Rules.
 
 [^12]: [CodeSandbox: Using Line Breaks and Horizontal Rules.](https://q3p3lx.csb.app/), last access: May 13, 2024.
 
@@ -776,7 +776,7 @@ Forms are essential for user interactions on websites. They are used to collect 
 
 [![Edit 13-Basic Form Syntax](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/13-basic-form-syntax-8grgqh)
 
-- CodeSandbox: Basic Form Syntax[^13].
+- [^13]CodeSandbox: Basic Form Syntax.
 
 [^13]: [CodeSandbox: Basic Form Syntax.](https://8grgqh.csb.app/), last access: May 15, 2024.
 
@@ -794,7 +794,7 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 
 [![Edit 14-Text Inputs](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/14-text-inputs-hgzcj8)
 
-- CodeSandbox: Text Inputs[^14].
+- [^14]CodeSandbox: Text Inputs.
 
 [^14]: [CodeSandbox: Text Inputs.](https://hgzcj8.csb.app/), last access: May 22, 2024.
 
@@ -811,7 +811,7 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 
 [![Edit 15-Radio Buttons](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/15-radio-buttons-9ny4lk)
 
-- CodeSandbox: Radio Buttons[^15].
+- [^15]CodeSandbox: Radio Buttons.
 
 [^15]: [CodeSandbox: Radio Buttons.](https://9ny4lk.csb.app/), last access: May 22, 2024.
 
@@ -823,6 +823,12 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 ```
 
 - For selecting multiple values from a set.
+
+[![Edit 16-Checkboxes](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/16-checkboxes-8y2kr3)
+
+- [^16]CodeSandbox: Checkboxes.
+
+[^16]: [CodeSandbox: Checkboxes.](https://8y2kr3.csb.app/), last access: May 22, 2024.
 
 ### Select Menus and Option Elements
 
