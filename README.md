@@ -792,6 +792,12 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 
 - Text fields for short, freeform text input.
 
+[![Edit 14-Text Inputs](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/14-text-inputs-hgzcj8)
+
+- CodeSandbox: Text Inputs[^14].
+
+[^14]: [CodeSandbox: Text Inputs.](https://hgzcj8.csb.app/), last access: May 22, 2024.
+
 #### Example: Radio Buttons
 
 ```html
@@ -802,6 +808,12 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 ```
 
 - For selecting one option from a set.
+
+[![Edit 15-Radio Buttons](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/15-radio-buttons-9ny4lk)
+
+- CodeSandbox: Radio Buttons[^15].
+
+[^15]: [CodeSandbox: Radio Buttons.](https://9ny4lk.csb.app/), last access: May 22, 2024.
 
 #### Example: Checkboxes
 
