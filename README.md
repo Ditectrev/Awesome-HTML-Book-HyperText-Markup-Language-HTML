@@ -1163,11 +1163,11 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 </script>
 ```
 
-[![Edit 023-Building a Comprehensive Registration Form](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/003-exploring-the-dom-8kyhj7)
+[![Edit 023-Building a Comprehensive Registration Form](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/023-building-a-comprehensive-registration-form-kk58h2)
 
 - [^23]CodeSandbox: Building a Comprehensive Registration Form.
 
-[^23]: [CodeSandbox: Exploring the DOM.](https://8kyhj7.csb.app/), last access: May 22, 2024.
+[^23]: [CodeSandbox: Exploring the DOM.](https://kk58h2.csb.app/), last access: May 22, 2024.
 
 ##### Conclusion: Step-by-Step Guide: Building a Comprehensive Registration Form
 
