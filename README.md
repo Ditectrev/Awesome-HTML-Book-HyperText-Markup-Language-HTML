@@ -1167,7 +1167,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 
 - [^23]CodeSandbox: Building a Comprehensive Registration Form.
 
-[^23]: [CodeSandbox: Exploring the DOM.](https://8kyhj7.csb.app/), last access: May 11, 2024.
+[^23]: [CodeSandbox: Exploring the DOM.](https://8kyhj7.csb.app/), last access: May 22, 2024.
 
 ##### Conclusion: Step-by-Step Guide: Building a Comprehensive Registration Form
 
