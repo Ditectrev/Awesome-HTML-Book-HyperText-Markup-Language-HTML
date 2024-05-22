@@ -864,7 +864,7 @@ Buttons to submit or reset the form data.
 
 [![Edit 018-Submit Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/018-submit-button-4g2k2t)
 
-- [^18]: CodeSandbox: Submit Button.
+- [^18]CodeSandbox: Submit Button.
 
 [^18]: [CodeSandbox: Submit Button.](https://4g2k2t.csb.app/), last access: May 22, 2024.
 
@@ -876,7 +876,7 @@ Buttons to submit or reset the form data.
 
 [![Edit 019-Reset Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/019-reset-button-6tqsmk)
 
-- [^19]: CodeSandbox: Reset Button.
+- [^19]CodeSandbox: Reset Button.
 
 [^19]: [CodeSandbox: Reset Button.](https://6tqsmk.csb.app/), last access: May 22, 2024.
 
@@ -889,7 +889,7 @@ Buttons to submit or reset the form data.
 
 [![Edit 020-Form Validation Basics](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/020-form-validation-basics-nzcplr)
 
-- [^20]: CodeSandbox: Form Validation Basics.
+- [^20]CodeSandbox: Form Validation Basics.
 
 [^20]: [CodeSandbox: Form Validation Basics.](https://nzcplr.csb.app/), last access: May 22, 2024.
 
