@@ -1284,8 +1284,6 @@ Semantic elements clearly describe their meaning in a human- and machine-readabl
 
 HTML5 semantic markup is a cornerstone of modern web development, emphasizing the importance of using HTML elements that convey the meaning of the information they encapsulate. This approach moves beyond the visual presentation to enrich the web's semantic layer, making content more understandable to both machines and humans.
 
-![Semantic Markup: Backbone of the Modern Web.](images/section6_3.png)
-
 - **The Role of Context in Semantic Markup**: Every semantic element is chosen based on the context it provides to the content. This context is crucial for assistive technologies to interpret the purpose and relevance of content, enabling users with disabilities to navigate and understand web content more effectively.
 
 ### The Importance of Semantic Markup
@@ -1399,8 +1397,6 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 - **Nested structure**: Semantic elements can be nested within each other appropriately (e.g., an `<article>` can contain sections).
 
 ### Challenges and Considerations
-
-![Challenges and Considerations of HTML Semantic Elements.](images/section6_5.png)
 
 - **Browser Support**: While modern browsers support semantic elements well, some older browsers may require additional CSS or JavaScript to correctly display semantic elements.
 - **Overuse**: Avoid using semantic elements unnecessarily or incorrectly, as misuse can lead to confusion and reduce the effectiveness of the document structure.
@@ -1527,7 +1523,6 @@ Here's an example of how to use microdata in an HTML document to define an artic
 
 #### Impact on SEO and User Experience
 
-![Impact on SEO and User Experience.](images/section6_6.png)
 Implementing microdata like this can lead to the generation of rich snippets in search engine results, which may include:
 
 - The title of the article.
@@ -1667,8 +1662,6 @@ Using a list (`<ul>`) for menu items and anchor tags (`<a>`) for links is not on
 
 #### Benefits of Semantic HTML for SEO
 
-![SEO Benefits of Semantic HTML.](images/section6_8.png)
-
 - **Improved Readability**: Semantic HTML makes your content more readable, which is not only important for users but also for search engines trying to understand your content.
 - **Structured Content**: Properly structured content using semantic elements helps search engines identify the hierarchy and relationships between different parts of your webpage.
 - **Keyword Optimization**: Semantic headings and tags can help you naturally incorporate relevant keywords into your content, which can improve your search engine ranking.
@@ -1677,8 +1670,6 @@ Using a list (`<ul>`) for menu items and anchor tags (`<a>`) for links is not on
 In summary, using Semantic HTML not only enhances the user experience but also boosts your website's SEO by providing clear structure and context to search engines. It's an essential practice for anyone looking to improve their website's visibility in search results.
 
 #### Accessibility Implications
-
-![Accessibility Implications of Semantic HTML .](images/section6_9.png)
 
 ##### Semantic HTML for Accessibility
 
