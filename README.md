@@ -1250,6 +1250,12 @@ Add a submit button for the form.
 <button type="submit">Submit</button>
 ```
 
+[![Edit 024-Dynamic Form with JavaScript](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/024-dynamic-form-with-javascript-czrr4l)
+
+- [^24]CodeSandbox: Dynamic Form with JavaScript.
+
+[^24]: [CodeSandbox: Dynamic Form with JavaScript.](https://czrr4l.csb.app/), last access: May 24, 2024.
+
 ##### Explanation of the Dynamic Behavior
 
 - **Initial Setup**: The form starts with a basic structure, including a dropdown for the user to make an initial choice.
@@ -1270,13 +1276,9 @@ This section provides in-depth knowledge on creating and handling forms in HTML.
 
 HTML5 introduced a range of semantic elements that provide meaningful structure to web content, making it more accessible and understandable both to browsers and developers.
 
-![HTML5 & Semantic Elements.](images/section6_1.png)
-
 ### Introduction to Semantic Elements
 
 Semantic elements clearly describe their meaning in a human- and machine-readable way. Elements like `<article>`, `<footer>`, `<header>`, `<nav>`, and `<section>` make the structure of a document more readable and accessible.
-
-![Introduction to Semantic Elements.](images/section6_2.png)
 
 ### Semantic Markup: The Backbone of the Modern Web
 
@@ -1287,8 +1289,6 @@ HTML5 semantic markup is a cornerstone of modern web development, emphasizing th
 - **The Role of Context in Semantic Markup**: Every semantic element is chosen based on the context it provides to the content. This context is crucial for assistive technologies to interpret the purpose and relevance of content, enabling users with disabilities to navigate and understand web content more effectively.
 
 ### The Importance of Semantic Markup
-
-![Semantic Markup: Backbone of the Modern Web.](images/section6_4.png)
 
 - **Accessibility**: Screen readers and other assistive technologies rely on semantic elements to provide a better experience for users with disabilities.
 - **SEO**: Search engines use semantic elements to understand the structure and content of web pages more effectively, improving site visibility in search results.
@@ -1307,8 +1307,6 @@ The strategic use of semantic elements directly influences the accessibility of 
 
 Semantic HTML5 elements are pivotal in SEO strategies, as they contribute to clearer content structuring, which search engines favor when crawling and indexing web pages.
 
-![The SEO Advantage of Semantic HTML](images/seo_advantage.png)
-
 - **Semantic Elements as SEO Signals**: Elements like `<header>`, `<footer>`, and `<main>` help search engines understand the layout and hierarchy of a page, potentially boosting its ranking for relevant queries.
 - **Enhancing Content Discoverability**: Properly structured content using semantic elements is more likely to be accurately indexed by search engines, improving the content's visibility and discoverability.
 
@@ -1316,16 +1314,12 @@ Semantic HTML5 elements are pivotal in SEO strategies, as they contribute to cle
 
 Implementing HTML5 semantic elements involves understanding their technical aspects and addressing various challenges, from browser compatibility to the nuances of semantic integrity.
 
-![Technical Aspects and Challenges of Semantic HTML](images/technical_challenges.png)
-
 - **Browser Compatibility Considerations**: Although modern browsers have robust support for HTML5 elements, developers must implement fallback strategies for older browsers, using shivs or polyfills to ensure compatibility.
 - **Maintaining Semantic Integrity**: As developers incorporate more complex JavaScript-driven interactions and dynamic content loading, maintaining the semantic integrity of the document becomes a challenge, requiring careful planning and testing.
 
 #### Advanced Techniques and Considerations
 
 Beyond basic usage, advanced techniques involving HTML5 semantic elements can further enhance the functionality and user experience of web applications.
-
-![Advanced Techniques and Considerations of Semantic HTML](images/advanced_techniques.png)
 
 - **Dynamic Content and Semantic Elements**: Leveraging JavaScript and AJAX to dynamically update semantic elements without losing the overall semantic structure of the page requires meticulous attention to how content changes affect the document’s outline and accessibility features.
 - **Semantic Elements in Web Components**: With the advent of Web Components, integrating semantic HTML5 elements within custom elements can help maintain semantic clarity and accessibility in component-based architectures.
