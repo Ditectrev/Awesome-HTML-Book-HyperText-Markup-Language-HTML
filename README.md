@@ -1298,8 +1298,6 @@ HTML5 semantic markup is a cornerstone of modern web development, emphasizing th
 
 The strategic use of semantic elements directly influences the accessibility of web content. These elements serve as signposts for assistive technologies, outlining the structure of web documents in a meaningful way.
 
-![Enhancing Web Accessibility in Semantic HTML](images/enhanced_a11y.png)
-
 - **Semantic Landmarks for Screen Readers**: Elements like `<article>`, `<aside>`, and `<nav>` act as landmarks for screen readers, offering shortcuts to significant sections of the page, thus improving the browsing experience for visually impaired users.
 - **HTML5 and ARIA Integration**: While HTML5 semantic elements naturally embody many ARIA roles, the explicit addition of ARIA attributes to these elements can provide more detailed descriptions and states of interactive components for assistive tools.
 
