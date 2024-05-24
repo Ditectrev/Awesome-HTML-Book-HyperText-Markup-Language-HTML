@@ -1342,6 +1342,12 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 </article>
 ```
 
+[![Edit 025-The `<article>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/025-the-article-element-tcc2rz)
+
+- [^25]CodeSandbox: The `<article>` Element.
+
+[^25]: [CodeSandbox: The `<article>` Element.](https://tcc2rz.csb.app/), last access: May 25, 2024.
+
 **Usage**: Represents a self-contained composition that’s suitable for syndication. Example: a forum post, a magazine or newspaper article.
 
 #### The `<section>` Element
