@@ -531,7 +531,7 @@ An HTML document is structured with various elements, each serving a specific pu
 </html>
 ```
 
-[![Edit 004-Basic Anatomy of an HTML Document](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/004-basic-html-structure-forked-cqc9qw)
+[![Edit 004-Basic Anatomy of an HTML Document](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/004-basic-anatomy-of-an-html-document-cqc9qw)
 
 - [^4]CodeSandbox: Basic Anatomy of an HTML Document.
 
@@ -584,7 +584,7 @@ The DOCTYPE declaration should be the very first thing in an HTML document, befo
 </html>
 ```
 
-[![Edit 005-Creating a Simple HTML Page](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/005-basic-html-structure-forked-gkxq6z)
+[![Edit 005-Creating a Simple HTML Page](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/005-creating-a-simple-html-page-gkxq6z)
 
 - [^5]CodeSandbox: Creating a Simple HTML Page.
 
@@ -1359,6 +1359,12 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 </section>
 ```
 
+[![Edit 026-The `<section>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/026-the-section-element-djdp6h)
+
+- [^26]CodeSandbox: The `<section>` Element.
+
+[^26]: [CodeSandbox: The `<section>` Element.](https://djdp6h.csb.app/), last access: May 26, 2024.
+
 **Usage**: Defines sections of a document, such as chapters, headers, footers, or any other sections of the document.
 
 #### The `<nav>` Element
@@ -1373,6 +1379,12 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 </nav>
 ```
 
+[![Edit 027-The `<nav>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/027-the-nav-element-3mqmnr)
+
+- [^27]CodeSandbox: The `<nav>` Element.
+
+[^27]: [CodeSandbox: The `<nav>` Element.](https://3mqmnr.csb.app/), last access: May 26, 2024.
+
 **Usage**: Designed for major navigation blocks, like the primary site navigation.
 
 #### The `<header>` Element
@@ -1384,6 +1396,12 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 </header>
 ```
 
+[![Edit 028-The `<header>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/028-the-header-element-2mcn2c)
+
+- [^28]CodeSandbox: The `<header>` Element.
+
+[^28]: [CodeSandbox: The `<header>` Element.](https://2mcn2c.csb.app/), last access: May 26, 2024.
+
 **Usage**: Usually contains introductory content or a set of navigational links.
 
 #### The `<footer>` Element
@@ -1393,6 +1411,12 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
   <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
 </footer>
 ```
+
+[![Edit 029-The `<footer>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/029-the-footer-element-d969pp)
+
+- [^29]CodeSandbox: The `<footer>` Element.
+
+[^29]: [CodeSandbox: The `<footer>` Element.](https://d969pp.csb.app/), last access: May 26, 2024.
 
 **Usage**: Represents the footer of a document or a section, typically containing authorship information, copyright notices, contact information, and links to privacy policies.
 
