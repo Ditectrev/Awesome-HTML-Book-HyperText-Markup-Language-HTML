@@ -1412,11 +1412,11 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 </footer>
 ```
 
-[![Edit 029-The `<footer>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/029-the-footer-element-d969pp)
+[![Edit 029-The `<footer>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/029-the-footer-element-2hcsgy)
 
 - [^29]CodeSandbox: The `<footer>` Element.
 
-[^29]: [CodeSandbox: The `<footer>` Element.](https://d969pp.csb.app/), last access: May 26, 2024.
+[^29]: [CodeSandbox: The `<footer>` Element.](https://2hcsgy.csb.app/), last access: May 26, 2024.
 
 **Usage**: Represents the footer of a document or a section, typically containing authorship information, copyright notices, contact information, and links to privacy policies.
 
@@ -1494,6 +1494,12 @@ function loadContact() {
 }
 ```
 
+[![Edit 030-Semantic SPA Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/030-semantic-spa-structure-d969pp)
+
+- [^30]CodeSandbox: Semantic SPA Structure.
+
+[^30]: [CodeSandbox: Semantic SPA Structure.](https://d969pp.csb.app/), last access: May 28, 2024.
+
 - **Navigation**: Use `<nav>` for navigation links. It helps screen readers and search engines understand the structure of your navigation.
 - **Content Sections**: Use `<header>`, `<main>`, and `<footer>` to define areas of your page. This helps with document structure and accessibility.
 - **Dynamic Content Loading**: Although the content within `<main role="main" id="mainContent">` is loaded dynamically, maintaining semantic structure within dynamically loaded content is crucial.
@@ -1546,6 +1552,12 @@ Here's an example of how to use microdata in an HTML document to define an artic
 </html>
 ```
 
+[![Edit 031-Semantic SPA Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/031-semantic-spa-structure-36f5kf)
+
+- [^31]CodeSandbox: Article with Microdata for Rich Snippets.
+
+[^31]: [CodeSandbox: Article with Microdata for Rich Snippets.](https://36f5kf.csb.app/), last access: May 28, 2024.
+
 - **`itemscope` and `itemtype`**: These attributes specify that the content within the `<article>` element relates to a particular type (Article) defined in the Schema.org vocabulary.
 - **`itemprop`**: This attribute assigns values to properties of the item. For example, `itemprop="headline"` assigns the heading text to the headline property of the Article.
 - **`datetime`**: The `<time>` element with a `datetime` attribute provides a machine-readable date, which is crucial for events, publications, and other time-sensitive content.
@@ -1585,6 +1597,12 @@ Accessibility is becoming increasingly important in web development. Future HTML
     </ul>
 </div>
 ```
+
+[![Edit 032-Using ARIA (Accessible Rich Internet Applications) Attributes (forked)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/032-using-aria-accessible-rich-internet-applications-attributes-forked-883g8q)
+
+- [^32]CodeSandbox: Article with Microdata for Rich Snippets.
+
+[^32]: [CodeSandbox: Article with Microdata for Rich Snippets.](https://883g8q.csb.app/), last access: May 28, 2024.
 
 This code demonstrates how ARIA roles and attributes can be used alongside semantic elements to enhance accessibility. The `role` and `aria-label` attributes provide additional context for assistive technologies, making the website's navigation more accessible.
 
