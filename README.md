@@ -1642,6 +1642,12 @@ Semantic HTML is also likely to evolve in tandem with emerging web technologies,
 </custom-dropdown>
 ```
 
+[![Edit 034-Using Custom Elements with Semantic Meaning](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/034-using-custom-elements-with-semantic-meaning-ln6g7r)
+
+- [^34]CodeSandbox: Using Custom Elements with Semantic Meaning.
+
+[^34]: [CodeSandbox: Using Custom Elements with Semantic Meaning.](https://ln6g7r.csb.app/), last access: May 28, 2024.
+
 This example shows how custom elements, part of the Web Components spec, can be used to create semantically meaningful widgets that enhance the user interface while maintaining clean and understandable code.
 
 #### Enhanced Support for Machine Learning and AI
