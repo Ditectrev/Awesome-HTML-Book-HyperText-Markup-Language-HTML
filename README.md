@@ -1552,7 +1552,7 @@ Here's an example of how to use microdata in an HTML document to define an artic
 </html>
 ```
 
-[![Edit 031-Semantic SPA Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/031-semantic-spa-structure-36f5kf)
+[![Edit 031-Article with Microdata for Rich Snippets](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/031-article-with-microdata-for-rich-snippets-36f5kf)
 
 - [^31]CodeSandbox: Article with Microdata for Rich Snippets.
 
@@ -1598,11 +1598,11 @@ Accessibility is becoming increasingly important in web development. Future HTML
 </div>
 ```
 
-[![Edit 032-Using ARIA (Accessible Rich Internet Applications) Attributes (forked)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/032-using-aria-accessible-rich-internet-applications-attributes-forked-883g8q)
+[![Edit 032-Using ARIA (Accessible Rich Internet Applications) Attributes](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/032-using-aria-accessible-rich-internet-applications-attributes-883g8q)
 
-- [^32]CodeSandbox: Article with Microdata for Rich Snippets.
+- [^32]CodeSandbox: Using ARIA (Accessible Rich Internet Applications) Attributes.
 
-[^32]: [CodeSandbox: Article with Microdata for Rich Snippets.](https://883g8q.csb.app/), last access: May 28, 2024.
+[^32]: [CodeSandbox: Using ARIA (Accessible Rich Internet Applications) Attributes.](https://883g8q.csb.app/), last access: May 28, 2024.
 
 This code demonstrates how ARIA roles and attributes can be used alongside semantic elements to enhance accessibility. The `role` and `aria-label` attributes provide additional context for assistive technologies, making the website's navigation more accessible.
 
@@ -1619,6 +1619,12 @@ As web applications become more complex, there's a growing need for semantic ele
     <button aria-label="Save"><img src="icons/save.png" alt=""></button>
 </toolbar>
 ```
+
+[![Edit 033-Speculative `<toolbar>` Semantic Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/033-speculative-toolbar-semantic-element-wfkyhq)
+
+- [^33]CodeSandbox: Speculative `<toolbar>` Semantic Element.
+
+[^33]: [CodeSandbox: Speculative `<toolbar>` Semantic Element.](https://wfkyhq.csb.app/), last access: May 28, 2024.
 
 Although the `<toolbar>` element doesn't exist in HTML at the time of writing, this example illustrates how future semantic elements could provide clearer meaning to common UI components in web applications.
 
