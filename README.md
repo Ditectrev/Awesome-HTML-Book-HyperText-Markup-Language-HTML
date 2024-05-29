@@ -1903,6 +1903,12 @@ The homepage of "EcoShop" is structured to provide a clear hierarchy and meaning
 </html>
 ```
 
+[![Edit 042-Homepage Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/042-homepage-structure-tq6vp3)
+
+- [^42]CodeSandbox: Homepage Structure.
+
+[^42]: [CodeSandbox: Homepage Structure.](https://tq6vp3.csb.app/), last access: May 29, 2024.
+
 ###### Implementation: Product Listing with Semantic Markup
 
 For the product listing, "EcoShop" employs `<article>` tags to semantically represent each product, improving the SEO and making the site more accessible.
@@ -1916,6 +1922,12 @@ For the product listing, "EcoShop" employs `<article>` tags to semantically repr
     </footer>
 </article>
 ```
+
+[![Edit 043-Product Listing with Semantic Markup](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/043-product-listing-with-semantic-markup-6sngw9)
+
+- [^43]CodeSandbox: Product Listing with Semantic Markup.
+
+[^43]: [CodeSandbox: Product Listing with Semantic Markup.](https://6sngw9.csb.app/), last access: May 29, 2024.
 
 ##### Benefits of Semantic HTML
 
@@ -1947,6 +1959,12 @@ The `<audio>` element in HTML5 is a powerful tool for embedding audio content di
     Your browser does not support the audio element.
 </audio>
 ```
+
+[![Edit 044-Audio Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/044-audio-element-hmf35t)
+
+- [^44]CodeSandbox: Audio Element.
+
+[^44]: [CodeSandbox: Audio Element.](https://hmf35t.csb.app/), last access: May 29, 2024.
 
 - The `<audio>` element is used to include audio content within a webpage.
 - The `controls` attribute adds a built-in audio player with play, pause, volume, and seek controls for user interaction.
