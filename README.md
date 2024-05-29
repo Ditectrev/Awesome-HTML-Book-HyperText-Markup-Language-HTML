@@ -1700,6 +1700,12 @@ Semantic HTML plays a crucial role in SEO (Search Engine Optimization) by provid
 </html>
 ```
 
+[![Edit 035-Semantic Headings](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/035-semantic-headings-l8v69w)
+
+- [^35]CodeSandbox: Semantic Headings.
+
+[^35]: [CodeSandbox: Semantic Headings.](https://l8v69w.csb.app/), last access: May 29, 2024.
+
 - In this example, we use semantic headings (`<h1>` and `<h2>`) to structure the content. Search engines give more weight to text within headings, so using them appropriately can improve SEO.
 - The main content is enclosed in `<article>` elements, which provide context to search engines that this is valuable, standalone content.
 
@@ -1715,6 +1721,12 @@ Semantic HTML plays a crucial role in SEO (Search Engine Optimization) by provid
     </ul>
 </nav>
 ```
+
+[![Edit 036-Semantic Navigation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/036-semantic-navigation-9lnsgj)
+
+- [^36]CodeSandbox: Semantic Navigation.
+
+[^36]: [CodeSandbox: Semantic Navigation.](https://9lnsgj.csb.app/), last access: May 29, 2024.
 
 In this navigation menu, we use a `<nav>` element to signify its purpose. Search engines understand that navigation menus are crucial for user experience.
 
@@ -1746,6 +1758,12 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 <p>Details about subtopic 2...</p>
 ```
 
+[![Edit 037-Proper Heading Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/037-proper-heading-structure-x22m79)
+
+- [^37]CodeSandbox: Proper Heading Structure.
+
+[^37]: [CodeSandbox: Proper Heading Structure.](https://x22m79.csb.app/), last access: May 29, 2024.
+
 - In this example, we use `<h1>` for the main heading and `<h2>` for subheadings. This creates a clear hierarchy that screen readers can interpret. Proper heading structure helps users with visual impairments understand the content's organization.
 
 ###### Example: Form Labels and Inputs
@@ -1764,6 +1782,12 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 </form>
 ```
 
+[![Edit 038-Form Labels and Inputs](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/038-form-labels-and-inputs-3rm7jk)
+
+- [^38]CodeSandbox: Form Labels and Inputs.
+
+[^38]: [CodeSandbox: Form Labels and Inputs.](https://3rm7jk.csb.app/), last access: May 29, 2024.
+
 - Labels associated with form inputs using the `for` attribute and `id` linkage ensure that screen readers announce labels when users focus on input fields.
 - The `aria-describedby` attribute links form inputs to additional descriptive information, making it easier for screen reader users to understand input requirements.
 
@@ -1780,6 +1804,12 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 </nav>
 ```
 
+[![Edit 039-Use of `<nav>` and `<nav>` Landmarks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/039-use-of-nav-and-nav-landmarks-85hjqc)
+
+- [^39]CodeSandbox: Use of `<nav>` and `<nav>` Landmarks.
+
+[^39]: [CodeSandbox: Use of `<nav>` and `<nav>` Landmarks.](https://85hjqc.csb.app/), last access: May 29, 2024.
+
 The `<nav>` element is used to represent the navigation menu. Screen readers can identify this landmark and provide shortcuts for users to navigate to the navigation content.
 
 ##### ARIA Roles and Attributes
@@ -1794,6 +1824,12 @@ In addition to semantic HTML elements, ARIA (Accessible Rich Internet Applicatio
 </div>
 ```
 
+[![Edit 040-ARIA Role for a Live Region](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/040-aria-role-for-a-live-region-6vyl6n)
+
+- [^40]CodeSandbox: ARIA Role for a Live Region.
+
+[^40]: [CodeSandbox: ARIA Role for a Live Region.](https://6vyl6n.csb.app/), last access: May 29, 2024.
+
 The `role="status"` attribute signifies that this element provides live updates. The `aria-live="polite"` attribute informs screen readers to politely announce changes without interrupting the user.
 
 ###### Example: ARIA Role for a Slider
@@ -1802,6 +1838,12 @@ The `role="status"` attribute signifies that this element provides live updates.
 <label for="slider">Select a value:</label>
 <input type="range" id="slider" name="slider" min="0" max="100" step="1" value="50" aria-label="Value Selector">
 ```
+
+[![Edit 041-ARIA Role for a Slider](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/041-aria-role-for-a-slider-gsjppj)
+
+- [^41]CodeSandbox: ARIA Role for a Slider.
+
+[^41]: [CodeSandbox: ARIA Role for a Slider.](https://gsjppj.csb.app/), last access: May 29, 2024.
 
 The `role="slider"` attribute indicates that this input element behaves as a slider. This is essential for users who rely on assistive technologies to understand the purpose of the input.
 
