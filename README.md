@@ -2050,6 +2050,12 @@ function showPosition(position) {
 </script>
 ```
 
+[![Edit 047-Geolocation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/047-geolocation-jkgprf)
+
+- [^47]CodeSandbox: Geolocation.
+
+[^47]: [CodeSandbox: Geolocation.](https://jkgprf.csb.app/), last access: June 4, 2024.
+
 - The Geolocation API is accessed through JavaScript, typically initiated by user action.
 - The `navigator.geolocation` object provides methods for obtaining the user's location.
 - In the example, clicking the "Get Location" button triggers the `getLocation` function, which checks for geolocation support and, if available, retrieves the user's latitude and longitude.
@@ -2061,12 +2067,23 @@ Web Storage, comprising Local Storage and Session Storage, allows data to be sto
 
 #### Local Storage
 
+[![Edit 048-Local Storage](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/048-local-storage-7wz96c)
+
+- [^48]CodeSandbox: Local Storage.
+
+[^48]: [CodeSandbox: Local Storage.](https://7wz96c.csb.app/), last access: June 4, 2024.
+
 ```html
 <button onclick="saveData()">Save Data</button>
 
+<p id="demo"></p>
+
 <script>
+document.getElementById("demo").innerHTML = localStorage.username;
+
 function saveData() {
     localStorage.setItem("username", "John");
+    document.getElementById("demo").innerHTML = localStorage.username;
 }
 </script>
 ```
@@ -2080,12 +2097,23 @@ function saveData() {
 ```html
 <button onclick="saveSessionData()">Save Session Data</button>
 
+<p id="demo"></p>
+
 <script>
+document.getElementById("demo").innerHTML = sessionStorage.theme;
+
 function saveSessionData() {
     sessionStorage.setItem("theme", "light");
+    document.getElementById("demo").innerHTML = sessionStorage.theme;
 }
 </script>
 ```
+
+[![Edit 049-Session Storage](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/049-session-storage-jlmh4x)
+
+- [^49]CodeSandbox: Session Storage.
+
+[^49]: [CodeSandbox: Session Storage.](https://jlmh4x.csb.app/), last access: June 4, 2024.
 
 - `sessionStorage` functions similarly to `localStorage` but is limited to the duration of a browser session.
 - In the code, clicking the "Save Session Data" button triggers the `saveSessionData` function, which stores the theme "light" in session storage.
@@ -2112,6 +2140,12 @@ function drop(event) {
 </script>
 ```
 
+[![Edit 050-Drag and Drop](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/050-drag-and-drop-hfgnpw)
+
+- [^50]CodeSandbox: Drag and Drop.
+
+[^50]: [CodeSandbox: Drag and Drop.](https://hfgnpw.csb.app/), last access: June 4, 2024.
+
 - The `draggable="true"` attribute makes an element draggable.
 - The `ondragover` and `ondrop` event handlers define drop behavior.
 - In this example, you can drag the "Drag me!" element and drop it into the "Drop here" container.
@@ -2122,8 +2156,14 @@ function drop(event) {
 Iframes (Inline Frames) allow you to embed one HTML document within another. They are commonly used to include external content, such as videos, maps, or other web pages, into your own web page.
 
 ```html
-<iframe src="https://www.example.com" width="800" height="600" frameborder="0" scrolling="auto"></iframe>
+<iframe src="https://www.youtube.com/embed/a3ICNMQW7Ok" width="800" height="600" frameborder="0" scrolling="auto"></iframe>
 ```
+
+[![Edit 051-Iframes](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/051-iframes-l2fyl4)
+
+- [^51]CodeSandbox: Iframes.
+
+[^51]: [CodeSandbox: Iframes.](https://l2fyl4.csb.app/), last access: June 4, 2024.
 
 - The `<iframe>` element is used to embed external content.
 - The `src` attribute specifies the URL of the external content to be displayed within the iframe.
