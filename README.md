@@ -2289,6 +2289,7 @@ p {
 #### Box Model
 
 The CSS box model describes how elements are rendered on a web page, consisting of content, padding, border, and margin.
+
 ![CSS Box Model.](images/css-box-model.png)
 
 ```css
@@ -2301,6 +2302,12 @@ The CSS box model describes how elements are rendered on a web page, consisting 
     margin: 10px;
 }
 ```
+
+[![Edit 056-Box Model](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/056-box-model-pjx5ch)
+
+- [^56]CodeSandbox: Box Model.
+
+[^56]: [CodeSandbox: Box Model.](https://pjx5ch.csb.app/), last access: June 5, 2024.
 
 - `width` and `height` set the dimensions of the content area.
 - `padding` creates space between the content and the border.
