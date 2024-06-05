@@ -2181,6 +2181,12 @@ SVG is a powerful XML-based vector image format that can be embedded directly in
 </svg>
 ```
 
+[![Edit 052-SVG (Scalable Vector Graphics)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/052-svg-scalable-vector-graphics-3nx6c6)
+
+- [^52]CodeSandbox: SVG (Scalable Vector Graphics).
+
+[^52]: [CodeSandbox: SVG (Scalable Vector Graphics).](https://3nx6c6.csb.app/), last access: June 5, 2024.
+
 - The `<svg>` element is used to define an SVG container.
 - The `width` and `height` attributes set the dimensions of the SVG canvas.
 - Inside the SVG container, various elements like `<circle>` can be used to create shapes and graphics.
@@ -2193,6 +2199,12 @@ Data attributes allow you to store custom data private to the page or applicatio
 ```html
 <div id="product" data-product-id="12345" data-product-name="Widget" data-price="19.99"></div>
 ```
+
+[![Edit 053-Data Attributes](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/053-data-attributes-ww7npw)
+
+- [^53]CodeSandbox: Data Attributes.
+
+[^53]: [CodeSandbox: Data Attributes.](https://ww7npw.csb.app/), last access: June 5, 2024.
 
 - Data attributes are prefixed with "data-" and can store any custom data you want.
 - In the example, a `div` element has three data attributes: `data-product-id`, `data-product-name`, and `data-price`, each storing specific information about a product.
@@ -2231,6 +2243,12 @@ p {
 }
 ```
 
+[![Edit 054-Selectors](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/054-selectors-sl9z4d)
+
+- [^54]CodeSandbox: Selectors.
+
+[^54]: [CodeSandbox: Selectors.](https://sl9z4d.csb.app/), last access: June 5, 2024.
+
 - The `p` selector targets all `<p>` elements, setting their text color to blue.
 - The `.title` selector targets elements with the class "title," applying a font size of 24 pixels.
 - The `#header` selector targets the element with the ID "header," giving it a gray background color.
@@ -2257,6 +2275,12 @@ p {
     background-color: #f0f0f0; /* Light Gray */
 }
 ```
+
+[![Edit 055-Properties and Values](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/055-properties-and-values-f4437y)
+
+- [^55]CodeSandbox: Properties and Values.
+
+[^55]: [CodeSandbox: Properties and Values.](https://f4437y.csb.app/), last access: June 5, 2024.
 
 - Font properties control the appearance of text, such as font family, size, and weight.
 - Color properties define the color of text and backgrounds using hexadecimal, RGB, or named colors.
