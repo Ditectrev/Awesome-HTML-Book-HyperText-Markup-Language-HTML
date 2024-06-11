@@ -2325,6 +2325,12 @@ p {
 }
 ```
 
+[![Edit 057-CSS Comments](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/057-css-comments-vny2rf)
+
+- [^57]CodeSandbox: CSS Comments.
+
+[^57]: [CodeSandbox: CSS Comments.](https://vny2rf.csb.app/), last access: June 11, 2024.
+
 - CSS comments are denoted by `/* */`.
 - Comments can be used to document code, provide context, or temporarily disable styles.
 
@@ -2338,6 +2344,12 @@ Inline CSS involves applying styles directly to individual HTML elements using t
 <p style="color: blue; font-size: 16px;">This is a blue paragraph with a font size of 16px.</p>
 ```
 
+[![Edit 058-Inline CSS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/058-inline-css-pptd9v)
+
+- [^58]CodeSandbox: Inline CSS.
+
+[^58]: [CodeSandbox: Inline CSS.](https://pptd9v.csb.app/), last access: June 11, 2024.
+
 - Inline CSS is employed by adding a `style` attribute to an HTML element, allowing you to define CSS properties and values directly.
 - This approach offers granular control but lacks reusability and can become unwieldy for larger projects.
 
@@ -2348,6 +2360,8 @@ Internal CSS, also known as embedded CSS, involves placing CSS rules within a `<
 ```html
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
+<title>Internal (Embedded) CSS</title>
 <head>
     <style>
         p {
@@ -2362,6 +2376,12 @@ Internal CSS, also known as embedded CSS, involves placing CSS rules within a `<
 </html>
 ```
 
+[![Edit 059-Internal (Embedded) CSS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/059-internal-embedded-css-n8rn6n)
+
+- [^59]CodeSandbox: Internal (Embedded) CSS.
+
+[^59]: [CodeSandbox: Internal (Embedded) CSS.](https://n8rn6n.csb.app/), last access: June 11, 2024.
+
 - The `<style>` element resides within the HTML `<head>` section.
 - CSS rules defined within the `<style>` element apply to HTML elements on the same page.
 - Internal CSS offers more reusability compared to inline CSS but confines styles to a single HTML document.
@@ -2373,6 +2393,8 @@ External CSS involves creating a separate CSS file with styles that can be reuse
 ```html
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8" />
+<title>External CSS</title>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -2389,6 +2411,12 @@ p {
     font-size: 20px;
 }
 ```
+
+[![Edit 060-External CSS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/060-external-css-w9r4jj)
+
+- [^60]CodeSandbox: External CSS.
+
+[^60]: [CodeSandbox: External CSS.](https://w9r4jj.csb.app/), last access: June 11, 2024.
 
 - The `<link>` element within the HTML `<head>` section links to an external CSS file named "styles.css."
 - The "styles.css" file contains CSS rules that apply to HTML elements, such as `<p>` elements in this case.
