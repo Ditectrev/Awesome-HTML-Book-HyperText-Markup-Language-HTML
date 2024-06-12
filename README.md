@@ -2488,16 +2488,24 @@ Flexbox, short for Flexible Box Layout, is a one-dimensional layout model that a
 
 ```css
 .container {
+    background-color: #ff0000;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .item {
+    background-color: #f1f1f1;
     flex: 1;
     margin: 10px;
 }
 ```
+
+[![Edit 063-Flexbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/063-flexbox-f4c853)
+
+- [^63]CodeSandbox: Flexbox.
+
+[^63]: [CodeSandbox: Flexbox.](https://f4c853.csb.app/), last access: June 12, 2024.
 
 - The `display: flex;` property on the container establishes a flex container, enabling flexbox layout for its children.
 - `justify-content: center;` horizontally centers the items within the container.
