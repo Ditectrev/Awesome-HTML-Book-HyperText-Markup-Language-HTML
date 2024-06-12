@@ -2429,8 +2429,10 @@ CSS frameworks like Bootstrap, Foundation, and Bulma provide pre-designed styles
 ```html
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8" />
+<title>CSS Frameworks</title>
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
@@ -2440,6 +2442,12 @@ CSS frameworks like Bootstrap, Foundation, and Bulma provide pre-designed styles
 </body>
 </html>
 ```
+
+[![Edit 061-CSS Frameworks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/061-css-frameworks-tnxxzj)
+
+- [^61]CodeSandbox: CSS Frameworks.
+
+[^61]: [CodeSandbox: CSS Frameworks.](https://tnxxzj.csb.app/), last access: June 12, 2024.
 
 - In this example, the Bootstrap CSS framework is linked via a Content Delivery Network (CDN) URL.
 - Bootstrap classes like `container` and `btn btn-primary` are applied to HTML elements, providing predefined styles and components.
@@ -2459,6 +2467,12 @@ $primary-color: #007bff;
     padding: 10px 20px;
 }
 ```
+
+[![Edit 062-CSS Preprocessors](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/062-css-preprocessors-lzkls6)
+
+- [^62]CodeSandbox: CSS Preprocessors.
+
+[^62]: [CodeSandbox: CSS Preprocessors.](https://lzkls6.csb.app/), last access: June 12, 2024.
 
 - In this Sass example, a variable `$primary-color` is defined to store the primary button color.
 - Sass features like variable usage and nesting are employed to create the button's styling.
