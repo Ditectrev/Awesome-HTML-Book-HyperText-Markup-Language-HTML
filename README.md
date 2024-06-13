@@ -2360,9 +2360,9 @@ Internal CSS, also known as embedded CSS, involves placing CSS rules within a `<
 ```html
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
-<title>Internal (Embedded) CSS</title>
 <head>
+    <meta charset="UTF-8">
+    <title>Internal (Embedded) CSS</title>
     <style>
         p {
             color: green;
