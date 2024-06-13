@@ -2393,9 +2393,9 @@ External CSS involves creating a separate CSS file with styles that can be reuse
 ```html
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8" />
-<title>External CSS</title>
 <head>
+    <meta charset="UTF-8" />
+    <title>External CSS</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
@@ -2429,9 +2429,9 @@ CSS frameworks like Bootstrap, Foundation, and Bulma provide pre-designed styles
 ```html
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8" />
-<title>CSS Frameworks</title>
 <head>
+    <meta charset="UTF-8" />
+    <title>CSS Frameworks</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css">
 </head>
 <body>
@@ -2525,10 +2525,16 @@ Grid Layouts are a two-dimensional layout model that allows for the precise posi
 }
 
 .item {
-    background-color: #f0f0f0;
+    background-color: #f1f1f1;
     padding: 20px;
 }
 ```
+
+[![Edit 064-Grid Layouts](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/064-grid-layouts-nykj4p)
+
+- [^64]CodeSandbox: Grid Layouts.
+
+[^64]: [CodeSandbox: Grid Layouts.](https://nykj4p.csb.app/), last access: June 13, 2024.
 
 - The `display: grid;` property on the container establishes a grid container, enabling grid layout for its children.
 - `grid-template-columns: 1fr 1fr 1fr;` defines three equal-width columns in the grid.
@@ -2552,6 +2558,7 @@ JavaScript code can be embedded directly within HTML documents using the `<scrip
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8" />
     <title>Embedded JavaScript Example</title>
     <script>
         // Inline JavaScript code
@@ -2566,6 +2573,12 @@ JavaScript code can be embedded directly within HTML documents using the `<scrip
 </body>
 </html>
 ```
+
+[![Edit 065-Embedded JavaScript Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/065-embedded-javascript-example-2ch5rl)
+
+- [^65]CodeSandbox: Embedded JavaScript Example.
+
+[^65]: [CodeSandbox: Embedded JavaScript Example.](https://2ch5rl.csb.app/), last access: June 13, 2024.
 
 - JavaScript code is included directly within the `<script>` tags in the `<head>` section of the HTML document.
 - The `greet()` function is defined inline and is invoked when the button is clicked.
