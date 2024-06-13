@@ -2394,7 +2394,7 @@ External CSS involves creating a separate CSS file with styles that can be reuse
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>External CSS</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -2430,7 +2430,7 @@ CSS frameworks like Bootstrap, Foundation, and Bulma provide pre-designed styles
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>CSS Frameworks</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css">
 </head>
@@ -2558,7 +2558,7 @@ JavaScript code can be embedded directly within HTML documents using the `<scrip
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Embedded JavaScript Example</title>
     <script>
         // Inline JavaScript code
