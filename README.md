@@ -2721,6 +2721,7 @@ Advanced event handling techniques involve event delegation, capturing and bubbl
 ```javascript
 // Event delegation: Handling events on parent elements for dynamically created child elements
 document.getElementById('parent').addEventListener('click', function(event) {
+    alert('event.target.tagName is equal ' + event.target.tagName);
     if (event.target.tagName === 'BUTTON') {
         alert('Button clicked!');
     }
