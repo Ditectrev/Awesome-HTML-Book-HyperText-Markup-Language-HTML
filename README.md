@@ -2666,11 +2666,21 @@ JavaScript interacts with HTML through the Document Object Model (DOM), a hierar
 Advanced DOM manipulation techniques involve traversing the DOM tree, selecting elements dynamically, and applying changes efficiently.
 
 ```javascript
-// Select all paragraphs with a specific class and update their text content
-document.querySelectorAll('p.myClass').forEach(paragraph => {
-    paragraph.textContent = 'New content';
-});
+setTimeout(changeParagraphText, 5000);
+
+function changeParagraphText() {
+    // Select all paragraphs with a specific class and update their text content
+    document.querySelectorAll("p.myClass").forEach((paragraph) => {
+        paragraph.textContent = "New content";
+    });
+}
 ```
+
+[![Edit 068-Advanced DOM Manipulation Techniques](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/068-advanced-dom-manipulation-techniques-mj9mr7)
+
+- [^68]CodeSandbox: Advanced DOM Manipulation Techniques.
+
+[^68]:[CodeSandbox: Advanced DOM Manipulation Techniques.](https://mj9mr7.csb.app/), last access: June 18, 2024.
 
 ### Event Handling
 
@@ -2680,6 +2690,7 @@ JavaScript enables developers to handle user interactions and browser events thr
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8" />
     <title>Event Handling Example</title>
 </head>
 <body>
@@ -2693,6 +2704,12 @@ JavaScript enables developers to handle user interactions and browser events thr
 </body>
 </html>
 ```
+
+[![Edit 069-Event Handling](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/069-event-handling-rwd3qd)
+
+- [^69]CodeSandbox: Event Handling.
+
+[^69]:[CodeSandbox: Event Handling.](https://rwd3qd.csb.app/), last access: June 18, 2024.
 
 - An event listener is added to the button element, listening for the 'click' event.
 - When the button is clicked, an alert dialog is displayed.
@@ -2709,6 +2726,12 @@ document.getElementById('parent').addEventListener('click', function(event) {
     }
 });
 ```
+
+[![Edit 070-Advanced Event Handling](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/070-advanced-event-handling-mcrl3w)
+
+- [^70]CodeSandbox: Advanced Event Handling.
+
+[^70]:[CodeSandbox: Advanced Event Handling.](https://mcrl3w.csb.app/), last access: June 18, 2024.
 
 ### Summary: Introduction to JavaScript with HTML
 
