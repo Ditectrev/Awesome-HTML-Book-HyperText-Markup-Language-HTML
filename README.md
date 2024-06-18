@@ -3797,7 +3797,7 @@ document.getElementById("dropzone").addEventListener("dragover", function(event)
 document.getElementById("dropzone").addEventListener("drop", function(event) {
   event.preventDefault();
   var data = event.dataTransfer.getData("text/plain");
-  event.target = "Dropped: " + data;
+  event.target.textContent = "Dropped: " + data;
 });
 </script>
 ```
@@ -3839,7 +3839,7 @@ function handleFile(event) {
   var file = event.target.files[0];
   var reader = new FileReader();
   reader.onload = function(e) {
-    document.getElementById("fileContents") = e.target.result;
+    document.getElementById("fileContents").textContent = e.target.result;
   };
   reader.readAsText(file);
 }
