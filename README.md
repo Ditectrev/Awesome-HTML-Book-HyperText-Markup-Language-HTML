@@ -2600,6 +2600,7 @@ For larger projects or better code organization, it's common practice to separat
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8" />
     <title>External JavaScript Example</title>
     <script src="script.js"></script>
 </head>
@@ -2609,6 +2610,12 @@ For larger projects or better code organization, it's common practice to separat
 </body>
 </html>
 ```
+
+[![Edit 066-External JavaScript Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/066-external-javascript-example-sttc6x)
+
+- [^66]CodeSandbox: External JavaScript Example.
+
+[^66]: [CodeSandbox: External JavaScript Example.](https://sttc6x.csb.app/), last access: June 18, 2024.
 
 - The JavaScript code is moved to an external file named `script.js`.
 - The `<script>` tag in the HTML document references the external JavaScript file using the `src` attribute.
@@ -2630,6 +2637,7 @@ JavaScript interacts with HTML through the Document Object Model (DOM), a hierar
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8" />
     <title>DOM Manipulation Example</title>
 </head>
 <body>
@@ -2644,6 +2652,12 @@ JavaScript interacts with HTML through the Document Object Model (DOM), a hierar
 </body>
 </html>
 ```
+
+[![Edit 067-DOM Manipulation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/067-dom-manipulation-7k5drg)
+
+- [^67]CodeSandbox: DOM Manipulation.
+
+[^67]: [CodeSandbox: DOM Manipulation.](https://7k5drg.csb.app/), last access: June 18, 2024.
 
 - The `changeText()` function modifies the text content of an `<h1>` element with the ID `heading` when the button is clicked.
 
@@ -3783,7 +3797,7 @@ document.getElementById("dropzone").addEventListener("dragover", function(event)
 document.getElementById("dropzone").addEventListener("drop", function(event) {
   event.preventDefault();
   var data = event.dataTransfer.getData("text/plain");
-  event.target.textContent = "Dropped: " + data;
+  event.target = "Dropped: " + data;
 });
 </script>
 ```
@@ -3825,7 +3839,7 @@ function handleFile(event) {
   var file = event.target.files[0];
   var reader = new FileReader();
   reader.onload = function(e) {
-    document.getElementById("fileContents").textContent = e.target.result;
+    document.getElementById("fileContents") = e.target.result;
   };
   reader.readAsText(file);
 }
