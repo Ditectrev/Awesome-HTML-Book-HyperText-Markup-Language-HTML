@@ -2519,6 +2519,7 @@ Grid Layouts are a two-dimensional layout model that allows for the precise posi
 
 ```css
 .container {
+    background-color: #ff0000;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -2753,16 +2754,23 @@ Adopting a mobile-first approach involves designing for mobile devices first, th
 ```css
 /* Base styles for mobile devices */
 .container {
+    background-color: #ff0000;
     padding: 10px;
 }
 
 /* Additional styles for larger screens */
 @media screen and (min-width: 768px) {
     .container {
-        padding: 20px;
+        padding: 50px;
     }
 }
 ```
+
+[![Edit 071-Mobile-First Approach](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/071-mobile-first-approach-fd8cvs)
+
+- [^71]CodeSandbox: Mobile-First Approach.
+
+[^71]:[CodeSandbox: Mobile-First Approach.](https://fd8cvs.csb.app/), last access: June 20, 2024.
 
 - In this example, styles for smaller screens are defined first, followed by media queries to enhance the layout for larger screens.
 
@@ -2801,11 +2809,13 @@ A fluid grid layout adjusts its column widths and spacing proportionally based o
 
 ```css
 .container {
+    background-color: #ff0000;
     width: 90%; /* Set container width to 90% of the viewport */
     margin: 0 auto; /* Center the container */
 }
 
 .column {
+    background-color: #f1f1f1;
     float: left;
     width: 30%; /* Set column width to 30% of the container */
     margin-right: 5%; /* Add 5% margin between columns */
@@ -2819,11 +2829,21 @@ A fluid grid layout adjusts its column widths and spacing proportionally based o
 }
 ```
 
+[![Edit 072-Fluid Grids](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/072-fluid-grids-qxh5zz)
+
+- [^72]CodeSandbox: Fluid Grids.
+
+[^72]:[CodeSandbox: Fluid Grids.](https://qxh5zz.csb.app/), last access: June 20, 2024.
+
 ###### Media Queries
 
 Media queries allow you to apply specific styles based on the characteristics of the viewport, such as its width or orientation. This enables you to create responsive designs that adapt to different screen sizes.
 
 ```css
+.column {
+    background-color: #f1f1f1;
+}
+
 /* Apply styles for screens larger than 768px */
 @media screen and (min-width: 768px) {
     .column {
@@ -2831,6 +2851,12 @@ Media queries allow you to apply specific styles based on the characteristics of
     }
 }
 ```
+
+[![Edit 073-Media Queries](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/073-media-queries-dwprjz)
+
+- [^73]CodeSandbox: Media Queries.
+
+[^73]:[CodeSandbox: Media Queries.](https://dwprjz.csb.app/), last access: June 20, 2024.
 
 ##### Flexible Units
 
@@ -2840,13 +2866,21 @@ Percentage units allow you to define dimensions, margins, and padding relative t
 
 ```css
 .container {
+    background-color: #ff0000;
     width: 90%; /* Set container width to 90% of the viewport */
 }
 
 .column {
+    background-color: #f1f1f1;
     width: 50%; /* Set column width to 50% of the container */
 }
 ```
+
+[![Edit 074-Percentage (%)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/074-percentage-ct6wzy)
+
+- [^74]CodeSandbox: Percentage (%).
+
+[^74]:[CodeSandbox: Percentage (%).](https://ct6wzy.csb.app/), last access: June 20, 2024.
 
 ###### Viewport Width (vw) and Viewport Height (vh)
 
