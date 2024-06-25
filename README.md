@@ -2888,14 +2888,22 @@ Viewport units represent a percentage of the viewport's width or height, allowin
 
 ```css
 .text {
+    background-color: #ff0000;
     font-size: 5vw; /* Set font size to 5% of the viewport width */
 }
 
 .box {
+    background-color: #f1f1f1;
     width: 50vw; /* Set box width to 50% of the viewport width */
     height: 50vh; /* Set box height to 50% of the viewport height */
 }
 ```
+
+[![Edit 075-Viewport Width (vw) and Viewport Height (vh)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/075-viewport-width-vw-and-viewport-height-vh-ckqpy3)
+
+- [^75]CodeSandbox: Viewport Width (vw) and Viewport Height (vh).
+
+[^75]:[CodeSandbox: Viewport Width (vw) and Viewport Height (vh).](https://ckqpy3.csb.app/), last access: June 25, 2024.
 
 ###### Viewport Settings
 
@@ -2908,13 +2916,18 @@ Let's have an example of Responsive Meta Tag.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Design</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body style="background-color: grey">
     <!-- Content -->
 </body>
 </html>
 ```
+
+[![Edit 076-Viewport Settings](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/076-viewport-settings-7gjptw)
+
+- [^76]CodeSandbox: Viewport Settings.
+
+[^76]:[CodeSandbox: Viewport Settings.](https://7gjptw.csb.app/), last access: June 25, 2024.
 
 - The `viewport` meta tag is included in the `<head>` section of the HTML document.
 - The `width=device-width` property sets the width of the viewport to the device's screen width.
@@ -2934,6 +2947,12 @@ The em unit represents the font size of the element's parent container. It is co
     font-size: 1.5em; /* Set font size to 1.5 times the parent container's font size */
 }
 ```
+
+[![Edit 077-Em (em)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/077-em-em-gw6ctx)
+
+- [^77]CodeSandbox: 077-Em (em).
+
+[^77]:[CodeSandbox: 077-Em (em).](https://gw6ctx.csb.app/), last access: June 25, 2024.
 
 ##### Benefits and Considerations
 
@@ -2968,6 +2987,12 @@ In responsive web design, not all content is equally important or relevant to us
     </nav>
 </div>
 ```
+
+[![Edit 078-Importance of Content Prioritization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/078-importance-of-content-prioritization-8h7t4q)
+
+- [^78]CodeSandbox: 078-Importance of Content Prioritization.
+
+[^78]:[CodeSandbox: 078-Importance of Content Prioritization.](https://8h7t4q.csb.app/), last access: June 25, 2024.
 
 - In this example, the main heading (`<h1>`) is placed at the top of the page within the `.header` container.
 - The navigation menu (`<nav>`) is positioned below the main heading, making it easily accessible but secondary to the main content.
