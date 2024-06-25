@@ -2950,9 +2950,9 @@ The em unit represents the font size of the element's parent container. It is co
 
 [![Edit 077-Em (em)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/077-em-em-gw6ctx)
 
-- [^77]CodeSandbox: 077-Em (em).
+- [^77]CodeSandbox: Em (em).
 
-[^77]:[CodeSandbox: 077-Em (em).](https://gw6ctx.csb.app/), last access: June 25, 2024.
+[^77]:[CodeSandbox: Em (em).](https://gw6ctx.csb.app/), last access: June 25, 2024.
 
 ##### Benefits and Considerations
 
@@ -2990,9 +2990,9 @@ In responsive web design, not all content is equally important or relevant to us
 
 [![Edit 078-Importance of Content Prioritization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/078-importance-of-content-prioritization-8h7t4q)
 
-- [^78]CodeSandbox: 078-Importance of Content Prioritization.
+- [^78]CodeSandbox: Importance of Content Prioritization.
 
-[^78]:[CodeSandbox: 078-Importance of Content Prioritization.](https://8h7t4q.csb.app/), last access: June 25, 2024.
+[^78]:[CodeSandbox: Importance of Content Prioritization.](https://8h7t4q.csb.app/), last access: June 25, 2024.
 
 - In this example, the main heading (`<h1>`) is placed at the top of the page within the `.header` container.
 - The navigation menu (`<nav>`) is positioned below the main heading, making it easily accessible but secondary to the main content.
