@@ -3088,6 +3088,12 @@ When selecting the appropriate file format for images and media, consider factor
 <source src="image.tiff" type="image/tiff">
 ```
 
+[![Edit 081-Choose the Right File Format](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/081-choose-the-right-file-format-swxx45)
+
+- [^81]CodeSandbox: Choose the Right File Format.
+
+[^81]:[CodeSandbox: Choose the Right File Format.](https://swxx45.csb.app/), last access: August 28, 2024.
+
 - **JPEG (Joint Photographic Experts Group)**: Ideal for photographs and images with natural gradients, offering good compression with minimal loss of quality.
 - **PNG (Portable Network Graphics)**: Suitable for images with transparency or sharp edges, providing lossless compression for high-quality graphics.
 - **WebP**: A modern image format developed by Google, offering superior compression efficiency compared to JPEG and PNG.
