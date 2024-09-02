@@ -369,7 +369,7 @@ Below is an example of a basic HTML document structure:
 
 [^1]:[CodeSandbox: Basic HTML Structure.](https://7gq85k.csb.app/), last access: May 11, 2024.
 
-This code demonstrates a simple HTML page structure with the essential elements: `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
+This code demonstrates a simple HTML page structure with the essential elements: `<!DOCTYPE html>`, `<html>`, `<head>`, `<meta>`, `<title>` and `<body>`.
 
 ### Setting Up the Environment
 
@@ -2915,7 +2915,7 @@ Let's have an example of Responsive Meta Tag.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Design</title>
+    <title>Viewport Settings</title>
 </head>
 <body style="background-color: grey">
     <!-- Content -->
@@ -3110,6 +3110,12 @@ Use image compression techniques to reduce file size without sacrificing quality
 <img src="optimized-image.jpg" alt="Optimized JPEG Image">
 ```
 
+[![Edit 082-Optimizing Compression](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/082-optimizing-compression-lwj6ct)
+
+- [^82]CodeSandbox: Optimizing Compression.
+
+[^82]:[CodeSandbox: Optimizing Compression.](https://lwj6ct.csb.app/), last access: September 2, 2024.
+
 - **Image Optimization Tools**: Utilize image optimization tools like ImageOptim, TinyPNG, or Squoosh to reduce file size without compromising image quality.
 - **Advanced Compression Algorithms**: Experiment with advanced compression algorithms such as Brotli, WebP, or JPEG XL to achieve optimal compression ratios and smaller file sizes while preserving visual fidelity.
 
@@ -3121,6 +3127,12 @@ Implement lazy loading techniques to defer the loading of images and media until
 <!-- Example of implementing lazy loading with the loading attribute -->
 <img src="placeholder.jpg" alt="Lazy Loaded Image" loading="lazy">
 ```
+
+[![Edit 083-Lazy Loading](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/083-lazy-loading-mfcf6s)
+
+- [^83]CodeSandbox: Lazy Loading.
+
+[^83]:[CodeSandbox: Lazy Loading.](https://mfcf6s.csb.app/), last access: September 2, 2024.
 
 - **Loading Attribute**: Set the `loading="lazy"` attribute to enable lazy loading, allowing images to load dynamically as they become visible to the user.
 - **Performance Benefits**: Lazy loading prioritizes the loading of visible content, enhancing the user experience and reducing unnecessary resource consumption, particularly on long-scrolling pages or image-heavy websites.
@@ -3140,6 +3152,12 @@ Serve responsive images that are appropriately sized for different screen resolu
      alt="Responsive Image">
 ```
 
+[![Edit 084-Serving Responsive Images](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/084-serving-responsive-images-xxs4hy)
+
+- [^84]CodeSandbox: Serving Responsive Images.
+
+[^84]:[CodeSandbox: Serving Responsive Images.](https://xxs4hy.csb.app/), last access: September 2, 2024.
+
 - **Srcset Attribute**: Use the srcset attribute to specify different image versions for various screen resolutions and pixel densities, ensuring crisp and clear images on devices with varying display capabilities.
 - **Sizes Attribute**: Set the sizes attribute to define the image's display size based on viewport width, ensuring optimal rendering on different devices and screen sizes.
 
@@ -3148,11 +3166,35 @@ Serve responsive images that are appropriately sized for different screen resolu
 Configure server-side caching and leverage browser caching mechanisms to store images and media files locally on users' devices. Set appropriate cache-control headers to specify caching policies and expiration times, reducing server load and improving page load times for returning visitors.
 
 ```html
-<!-- Example of enabling browser caching with cache-control headers -->
-<img src="cached-image.jpg" alt="Cached Image"
-     style="max-width: 100%; height: auto;"
-     loading="lazy">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+          http-equiv="Cache-Control"
+          content="no-cache, no-store, must-revalidate"
+        />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <title>Enable Browser Caching</title>
+    </head>
+    <body>
+        <!-- Example of enabling browser caching with cache-control headers -->
+        <img
+            src="cached-image.jpg"
+            alt="Cached Image"
+            style="max-width: 100%; height: auto"
+            loading="lazy"
+        />
+    </body>
+</html>
 ```
+
+[![Edit 085-Enable Browser Caching](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/085-enable-browser-caching-xl3wzp)
+
+- [^85]CodeSandbox: Enable Browser Caching.
+
+[^85]:[CodeSandbox: Enable Browser Caching.](https://xl3wzp.csb.app/), last access: September 2, 2024.
 
 - **Cache-Control Headers**: Configure server-side caching and leverage browser caching mechanisms to store images locally on users' devices, reducing server load and improving page load times for returning visitors.
 - **Optimization Techniques**: Employ techniques such as cache busting or versioning to ensure timely updates to cached images and prevent stale content delivery.
