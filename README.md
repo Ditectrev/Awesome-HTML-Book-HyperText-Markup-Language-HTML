@@ -3215,6 +3215,12 @@ Optimizing video files involves selecting the appropriate codecs and formats for
 </video>
 ```
 
+[![Edit 086-Video Optimization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/086-video-optimization-688yvn)
+
+- [^86]CodeSandbox: Video Optimization.
+
+[^86]:[CodeSandbox: Video Optimization.](https://688yvn.csb.app/), last access: September 3, 2024.
+
 - **MP4 (H.264)**: Widely supported video format with efficient compression and compatibility across browsers and devices.
 - **WebM (VP9)**: An open and royalty-free video format developed by Google, offering high-quality compression and excellent browser support.
 - **Ogg (Theora)**: Open-source video format providing good compression and playback compatibility with many browsers.
@@ -3236,6 +3242,12 @@ Similar to video optimization, audio optimization involves selecting the appropr
   Your browser does not support the audio tag.
 </audio>
 ```
+
+[![Edit 087-Audio Optimization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/087-audio-optimization-zy3cpv)
+
+- [^87]CodeSandbox: Audio Optimization.
+
+[^87]:[CodeSandbox: Audio Optimization.](https://zy3cpv.csb.app/), last access: September 3, 2024.
 
 - **MP3**: Widely used audio format offering good compression and compatibility across browsers and devices.
 - **Ogg Vorbis**: Open-source audio format providing high-quality compression and support in many web browsers.
