@@ -24,6 +24,7 @@
     - [Example: Basic Anatomy of an HTML Document](#example-basic-anatomy-of-an-html-document)
   - [Declaration, Head, and Body Sections](#declaration-head-and-body-sections)
     - [The `<!DOCTYPE>` Declaration](#the-doctype-declaration)
+    - [The `<meta charset="UTF-8" />`](#the-meta-charsetutf-8-)
     - [The `<head>` Section](#the-head-section)
     - [The `<body>` Section](#the-body-section)
   - [Understanding DOCTYPE](#understanding-doctype)
