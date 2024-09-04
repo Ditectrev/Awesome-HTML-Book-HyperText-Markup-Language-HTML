@@ -545,6 +545,10 @@ Understanding each section of an HTML document is important for structuring web 
 
 The `<!DOCTYPE>` declaration is not an HTML tag; it is an instruction to the web browser about the HTML version being used. For HTML5, it is simply declared as `<!DOCTYPE html>`.
 
+#### The `<meta charset="UTF-8" />`
+
+That's an encoding method for correctly displaying local languages characters. Technically, it's related to ASCII, which is outside the scope of this book.
+
 #### The `<head>` Section
 
 The `<head>` section contains meta-information about the document, such as its title, character set, viewport settings, links to CSS files, and other metadata.
@@ -3321,15 +3325,16 @@ CSS Flexbox is a powerful layout model that enables flexible and responsive desi
     <title>Flexbox Layout</title>
     <style>
         .container {
+            background-color: #ff0000;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         .item {
+            background-color: #f1f1f1;
             flex: 1 1 auto;
             margin: 10px;
             padding: 20px;
-            background-color: #f0f0f0;
         }
     </style>
 </head>
@@ -3342,6 +3347,12 @@ CSS Flexbox is a powerful layout model that enables flexible and responsive desi
 </body>
 </html>
 ```
+
+[![Edit 088-Key Concepts of Flexbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/088-key-concepts-of-flexbox-zpmyxf)
+
+- [^88]CodeSandbox: Key Concepts of Flexbox.
+
+[^88]:[CodeSandbox: Key Concepts of Flexbox.](https://zpmyxf.csb.app/), last access: September 4, 2024.
 
 - The `.container` class creates a flex container with `display: flex;`.
 - `justify-content: space-between;` evenly distributes the flex items along the main axis with space between them.
@@ -3365,13 +3376,14 @@ CSS Grid Layout provides a powerful way to create responsive grid-based layouts.
     <title>CSS Grid Layout</title>
     <style>
         .container {
+            background-color: #ff0000;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             grid-gap: 20px;
         }
         .item {
+            background-color: #f1f1f1;
             padding: 20px;
-            background-color: #f0f0f0;
         }
     </style>
 </head>
@@ -3384,6 +3396,12 @@ CSS Grid Layout provides a powerful way to create responsive grid-based layouts.
 </body>
 </html>
 ```
+
+[![Edit 089-Key Concepts of CSS Grid](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/089-key-concepts-of-css-grid-fnt88c)
+
+- [^89]CodeSandbox: Key Concepts of CSS Grid.
+
+[^89]:[CodeSandbox: Key Concepts of CSS Grid.](https://fnt88c.csb.app/), last access: September 4, 2024.
 
 - The `.container` class creates a grid container with `display: grid;`.
 - `grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));` defines responsive grid columns with a minimum width of 200px and a maximum width of 1fr (fraction of available space).
@@ -3399,10 +3417,17 @@ Media queries are essential for creating responsive designs that adapt to differ
         flex-direction: column;
     }
     .item {
+        background-color: #f1f1f1;
         width: 100%;
     }
 }
 ```
+
+[![Edit 090-Media Queries for Responsive Design](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/090-media-queries-for-responsive-design-5pr5ll)
+
+- [^90]CodeSandbox: Media Queries for Responsive Design.
+
+[^90]:[CodeSandbox: Media Queries for Responsive Design.](https://5pr5ll.csb.app/), last access: September 4, 2024.
 
 - The media query targets screens with a maximum width of 768px.
 - Within the media query, the layout changes to a single column with `flex-direction: column;`.
