@@ -3532,6 +3532,12 @@ HTML provides a wide range of tags and attributes that can positively impact a w
 <img src="example.jpg" alt="SEO Basics with HTML - Image Alt Attribute Example">
 ```
 
+[![Edit 094-Image Alt Attribute](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/094-image-alt-attribute-fgcs54)
+
+- [^94]CodeSandbox: Image Alt Attribute.
+
+[^94]:[CodeSandbox: Image Alt Attribute.](https://fgcs54.csb.app/), last access: September 6, 2024.
+
 - In this example, the `alt` attribute provides alternative text for the image, describing its content and context. This helps improve accessibility for users who cannot see the image and provides valuable information to search engines for indexing.
 
 #### Code Example: Semantic HTML Elements
@@ -3557,6 +3563,12 @@ HTML provides a wide range of tags and attributes that can positively impact a w
   <p>&copy; 2024 Website Name. All rights reserved.</p>
 </footer>
 ```
+
+[![Edit 095-Semantic HTML Elements](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/095-semantic-html-elements-ncm57v)
+
+- [^95]CodeSandbox: Semantic HTML Elements.
+
+[^95]:[CodeSandbox: Semantic HTML Elements.](https://ncm57v.csb.app/), last access: September 6, 2024.
 
 - Semantic HTML elements like `<header>`, `<nav>`, `<main>`, `<article>`, and `<footer>` provide meaningful structure to the web page, making it easier for search engines to understand the purpose and context of different sections.
 
