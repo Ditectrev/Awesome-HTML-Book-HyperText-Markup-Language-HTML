@@ -354,7 +354,6 @@ Below is an example of a basic HTML document structure:
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First HTML Page</title>
 </head>
 <body>
@@ -513,7 +512,7 @@ The foundation of any web page is its HTML structure. Understanding this structu
 
 ### Anatomy of an HTML Document
 
-An HTML document is structured with various elements, each serving a specific purpose. The basic components include the `<!DOCTYPE>`, `<html>`, `<head>`, and `<body>` tags.
+An HTML document is structured with various elements, each serving a specific purpose. The basic components include the `<!DOCTYPE html>`, `<html>`, `<head>`, `<meta>`, `<title>` and `<body>` tags.
 
 #### Example: Basic Anatomy of an HTML Document
 
@@ -522,7 +521,6 @@ An HTML document is structured with various elements, each serving a specific pu
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Title</title>
     <!-- Other head elements like links to CSS files, metadata go here -->
 </head>
@@ -579,7 +577,6 @@ The DOCTYPE declaration should be the very first thing in an HTML document, befo
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Page</title>
 </head>
 <body>
@@ -3322,7 +3319,6 @@ CSS Flexbox is a powerful layout model that enables flexible and responsive desi
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Layout</title>
     <style>
         .container {
@@ -3373,7 +3369,6 @@ CSS Grid Layout provides a powerful way to create responsive grid-based layouts.
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Grid Layout</title>
     <style>
         .container {
@@ -3461,6 +3456,12 @@ Web accessibility is crucial for ensuring that websites and web applications are
 </nav>
 ```
 
+[![Edit 091-Importance and Principles of Web Accessibility](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/091-importance-and-principles-of-web-accessibility-qtxl9q)
+
+- [^91]CodeSandbox: Importance and Principles of Web Accessibility.
+
+[^91]:[CodeSandbox: Importance and Principles of Web Accessibility.](https://qtxl9q.csb.app/), last access: September 6, 2024.
+
 - In this code snippet, semantic HTML elements like `<nav>`, `<ul>`, and `<li>` are used to create a navigational menu.
 - By using semantic elements, screen readers can interpret the structure of the navigation and convey it to users with disabilities more effectively.
 
@@ -3475,6 +3476,12 @@ Accessible Rich Internet Applications (ARIA) attributes and roles provide additi
 - The `role="button"` attribute indicates that the `<button>` element functions as a button.
 - The `aria-label="Close"` attribute provides a descriptive label for the button, ensuring that screen reader users understand its purpose.
 
+[![Edit 092-ARIA (Accessible Rich Internet Applications) Labels and Roles](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/092-aria-accessible-rich-internet-applications-labels-and-roles-vd3t4c)
+
+- [^92]CodeSandbox: ARIA (Accessible Rich Internet Applications) Labels and Roles.
+
+[^92]:[CodeSandbox: ARIA (Accessible Rich Internet Applications) Labels and Roles.](https://vd3t4c.csb.app/), last access: September 6, 2024.
+
 ### Accessibility Features in HTML5
 
 HTML5 introduces several features and elements that support web accessibility, making it easier for developers to create accessible web content. These features include semantic markup, form validation, and media accessibility.
@@ -3487,6 +3494,12 @@ HTML5 introduces several features and elements that support web accessibility, m
   </article>
 </main>
 ```
+
+[![Edit 093-Accessibility Features in HTML5](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/093-accessibility-features-in-html5-zwjmnz)
+
+- [^93]CodeSandbox: Accessibility Features in HTML5.
+
+[^93]:[CodeSandbox: Accessibility Features in HTML5.](https://zwjmnz.csb.app/), last access: September 6, 2024.
 
 - Semantic elements like `<main>`, `<article>`, and `<h2>` are used to structure the content of the web page.
 - Screen readers can interpret the semantic structure and convey it to users with disabilities more effectively, improving accessibility.
