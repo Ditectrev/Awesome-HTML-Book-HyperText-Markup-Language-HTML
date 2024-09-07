@@ -353,7 +353,7 @@ Below is an example of a basic HTML document structure:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>My First HTML Page</title>
 </head>
 <body>
@@ -520,7 +520,7 @@ An HTML document is structured with various elements, each serving a specific pu
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Document Title</title>
     <!-- Other head elements like links to CSS files, metadata go here -->
 </head>
@@ -576,7 +576,7 @@ The DOCTYPE declaration should be the very first thing in an HTML document, befo
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Simple Page</title>
 </head>
 <body>
@@ -1449,7 +1449,7 @@ Here's a basic example of how to structure an SPA with semantic HTML, incorporat
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>SPA with Semantic HTML</title>
 </head>
 <body>
@@ -1526,7 +1526,7 @@ Here's an example of how to use microdata in an HTML document to define an artic
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Microdata Example: Article</title>
 </head>
 <body>
@@ -1674,7 +1674,7 @@ Semantic HTML plays a crucial role in SEO (Search Engine Optimization) by provid
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>SEO and Semantic HTML</title>
 </head>
 <body>
@@ -1869,7 +1869,7 @@ The homepage of "EcoShop" is structured to provide a clear hierarchy and meaning
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>EcoShop - Eco-Friendly Products</title>
 </head>
 <body>
@@ -2363,7 +2363,7 @@ Internal CSS, also known as embedded CSS, involves placing CSS rules within a `<
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Internal (Embedded) CSS</title>
     <style>
         p {
@@ -2396,7 +2396,7 @@ External CSS involves creating a separate CSS file with styles that can be reuse
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>External CSS</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -2432,7 +2432,7 @@ CSS frameworks like Bootstrap, Foundation, and Bulma provide pre-designed styles
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>CSS Frameworks</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css">
 </head>
@@ -2561,7 +2561,7 @@ JavaScript code can be embedded directly within HTML documents using the `<scrip
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Embedded JavaScript Example</title>
     <script>
         // Inline JavaScript code
@@ -2915,7 +2915,7 @@ Let's have an example of Responsive Meta Tag.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viewport Settings</title>
 </head>
@@ -3318,7 +3318,7 @@ CSS Flexbox is a powerful layout model that enables flexible and responsive desi
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Flexbox Layout</title>
     <style>
         .container {
@@ -3368,7 +3368,7 @@ CSS Grid Layout provides a powerful way to create responsive grid-based layouts.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>CSS Grid Layout</title>
     <style>
         .container {
@@ -3591,6 +3591,12 @@ By utilizing these HTML tags and attributes effectively, webmasters can optimize
 <meta name="keywords" content="SEO, HTML, meta tags, keywords">
 ```
 
+[![Edit 096-Meta Keywords Tag](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/096-meta-keywords-tag-ykmyqn)
+
+- [^96]CodeSandbox: Meta Keywords Tag.
+
+[^96]:[CodeSandbox: Meta Keywords Tag.](https://ykmyqn.csb.app/), last access: September 7, 2024.
+
 - While the `<meta name="keywords">` tag may not carry as much weight as it once did, it still provides a way to specify relevant keywords for the page's content. Including relevant keywords can still be beneficial, especially for other search engines that may use them as a ranking factor.
 
 #### Code Example: Viewport Meta Tag
@@ -3598,6 +3604,12 @@ By utilizing these HTML tags and attributes effectively, webmasters can optimize
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
+
+[![Edit 097-Viewport Meta Tag](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/097-viewport-meta-tag-zzj7nh)
+
+- [^97]CodeSandbox: Viewport Meta Tag.
+
+[^97]:[CodeSandbox: Viewport Meta Tag.](https://zzj7nh.csb.app/), last access: September 7, 2024.
 
 - The viewport meta tag ensures that the webpage is displayed correctly and responsively on different devices and screen sizes. Setting the initial scale to 1.0 ensures that the page is rendered at the correct zoom level on mobile devices.
 
@@ -3634,7 +3646,7 @@ Semantic HTML elements provide meaning to the structure of a webpage, making it 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic HTML5 Example</title>
 </head>
@@ -3744,7 +3756,7 @@ Performance optimization is crucial for delivering fast and responsive web exper
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Optimized Website</title>
   <link rel="stylesheet" href="styles.css">
@@ -3788,7 +3800,7 @@ Optimizing HTML for performance involves implementing various techniques to redu
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Optimized Website</title>
   <link rel="preload" href="styles.css" as="style">
@@ -3807,7 +3819,7 @@ Optimizing HTML for performance involves implementing various techniques to redu
 ##### Code Example: HTML Minification and Compression
 
 ```html
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Optimized Website</title></head><body><h1>Hello, World!</h1><p>Welcome to our optimized website.</p></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Optimized Website</title></head><body><h1>Hello, World!</h1><p>Welcome to our optimized website.</p></body></html>
 ```
 
 - This example demonstrates a minified HTML document where unnecessary whitespace, comments, and redundant attributes have been removed to reduce file size and improve load times.
@@ -3818,7 +3830,7 @@ Optimizing HTML for performance involves implementing various techniques to redu
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Optimized Website</title>
 </head>
@@ -3843,7 +3855,7 @@ Optimizing HTML for performance involves implementing various techniques to redu
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Optimized Website</title>
   <link rel="stylesheet" href="styles.min.css">
