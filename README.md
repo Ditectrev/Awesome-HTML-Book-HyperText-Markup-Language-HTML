@@ -2916,7 +2916,7 @@ Let's have an example of Responsive Meta Tag.
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Viewport Settings</title>
 </head>
 <body style="background-color: grey">
@@ -3602,7 +3602,7 @@ By utilizing these HTML tags and attributes effectively, webmasters can optimize
 #### Code Example: Viewport Meta Tag
 
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
 [![Edit 097-Viewport Meta Tag](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/097-viewport-meta-tag-zzj7nh)
@@ -3647,7 +3647,7 @@ Semantic HTML elements provide meaning to the structure of a webpage, making it 
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semantic HTML5 Example</title>
 </head>
 <body>
@@ -3713,7 +3713,7 @@ With the increasing usage of mobile devices for accessing the web, it's essentia
 ##### Code Example: Mobile Optimization
 
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
 ##### Code Example: Local Storage
@@ -3757,7 +3757,7 @@ Performance optimization is crucial for delivering fast and responsive web exper
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Optimized Website</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -3801,7 +3801,7 @@ Optimizing HTML for performance involves implementing various techniques to redu
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Optimized Website</title>
   <link rel="preload" href="styles.css" as="style">
   <link rel="preload" href="script.js" as="script">
@@ -3819,7 +3819,7 @@ Optimizing HTML for performance involves implementing various techniques to redu
 ##### Code Example: HTML Minification and Compression
 
 ```html
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Optimized Website</title></head><body><h1>Hello, World!</h1><p>Welcome to our optimized website.</p></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Optimized Website</title></head><body><h1>Hello, World!</h1><p>Welcome to our optimized website.</p></body></html>
 ```
 
 - This example demonstrates a minified HTML document where unnecessary whitespace, comments, and redundant attributes have been removed to reduce file size and improve load times.
@@ -3831,7 +3831,7 @@ Optimizing HTML for performance involves implementing various techniques to redu
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Optimized Website</title>
 </head>
 <body>
@@ -3856,7 +3856,7 @@ Optimizing HTML for performance involves implementing various techniques to redu
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Optimized Website</title>
   <link rel="stylesheet" href="styles.min.css">
 </head>
