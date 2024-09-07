@@ -3588,7 +3588,7 @@ By utilizing these HTML tags and attributes effectively, webmasters can optimize
 #### Code Example: Meta Keywords Tag
 
 ```html
-<meta name="keywords" content="SEO, HTML, meta tags, keywords">
+<meta name="keywords" content="SEO, HTML, meta tags, keywords" />
 ```
 
 [![Edit 096-Meta Keywords Tag](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/096-meta-keywords-tag-ykmyqn)
