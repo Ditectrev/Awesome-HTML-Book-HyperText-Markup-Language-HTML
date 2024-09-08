@@ -3677,6 +3677,12 @@ Semantic HTML elements provide meaning to the structure of a webpage, making it 
 </html>
 ```
 
+[![Edit 098-Semantic Markup](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/098-semantic-markup-t9dcrs)
+
+- [^98]CodeSandbox: Semantic Markup.
+
+[^98]:[CodeSandbox: Semantic Markup.](https://t9dcrs.csb.app/), last access: September 8, 2024.
+
 #### Form Enhancements
 
 HTML5 introduces new input types and attributes to enhance form usability and validation. By utilizing input types such as `email`, `url`, `tel`, and attributes like `required`, `placeholder`, and `pattern`, developers can create more user-friendly and robust web forms that provide better feedback and guidance to users.
@@ -3693,6 +3699,12 @@ HTML5 introduces new input types and attributes to enhance form usability and va
 </form>
 ```
 
+[![Edit 099-Form Enhancements](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/099-form-enhancements-2pv533)
+
+- [^99]CodeSandbox: Form Enhancements.
+
+[^99]:[CodeSandbox: Form Enhancements.](https://2pv533.csb.app/), last access: September 8, 2024.
+
 #### Multimedia Integration
 
 The `<audio>` and `<video>` elements in HTML5 allow developers to embed audio and video content directly into web pages without relying on third-party plugins like Flash. This enables seamless playback experiences for users across different browsers and devices, improving accessibility and user engagement.
@@ -3705,6 +3717,12 @@ The `<audio>` and `<video>` elements in HTML5 allow developers to embed audio an
     Your browser does not support the video tag.
 </video>
 ```
+
+[![Edit 100-Multimedia Integration](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/100-multimedia-integration-zlskc5)
+
+- [^100]CodeSandbox: Multimedia Integration.
+
+[^100]:[CodeSandbox: Multimedia Integration.](https://zlskc5.csb.app/), last access: September 8, 2024.
 
 #### Mobile Optimization
 
