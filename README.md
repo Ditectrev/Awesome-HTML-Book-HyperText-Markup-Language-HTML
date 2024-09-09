@@ -264,7 +264,6 @@
       - [Code Example: Multimedia Integration](#code-example-multimedia-integration)
     - [Mobile Optimization](#mobile-optimization)
       - [Code Example: Mobile Optimization](#code-example-mobile-optimization)
-      - [Code Example: Local Storage](#code-example-local-storage)
     - [Accessibility Features](#accessibility-features)
       - [Code Example: Accessibility Features](#code-example-accessibility-features)
     - [Performance Optimization](#performance-optimization)
@@ -3734,15 +3733,11 @@ With the increasing usage of mobile devices for accessing the web, it's essentia
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
-##### Code Example: Local Storage
+[![Edit 101-Mobile Optimization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/101-mobile-optimization-mmrlcx)
 
-```html
-<script>
-    localStorage.setItem('username', 'John');
-    let username = localStorage.getItem('username');
-    console.log(username); // Output: John
-</script>
-```
+- [^101]CodeSandbox: Mobile Optimization.
+
+[^101]:[CodeSandbox: Mobile Optimization.](https://mmrlcx.csb.app/), last access: September 9, 2024.
 
 #### Accessibility Features
 
@@ -3754,16 +3749,11 @@ Accessibility is an important aspect of web development, ensuring that web conte
 <button aria-label="Close">X</button>
 ```
 
-#### Performance Optimization
+[![Edit 102-Accessibility Features](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/102-accessibility-features-2tk54j)
 
-Performance optimization is crucial for delivering fast and responsive web experiences. By minimizing HTTP requests, optimizing resource delivery, and using techniques like lazy loading and asynchronous loading, developers can improve page load times, reduce bandwidth usage, and enhance overall performance.
+- [^102]CodeSandbox: Accessibility Features.
 
-##### Code Example: Performance Optimization
-
-```html
-<link rel="stylesheet" href="styles.css">
-<script src="script.js" defer></script>
-```
+[^102]:[CodeSandbox: Accessibility Features.](https://2tk54j.csb.app/), last access: September 9, 2024.
 
 #### Code Organization and Commenting
 
@@ -3808,11 +3798,17 @@ Performance optimization is crucial for delivering fast and responsive web exper
 </html>
 ```
 
+[![Edit 103-Code Organization and Commenting](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/103-code-organization-and-commenting-722xxt)
+
+- [^103]CodeSandbox: Code Organization and Commenting.
+
+[^103]:[CodeSandbox: Code Organization and Commenting.](https://722xxt.csb.app/), last access: September 9, 2024.
+
 - In this example, the HTML code is organized into distinct sections (header, main content, footer), making it easier to understand and maintain. Comments are used to provide context and describe the purpose of each section.
 
 #### HTML Performance Optimization Techniques
 
-Optimizing HTML for performance involves implementing various techniques to reduce file size, minimize render-blocking resources, and improve load times. Below are additional code examples for HTML performance optimization:
+Performance optimization is crucial for delivering fast and responsive web experiences. By minimizing HTTP requests, optimizing resource delivery, and using techniques like lazy loading and asynchronous loading, developers can improve page load times, reduce bandwidth usage, and enhance overall performance. Optimizing HTML for performance involves implementing various techniques to reduce file size, minimize render-blocking resources, and improve load times. Below are additional code examples for HTML performance optimization:
 
 ```html
 <!DOCTYPE html>
