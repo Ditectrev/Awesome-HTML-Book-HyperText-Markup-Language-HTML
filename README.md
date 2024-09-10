@@ -456,7 +456,7 @@ h1 {
 
 ```javascript
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("Welcome to My First Website!");
+    alert("Welcome to My First Website!");
 });
 ```
 
