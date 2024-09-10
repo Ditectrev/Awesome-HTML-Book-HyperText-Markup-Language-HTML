@@ -3767,7 +3767,6 @@ Accessibility is an important aspect of web development, ensuring that web conte
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Optimized Website</title>
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Header -->
@@ -3828,6 +3827,11 @@ Performance optimization is crucial for delivering fast and responsive web exper
 </html>
 ```
 
+[![Edit 104-HTML Performance Optimization Techniques](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/104-html-performance-optimization-techniques-qm3w7j)
+
+- [^104]CodeSandbox: HTML Performance Optimization Techniques.
+
+[^104]:[CodeSandbox: HTML Performance Optimization Techniques.](https://qm3w7j.csb.app/), last access: September 10, 2024.
 - In this example, the `<link rel="preload">` tag is used to prioritize the loading of critical resources (CSS and JavaScript files) by indicating their importance and specifying the `as` attribute to define the resource type.
 
 ##### Code Example: HTML Minification and Compression
