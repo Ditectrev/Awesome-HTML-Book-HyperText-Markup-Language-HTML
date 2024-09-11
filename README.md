@@ -3873,7 +3873,7 @@ h1 {
 
 - [^105]CodeSandbox: HTML Minification and Compression.
 
-[^105]:[CodeSandbox: HTML Minification and Compression.](https://qm3w7j.csb.app/), last access: September 11, 2024.
+[^105]:[CodeSandbox: HTML Minification and Compression.](https://vdpynt.csb.app/), last access: September 11, 2024.
 
 - This example demonstrates a minified HTML document where unnecessary whitespace, comments, and redundant attributes have been removed to reduce file size and improve load times.
 
