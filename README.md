@@ -2613,6 +2613,14 @@ For larger projects or better code organization, it's common practice to separat
 </html>
 ```
 
+In `script.js`, write a simple script:
+
+```javascript
+function greet() {
+    alert("Hello, world!");
+}
+```
+
 [![Edit 066-External JavaScript Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/066-external-javascript-example-sttc6x)
 
 - [^66]CodeSandbox: External JavaScript Example.
@@ -3827,11 +3835,32 @@ Performance optimization is crucial for delivering fast and responsive web exper
 </html>
 ```
 
+In `script.js`, write a simple script:
+
+```javascript
+document.addEventListener("DOMContentLoaded", function () {
+    alert("Welcome to My First Website!");
+});
+```
+
+In `styles.css`, add simple styling:
+
+```css
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: navy;
+}
+```
+
 [![Edit 104-HTML Performance Optimization Techniques](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/104-html-performance-optimization-techniques-qm3w7j)
 
 - [^104]CodeSandbox: HTML Performance Optimization Techniques.
 
 [^104]:[CodeSandbox: HTML Performance Optimization Techniques.](https://qm3w7j.csb.app/), last access: September 10, 2024.
+
 - In this example, the `<link rel="preload">` tag is used to prioritize the loading of critical resources (CSS and JavaScript files) by indicating their importance and specifying the `as` attribute to define the resource type.
 
 ##### Code Example: HTML Minification and Compression
@@ -3839,6 +3868,12 @@ Performance optimization is crucial for delivering fast and responsive web exper
 ```html
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Optimized Website</title></head><body><h1>Hello, World!</h1><p>Welcome to our optimized website.</p></body></html>
 ```
+
+[![Edit 105-HTML Minification and Compression](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/105-html-minification-and-compression-vdpynt)
+
+- [^105]CodeSandbox: HTML Minification and Compression.
+
+[^105]:[CodeSandbox: HTML Minification and Compression.](https://qm3w7j.csb.app/), last access: September 11, 2024.
 
 - This example demonstrates a minified HTML document where unnecessary whitespace, comments, and redundant attributes have been removed to reduce file size and improve load times.
 
