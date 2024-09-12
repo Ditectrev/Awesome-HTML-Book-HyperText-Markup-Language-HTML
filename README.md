@@ -3889,11 +3889,17 @@ h1 {
 </head>
 <body>
   <h1>Hello, World!</h1>
-  <img src="placeholder.jpg" data-src="image.jpg" loading="lazy" alt="Lazy Loaded Image">
+  <img src="placeholder.png" loading="lazy" alt="Lazy Loaded Image">
   <p>Welcome to our optimized website.</p>
 </body>
 </html>
 ```
+
+[![Edit 106-Lazy Loading of Images](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/106-lazy-loading-of-images-mx2q9r)
+
+- [^106]CodeSandbox: Lazy Loading of Images.
+
+[^106]:[CodeSandbox: Lazy Loading of Images.](https://mx2q9r.csb.app/), last access: September 12, 2024.
 
 - The `loading="lazy"` attribute is applied to the `<img>` tag, instructing the browser to lazily load the image when it enters the viewport, reducing initial page load times and improving performance.
 
