@@ -3927,6 +3927,24 @@ h1 {
 </html>
 ```
 
+In `script.js`, write a simple script and take note of the minified code, which can be achieved using multiple JavaScript minifiers:
+
+```javascript
+document.addEventListener("DOMContentLoaded",function(){alert("Welcome to My First Website!")});
+```
+
+In `styles.css`, add simple styling and take note of the minified code, which can be achieved using multiple CSS minifiers:
+
+```css
+body{font-family:Arial,sans-serif}h1{color:navy}
+```
+
+[![Edit 107-CSS and JavaScript Optimization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/107-css-and-javascript-optimization-nz9jsn)
+
+- [^107]CodeSandbox: CSS and JavaScript Optimization.
+
+[^107]:[CodeSandbox: CSS and JavaScript Optimization.](https://nz9jsn.csb.app/), last access: September 29, 2024.
+
 - In this example, CSS and JavaScript files are minified and combined into single files (`styles.min.css` and `scripts.min.js`) to minimize the number of HTTP requests required for fetching external resources, thereby improving page load times.
 
 ### Conclusion: HTML Best Practices and Perfomance Optimization
