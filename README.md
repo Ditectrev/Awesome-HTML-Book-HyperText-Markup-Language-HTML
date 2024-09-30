@@ -428,15 +428,15 @@ MyFirstWebsite/
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
+  <head>
     <title>My First Website</title>
     <link rel="stylesheet" href="styles.css">
-	</head>
-	<body>
+  </head>
+  <body>
     <h1>Welcome to My Website</h1>
     <p>This is a paragraph on my first webpage.</p>
     <script src="script.js"></script>
-	</body>
+  </body>
 </html>
 ```
 
@@ -518,14 +518,14 @@ An HTML document is structured with various elements, each serving a specific pu
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Document Title</title>
     <!-- Other head elements like links to CSS files, metadata go here -->
-	</head>
-	<body>
+  </head>
+  <body>
     <!-- Webpage content goes here -->
-	</body>
+  </body>
 </html>
 ```
 
@@ -574,14 +574,14 @@ The DOCTYPE declaration should be the very first thing in an HTML document, befo
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Simple Page</title>
-	</head>
-	<body>
+  </head>
+  <body>
     <h1>Hello, World!</h1>
     <p>This is a simple HTML page.</p>
-	</body>
+  </body>
 </html>
 ```
 
@@ -1447,31 +1447,31 @@ Here's a basic example of how to structure an SPA with semantic HTML, incorporat
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>SPA with Semantic HTML</title>
-	</head>
-	<body>
-		<header role="banner">
-    	<nav role="navigation">
-      	<ul>
-        	<li><a href="#home" onclick="loadHome()">Home</a></li>
-        	<li><a href="#about" onclick="loadAbout()">About</a></li>
-        	<li><a href="#contact" onclick="loadContact()">Contact</a></li>
-      	</ul>
-    	</nav>
-		</header>
+  </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        <ul>
+          <li><a href="#home" onclick="loadHome()">Home</a></li>
+          <li><a href="#about" onclick="loadAbout()">About</a></li>
+          <li><a href="#contact" onclick="loadContact()">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-		<main role="main" id="mainContent">
-    	<!-- Dynamic content loaded here based on navigation -->
-		</main>
+    <main role="main" id="mainContent">
+      <!-- Dynamic content loaded here based on navigation -->
+    </main>
 
-		<footer role="contentinfo">
-    	<p>© 2024 Semantic SPA. All rights reserved.</p>
-		</footer>
+    <footer role="contentinfo">
+      <p>© 2024 Semantic SPA. All rights reserved.</p>
+    </footer>
 
-		<script src="app.js"></script>
-	</body>
+    <script src="app.js"></script>
+  </body>
 </html>
 ```
 
@@ -1523,30 +1523,30 @@ Here's an example of how to use microdata in an HTML document to define an artic
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Microdata Example: Article</title>
-	</head>
-	<body>
-		<article itemscope itemtype="http://schema.org/Article">
-    	<header>
+  </head>
+  <body>
+    <article itemscope itemtype="http://schema.org/Article">
+      <header>
         <h1 itemprop="headline">Exploring the Stars: The Future of Space Travel</h1>
         <p><time itemprop="datePublished" datetime="2024-05-04">May 4, 2024</time></p>
         <p>By <span itemprop="author">Alex Johnson</span></p>
-    	</header>
+      </header>
 
-    	<img src="space-travel.jpg" itemprop="image" alt="A futuristic spaceship">
+      <img src="space-travel.jpg" itemprop="image" alt="A futuristic spaceship">
 
-    	<p itemprop="articleBody">As humanity looks towards the stars, the future of space travel seems more exciting than ever. With advancements in technology, what was once science fiction is becoming reality...</p>
+      <p itemprop="articleBody">As humanity looks towards the stars, the future of space travel seems more exciting than ever. With advancements in technology, what was once science fiction is becoming reality...</p>
 
-    	<footer>
-				<p>Categories: <span itemprop="articleSection">Science, Space Exploration</span></p>
-      	<p itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <footer>
+        <p>Categories: <span itemprop="articleSection">Science, Space Exploration</span></p>
+        <p itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
             Published by: <span itemprop="name">AstroMag</span>
-      	</p>
-    	</footer>
-		</article>
-	</body>
+        </p>
+      </footer>
+    </article>
+  </body>
 </html>
 ```
 
@@ -1669,30 +1669,30 @@ Semantic HTML plays a crucial role in SEO (Search Engine Optimization) by provid
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>SEO and Semantic HTML</title>
-	</head>
-	<body>
-		<header>
-    	<h1>Welcome to My Blog</h1>
-		</header>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Blog</h1>
+    </header>
 
-		<main>
-    	<article>
+    <main>
+      <article>
         <h2>How to Optimize Your Website for SEO</h2>
         <p>Search engine optimization is crucial for online visibility...</p>
-    	</article>
-    	<article>
+      </article>
+      <article>
         <h2>The Importance of Quality Content</h2>
         <p>Creating valuable and relevant content...</p>
-    	</article>
-		</main>
+      </article>
+    </main>
 
-		<footer>
-    	<p>© 2024 My Blog. All rights reserved.</p>
-		</footer>
-	</body>
+    <footer>
+      <p>© 2024 My Blog. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
 ```
 
@@ -1862,38 +1862,38 @@ The homepage of "EcoShop" is structured to provide a clear hierarchy and meaning
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>EcoShop - Eco-Friendly Products</title>
-	</head>
-	<body>
-		<header>
-    	<nav>
+  </head>
+  <body>
+    <header>
+      <nav>
         <ul>
           <li><a href="/products">Products</a></li>
           <li><a href="/about">About Us</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
-    	</nav>
-		</header>
+      </nav>
+    </header>
 
-		<main>
-    	<section id="featured-products">
+    <main>
+      <section id="featured-products">
         <h2>Featured Products</h2>
-        	<div class="product-list">
+          <div class="product-list">
             <!-- Product items dynamically loaded here -->
-        	</div>
-    	</section>
-    	<section id="sustainability-goals">
+          </div>
+      </section>
+      <section id="sustainability-goals">
         <h2>Our Sustainability Goals</h2>
         <p>At EcoShop, we are committed to reducing environmental impact...</p>
-    	</section>
-		</main>
+      </section>
+    </main>
 
-		<footer>
-    	<p>© 2024 EcoShop. All rights reserved.</p>
-		</footer>
-	</body>
+    <footer>
+      <p>© 2024 EcoShop. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
 ```
 
@@ -2354,7 +2354,7 @@ Internal CSS, also known as embedded CSS, involves placing CSS rules within a `<
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Internal (Embedded) CSS</title>
     <style>
@@ -2363,10 +2363,10 @@ Internal CSS, also known as embedded CSS, involves placing CSS rules within a `<
             font-size: 18px;
         }
     </style>
-	</head>
-	<body>
+  </head>
+  <body>
     <p>This is a green paragraph with a font size of 18px.</p>
-	</body>
+  </body>
 </html>
 ```
 
@@ -2387,14 +2387,14 @@ External CSS involves creating a separate CSS file with styles that can be reuse
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>External CSS</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-	</head>
-	<body>
+  </head>
+  <body>
     <p>This paragraph is styled using an external CSS file.</p>
-	</body>
+  </body>
 </html>
 ```
 
@@ -2423,17 +2423,17 @@ CSS frameworks like Bootstrap, Foundation, and Bulma provide pre-designed styles
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>CSS Frameworks</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css">
-	</head>
-	<body>
+  </head>
+  <body>
     <div class="container">
       <h1>Bootstrap Example</h1>
       <button class="btn btn-primary">Click Me</button>
     </div>
-	</body>
+  </body>
 </html>
 ```
 
@@ -2552,7 +2552,7 @@ JavaScript code can be embedded directly within HTML documents using the `<scrip
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Embedded JavaScript Example</title>
     <script>
@@ -2561,11 +2561,11 @@ JavaScript code can be embedded directly within HTML documents using the `<scrip
             alert('Hello, world!');
         }
     </script>
-	</head>
-	<body>
+  </head>
+  <body>
     <h1>Embedded JavaScript Example</h1>
     <button onclick="greet()">Click me</button>
-	</body>
+  </body>
 </html>
 ```
 
@@ -2594,15 +2594,15 @@ For larger projects or better code organization, it's common practice to separat
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>External JavaScript Example</title>
     <script src="script.js"></script>
-	</head>
-	<body>
+  </head>
+  <body>
     <h1>External JavaScript Example</h1>
     <button onclick="greet()">Click me</button>
-	</body>
+  </body>
 </html>
 ```
 
@@ -2639,11 +2639,11 @@ JavaScript interacts with HTML through the Document Object Model (DOM), a hierar
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>DOM Manipulation Example</title>
-	</head>
-	<body>
+  </head>
+  <body>
     <h1 id="heading">JavaScript Example</h1>
     <button onclick="changeText()">Change Text</button>
 
@@ -2652,7 +2652,7 @@ JavaScript interacts with HTML through the Document Object Model (DOM), a hierar
         document.getElementById('heading').textContent = 'New Heading';
       }
     </script>
-	</body>
+  </body>
 </html>
 ```
 
@@ -2692,11 +2692,11 @@ JavaScript enables developers to handle user interactions and browser events thr
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Event Handling Example</title>
-	</head>
-	<body>
+  </head>
+  <body>
     <button id="btn">Click me</button>
 
     <script>
@@ -2704,7 +2704,7 @@ JavaScript enables developers to handle user interactions and browser events thr
         alert('Button clicked!');
       });
     </script>
-	</body>
+  </body>
 </html>
 ```
 
@@ -3171,24 +3171,24 @@ Configure server-side caching and leverage browser caching mechanisms to store i
 <!DOCTYPE html>
 <html>
   <head>
-  	<meta charset="UTF-8" />
-		<meta
-			http-equiv="Cache-Control"
-			content="no-cache, no-store, must-revalidate"
-		/>
- 		<meta http-equiv="Pragma" content="no-cache" />
-		<meta http-equiv="Expires" content="0" />
-		<title>Enable Browser Caching</title>
-	</head>
-	<body>
-		<!-- Example of enabling browser caching with cache-control headers -->
-		<img
-			src="cached-image.jpg"
-			alt="Cached Image"
-			style="max-width: 100%; height: auto"
-			loading="lazy"
-		/>
-	</body>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+     <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Enable Browser Caching</title>
+  </head>
+  <body>
+    <!-- Example of enabling browser caching with cache-control headers -->
+    <img
+      src="cached-image.jpg"
+      alt="Cached Image"
+      style="max-width: 100%; height: auto"
+      loading="lazy"
+    />
+  </body>
 </html>
 ```
 
@@ -3317,12 +3317,12 @@ CSS Flexbox is a powerful layout model that enables flexible and responsive desi
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Flexbox Layout</title>
     <style>
-			.container {
- 				background-color: #ff0000;
+      .container {
+         background-color: #ff0000;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -3334,14 +3334,14 @@ CSS Flexbox is a powerful layout model that enables flexible and responsive desi
         padding: 20px;
       }
     </style>
-	</head>
-	<body>
+  </head>
+  <body>
     <div class="container">
       <div class="item">Item 1</div>
       <div class="item">Item 2</div>
       <div class="item">Item 3</div>
     </div>
-	</body>
+  </body>
 </html>
 ```
 
@@ -3367,7 +3367,7 @@ CSS Grid Layout provides a powerful way to create responsive grid-based layouts.
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
     <meta charset="UTF-8" />
     <title>CSS Grid Layout</title>
     <style>
@@ -3382,14 +3382,14 @@ CSS Grid Layout provides a powerful way to create responsive grid-based layouts.
          padding: 20px;
       }
     </style>
-	</head>
-	<body>
+  </head>
+  <body>
     <div class="container">
       <div class="item">Item 1</div>
       <div class="item">Item 2</div>
       <div class="item">Item 3</div>
     </div>
-	</body>
+  </body>
 </html>
 ```
 
@@ -3645,21 +3645,21 @@ Semantic HTML elements provide meaning to the structure of a webpage, making it 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semantic HTML5 Example</title>
-	</head>
-	<body>
+  </head>
+  <body>
     <header>
-			<h1>Website Header</h1>
-			<nav>
-				<ul>
+      <h1>Website Header</h1>
+      <nav>
+        <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
+        </ul>
+      </nav>
     </header>
     <main>
       <section>
@@ -3668,12 +3668,12 @@ Semantic HTML elements provide meaning to the structure of a webpage, making it 
             <h3>Article Title</h3>
             <p>Article content goes here...</p>
           </article>
-			</section>
+      </section>
     </main>
     <footer>
       <p>&copy; 2024 Your Website. All rights reserved.</p>
     </footer>
-	</body>
+  </body>
 </html>
 ```
 
@@ -3764,37 +3764,37 @@ Accessibility is an important aspect of web development, ensuring that web conte
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-  	<meta charset="UTF-8" />
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  	<title>Optimized Website</title>
-	</head>
-	<body>
-  	<!-- Header -->
-  	<header>
-    	<h1>Website Header</h1>
-    	<nav>
-      	<ul>
-        	<li><a href="#">Home</a></li>
-        	<li><a href="#">About</a></li>
-        	<li><a href="#">Contact</a></li>
-      	</ul>
-    	</nav>
-  	</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Optimized Website</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Website Header</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  	<!-- Main Content -->
-  	<main>
-    	<section>
-      	<h2>Main Section</h2>
-      	<p>This is the main content section of the page.</p>
-    	</section>
-  	</main>
+    <!-- Main Content -->
+    <main>
+      <section>
+        <h2>Main Section</h2>
+        <p>This is the main content section of the page.</p>
+      </section>
+    </main>
 
-	  <!-- Footer -->
-  	<footer>
-    	<p>&copy; 2024 Optimized Website. All rights reserved.</p>
-  	</footer>
-	</body>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Optimized Website. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
 ```
 
@@ -3813,18 +3813,18 @@ Performance optimization is crucial for delivering fast and responsive web exper
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-  	<meta charset="UTF-8" />
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  	<title>Optimized Website</title>
-  	<link rel="preload" href="styles.css" as="style">
-  	<link rel="preload" href="script.js" as="script">
-	</head>
-	<body>
-  	<!-- Content of the web page -->
-  	<h1>Hello, World!</h1>
-  	<p>Welcome to our optimized website.</p>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Optimized Website</title>
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+  </head>
+  <body>
+    <!-- Content of the web page -->
+    <h1>Hello, World!</h1>
+    <p>Welcome to our optimized website.</p>
+  </body>
 </html>
 ```
 
@@ -3875,16 +3875,16 @@ h1 {
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-  	<meta charset="UTF-8" />
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  	<title>Optimized Website</title>
-	</head>
-	<body>
-  	<h1>Hello, World!</h1>
-  	<img src="placeholder.png" loading="lazy" alt="Lazy Loaded Image">
-  	<p>Welcome to our optimized website.</p>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Optimized Website</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <img src="placeholder.png" loading="lazy" alt="Lazy Loaded Image">
+    <p>Welcome to our optimized website.</p>
+  </body>
 </html>
 ```
 
@@ -3906,18 +3906,18 @@ h1 {
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-  	<meta charset="UTF-8" />
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>CSS and JavaScript Optimization</title>
-		<link rel="stylesheet" href="styles.min.css">
-	</head>
-	<body>
-  	<h1>Welcome to My Website</h1>
-		<p>This is a paragraph on my first webpage.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS and JavaScript Optimization</title>
+    <link rel="stylesheet" href="styles.min.css">
+  </head>
+  <body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph on my first webpage.</p>
 
-	  <script src="scripts.min.js" defer></script>
-	</body>
+    <script src="scripts.min.js" defer></script>
+  </body>
 </html>
 ```
 
