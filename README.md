@@ -3647,7 +3647,6 @@ Semantic HTML elements provide meaning to the structure of a webpage, making it 
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semantic HTML5 Example</title>
   </head>
   <body>
@@ -3766,7 +3765,6 @@ Accessibility is an important aspect of web development, ensuring that web conte
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Optimized Website</title>
   </head>
   <body>
@@ -3815,7 +3813,6 @@ Performance optimization is crucial for delivering fast and responsive web exper
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Optimized Website</title>
     <link rel="preload" href="styles.css" as="style">
     <link rel="preload" href="script.js" as="script">
@@ -3859,7 +3856,7 @@ h1 {
 ##### Code Example: HTML Minification and Compression
 
 ```html
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Optimized Website</title></head><body><h1>Hello, World!</h1><p>Welcome to our optimized website.</p></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><title>Optimized Website</title></head><body><h1>Hello, World!</h1><p>Welcome to our optimized website.</p></body></html>
 ```
 
 [![Edit 105-HTML Minification and Compression](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/105-html-minification-and-compression-vdpynt)
@@ -3873,19 +3870,9 @@ h1 {
 ##### Code Example: Lazy Loading of Images
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Optimized Website</title>
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <img src="placeholder.png" loading="lazy" alt="Lazy Loaded Image">
-    <p>Welcome to our optimized website.</p>
-  </body>
-</html>
+<h1>Hello, World!</h1>
+<img src="placeholder.png" loading="lazy" alt="Lazy Loaded Image">
+<p>Welcome to our optimized website.</p>
 ```
 
 [![Edit 106-Lazy Loading of Images](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/106-lazy-loading-of-images-mx2q9r)
@@ -3908,7 +3895,6 @@ h1 {
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS and JavaScript Optimization</title>
     <link rel="stylesheet" href="styles.min.css">
   </head>
@@ -3958,36 +3944,26 @@ HTML5 introduces a multitude of APIs that empower developers to create sophistic
 The Geolocation API enables web applications to access the user's geographic location, providing valuable information for location-based services and applications. Developers can use this API to retrieve the user's current position, monitor changes in position over time, and calculate distance and direction between locations. This functionality opens up possibilities for location-aware features such as mapping, local search, navigation, and location-based notifications.
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Geolocation API</title>
-  </head>
-  <body>
-    <p>Latitude: <span id="latitude"></span></p>
-    <p>Longitude: <span id="longitude"></span></p>
+<p>Latitude: <span id="latitude"></span></p>
+<p>Longitude: <span id="longitude"></span></p>
 
-    <script>
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(
-          function (position) {
-            document.getElementById("latitude").innerHTML =
-              position.coords.latitude;
-            document.getElementById("longitude").innerHTML =
-              position.coords.longitude;
-          },
-          function (error) {
-            alert("Error getting geolocation: " + error.message);
-          }
-        );
-      } else {
-        alert("Geolocation is not supported by this browser");
+<script>
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      function (position) {
+        document.getElementById("latitude").innerHTML =
+          position.coords.latitude;
+        document.getElementById("longitude").innerHTML =
+          position.coords.longitude;
+        },
+      function (error) {
+        alert("Error getting geolocation: " + error.message);
       }
-    </script>
-  </body>
-</html>
+    );
+  } else {
+    alert("Geolocation is not supported by this browser");
+  }
+</script>
 ```
 
 [![Edit 108-Geolocation API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/108-geolocation-api-443vqt)
@@ -4010,9 +3986,15 @@ The Web Storage API provides a mechanism for storing key-value pairs locally wit
 localStorage.setItem("username", "John");
 
 // Retrieve data from local storage
-var username = localStorage.getItem("username");
-console.log("Username: " + username);
+const username = localStorage.getItem("username");
+alert("Username: " + username);
 ```
+
+[![Edit 109-Web Storage API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/109-web-storage-api-729wnm)
+
+- [^109]CodeSandbox: Web Storage API.
+
+[^109]:[CodeSandbox: Web Storage API.](https://729wnm.csb.app/), last access: September 30, 2024.
 
 - The code above demonstrates how to use `localStorage` to store and retrieve data.
 - The `setItem()` method is used to store a key-value pair ("username" and "John") in local storage.
