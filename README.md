@@ -2914,14 +2914,14 @@ Let's have an example of Responsive Meta Tag.
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Viewport Settings</title>
-</head>
-<body style="background-color: grey">
+  </head>
+  <body style="background-color: grey">
     <!-- Content -->
-</body>
+  </body>
 </html>
 ```
 
