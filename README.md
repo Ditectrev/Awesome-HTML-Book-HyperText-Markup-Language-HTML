@@ -1226,8 +1226,8 @@ Using JavaScript, we'll add event listeners to dynamically update the form.
 ```html
 <script>
 document.getElementById('choice').addEventListener('change', function() {
-    var value = this.value;
-    var additionalFields = document.getElementById('additionalFields');
+    const value = this.value;
+    const additionalFields = document.getElementById('additionalFields');
 
     additionalFields.innerHTML = ''; // Clear existing fields
 
@@ -2000,8 +2000,8 @@ On such an element, with the help of JavaScript, we can draw, for example, a cir
 
 ```javascript
 <script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
+const c = document.getElementById("myCanvas");
+const ctx = c.getContext("2d");
 ctx.beginPath();
 ctx.arc(95, 50, 40, 0, 2 * Math.PI);
 ctx.stroke();
@@ -2037,8 +2037,8 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    var latitude = position.coords.latitude;
-    var longitude = position.coords.longitude;
+    const latitude = position.coords.latitude;
+    const longitude = position.coords.longitude;
     document.getElementById("demo").innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
 }
 </script>
@@ -2128,7 +2128,7 @@ function allowDrop(event) {
 
 function drop(event) {
     event.preventDefault();
-    var data = event.dataTransfer.getData("text");
+    const data = event.dataTransfer.getData("text");
     event.target.appendChild(document.getElementById(data));
 }
 </script>
@@ -4004,9 +4004,17 @@ alert("Username: " + username);
 
 The Canvas API provides a powerful set of drawing and graphics capabilities, allowing developers to create dynamic and interactive graphics directly within the browser. With the Canvas API, developers can draw shapes, paths, text, images, and even perform animations and transformations. This API is commonly used for creating charts, graphs, games, image editing tools, and other visually rich content.
 
+The `<canvas>` element is a powerful tool for creating graphics and animations directly within a web page.
+
+```html
+<canvas id="myCanvas" width="400" height="200" style="border:1px solid #000000;"></canvas>
+```
+
+On such an element, with the help of JavaScript, we can draw, for example, a rectangle, and a circle.
+
 ```javascript
-var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
 
 // Draw a red rectangle
 ctx.fillStyle = "red";
@@ -4019,6 +4027,12 @@ ctx.fillStyle = "blue";
 ctx.fill();
 ```
 
+[![Edit 110-Canvas API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/110-canvas-api-lgtkpg)
+
+- [^110]CodeSandbox: Canvas API.
+
+[^110]:[CodeSandbox: Canvas API.](https://lgtkpg.csb.app/), last access: October 1, 2024.
+
 - The code above demonstrates how to use the Canvas API to draw shapes on a canvas element.
 - First, a canvas context (`2d`) is obtained from the canvas element.
 - Then, a red rectangle and a blue circle are drawn using `fillRect()` and `arc()` methods, respectively.
@@ -4030,16 +4044,30 @@ The Web Workers API enables concurrent execution of scripts in background thread
 
 ```javascript
 // Create a new web worker
-var worker = new Worker("worker.js");
+const worker = new Worker("worker.js");
 
 // Handle messages from the worker
 worker.onmessage = function(event) {
-  console.log("Message from worker: " + event.data);
+  alert("Message from worker: " + event.data);
 };
 
 // Send a message to the worker
 worker.postMessage("Hello from main thread!");
 ```
+
+Additionally, a simple `worker.js` file:
+
+```javascript
+self.addEventListener("message", (e) => {
+  self.postMessage(e.data);
+});
+```
+
+[![Edit 111-Web Workers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/110-canvas-api-lgtkpg)
+
+- [^111]CodeSandbox: Web Workers.
+
+[^111]:[CodeSandbox: Web Workers.](https://lgtkpg.csb.app/), last access: October 1, 2024.
 
 - The code above demonstrates how to use web workers to perform tasks in background threads.
 - First, a new web worker is created by passing the path to a worker script (`worker.js`).
