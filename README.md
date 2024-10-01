@@ -4063,11 +4063,11 @@ self.addEventListener("message", (e) => {
 });
 ```
 
-[![Edit 111-Web Workers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/110-canvas-api-lgtkpg)
+[![Edit 111-Web Workers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/111-web-workers-snqmpz)
 
 - [^111]CodeSandbox: Web Workers.
 
-[^111]:[CodeSandbox: Web Workers.](https://lgtkpg.csb.app/), last access: October 1, 2024.
+[^111]:[CodeSandbox: Web Workers.](https://snqmpz.csb.app/), last access: October 1, 2024.
 
 - The code above demonstrates how to use web workers to perform tasks in background threads.
 - First, a new web worker is created by passing the path to a worker script (`worker.js`).
