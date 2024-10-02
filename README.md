@@ -3998,7 +3998,7 @@ alert("Username: " + username);
 
 - The code above demonstrates how to use `localStorage` to store and retrieve data.
 - The `setItem()` method is used to store a key-value pair ("username" and "John") in local storage.
-- Later, the `getItem()` method retrieves the value associated with the "username" key, which is then logged to the console.
+- Later, the `getItem()` method retrieves the value associated with the "username" key, which is then alerted to the user.
 
 #### Canvas API
 
@@ -4081,24 +4081,30 @@ The WebSocket API enables full-duplex communication between web browsers and ser
 
 ```javascript
 // Create a WebSocket connection
-var socket = new WebSocket("ws://localhost:8080");
+const socket = new WebSocket("wss://echo.websocket.org");
 
 // Handle connection open event
 socket.onopen = function(event) {
-  console.log("WebSocket connected!");
+  alert("WebSocket connected!");
 };
 
 // Handle message received from server
 socket.onmessage = function(event) {
-  console.log("Message received: " + event.data);
+  alert("Message received: " + event.data);
 };
 
 // Send a message to the server
 socket.send("Hello from client!");
 ```
 
+[![Edit 112-WebSocket API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/112-websocket-api-dypkvz)
+
+- [^112]CodeSandbox: WebSocket API.
+
+[^112]:[CodeSandbox: WebSocket API.](https://dypkvz.csb.app/), last access: October 2, 2024.
+
 - The code above demonstrates how to establish a WebSocket connection with a server.
-- Upon successful connection (`onopen` event), the client logs a message to the console.
+- Upon successful connection (`onopen` event), the client logs a message to the alert popup.
 - Messages received from the server are handled via the `onmessage` event handler.
 - Messages can be sent to the server using the `send()` method.
 
@@ -4122,11 +4128,17 @@ document.getElementById("dropzone").addEventListener("dragover", function(event)
 });
 document.getElementById("dropzone").addEventListener("drop", function(event) {
   event.preventDefault();
-  var data = event.dataTransfer.getData("text/plain");
+  const data = event.dataTransfer.getData("text/plain");
   event.target.textContent = "Dropped: " + data;
 });
 </script>
 ```
+
+[![Edit 113-Drag and Drop API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/113-drag-and-drop-api-fsswsl)
+
+- [^113]CodeSandbox: Drag and Drop API.
+
+[^113]:[CodeSandbox: Drag and Drop API.](https://fsswsl.csb.app/), last access: October 2, 2024.
 
 - The code above demonstrates how to implement drag-and-drop functionality using the Drag and Drop API.
 - The `draggable` attribute is set to `true` on the draggable element, indicating that it can be dragged.
