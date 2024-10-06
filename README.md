@@ -4160,6 +4160,12 @@ The Audio and Video API allows web applications to embed and control audio and v
 </video>
 ```
 
+[![Edit 114-Audio and Video API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/114-audio-and-video-api-zzyzjg)
+
+- [^114]CodeSandbox: Audio and Video API.
+
+[^114]:[CodeSandbox: Audio and Video API.](https://zzyzjg.csb.app/), last access: October 6, 2024.
+
 - The code above demonstrates how to use the `<audio>` and `<video>` elements to embed audio and video content.
 - The `controls` attribute adds playback controls (play, pause, volume, etc.) to the media player.
 - Multiple `<source>` elements can be included to provide alternative formats or sources for the media content, ensuring compatibility with different browsers and devices.
@@ -4174,8 +4180,8 @@ The File API enables web applications to access and manipulate files on the user
 
 <script>
 function handleFile(event) {
-  var file = event.target.files[0];
-  var reader = new FileReader();
+  const file = event.target.files[0];
+  const reader = new FileReader();
   reader.onload = function(e) {
     document.getElementById("fileContents").textContent = e.target.result;
   };
@@ -4183,6 +4189,12 @@ function handleFile(event) {
 }
 </script>
 ```
+
+[![Edit 115-File API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/115-file-api-69c6jw)
+
+- [^115]CodeSandbox: File API.
+
+[^115]:[CodeSandbox: File API.](https://69c6jw.csb.app/), last access: October 6, 2024.
 
 - The code above demonstrates how to use the File API to read the contents of a file selected by the user.
 - When a file is selected using the `<input type="file">` element, the `onchange` event is triggered, calling the `handleFile()` function.
