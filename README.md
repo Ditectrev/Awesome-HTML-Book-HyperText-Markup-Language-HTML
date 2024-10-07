@@ -4209,15 +4209,21 @@ The WebRTC (Web Real-Time Communication) API enables peer-to-peer communication 
 <script>
 navigator.mediaDevices.getUserMedia({ audio: true, video: true })
   .then(function(stream) {
-    var videoElement = document.createElement('video');
+    const videoElement = document.createElement('video');
     videoElement.srcObject = stream;
     document.body.appendChild(videoElement);
   })
   .catch(function(error) {
-    console.log('getUserMedia error:', error);
+    alert('getUserMedia error:', error);
   });
 </script>
 ```
+
+[![Edit 116-WebRTC API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/116-webrtc-api-8kfdt8)
+
+- [^116]CodeSandbox: WebRTC API.
+
+[^116]:[CodeSandbox: WebRTC API.](https://8kfdt8.csb.app/), last access: October 7, 2024.
 
 - The code above demonstrates how to use the WebRTC API to access the user's audio and video devices and display a live video stream in the browser.
 - The `getUserMedia()` method is called on the `mediaDevices` object to request access to the user's microphone and camera.
@@ -4231,10 +4237,17 @@ The Media Capture and Streams API enables web applications to capture audio, vid
 <input type="file" accept="image/*" capture="camera">
 ```
 
+[![Edit 117-Media Capture and Streams API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/117-media-capture-and-streams-api-4s97wh)
+
+- [^117]CodeSandbox: Media Capture and Streams API.
+
+[^117]:[CodeSandbox: Media Capture and Streams API.](https://4s97wh.csb.app/), last access: October 7, 2024.
+
 - The code above demonstrates how to use the Media Capture API to enable image capture from the device's camera.
 - The `<input>` element has the `type` attribute set to `file` to create a file input control.
 - The `accept` attribute specifies the file types that can be selected, in this case, only image files are allowed (`image/*`).
 - The `capture` attribute instructs the browser to open the device's camera when the input is clicked, allowing the user to capture a photo directly from the camera.
+- If your device is a desktop computer, you'll likely get a typical file picker. Please use a mobile device for this example.
 
 #### Offline Applications and Service Workers
 
