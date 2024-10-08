@@ -4214,7 +4214,7 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: true })
     document.body.appendChild(videoElement);
   })
   .catch(function(error) {
-    alert('getUserMedia error:', error);
+    alert('getUserMedia error: ' + error);
   });
 </script>
 ```
@@ -4247,7 +4247,7 @@ The Media Capture and Streams API enables web applications to capture audio, vid
 - The `<input>` element has the `type` attribute set to `file` to create a file input control.
 - The `accept` attribute specifies the file types that can be selected, in this case, only image files are allowed (`image/*`).
 - The `capture` attribute instructs the browser to open the device's camera when the input is clicked, allowing the user to capture a photo directly from the camera.
-- If your device is a desktop computer, you'll likely get a typical file picker. Please use a mobile device for this example.
+- **If your device is a desktop computer, you'll likely get a typical file picker. Please use a mobile device for this example.**
 
 #### Offline Applications and Service Workers
 
@@ -4261,14 +4261,20 @@ if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('service-worker.js')
       .then(function(registration) {
-        console.log('Service Worker registered with scope:', registration.scope);
+        alert('Service Worker registered with scope: ' + registration.scope);
       })
       .catch(function(error) {
-        console.error('Service Worker registration failed:', error);
+        alert('Service Worker registration failed: ' + error);
       });
   });
 }
 ```
+
+[![Edit 118-Implementing Offline Capabilities with Service Workers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/118-implementing-offline-capabilities-with-service-workers-zjm7tx)
+
+- [^118]CodeSandbox: Implementing Offline Capabilities with Service Workers.
+
+[^118]:[CodeSandbox: Implementing Offline Capabilities with Service Workers.](https://zjm7tx.csb.app/), last access: October 8, 2024.
 
 - The code above demonstrates how to register a Service Worker for offline capabilities.
 - First, it checks if the browser supports Service Workers.
