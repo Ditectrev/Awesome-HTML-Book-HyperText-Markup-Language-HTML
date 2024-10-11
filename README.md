@@ -4278,35 +4278,57 @@ if ('serviceWorker' in navigator) {
 
 - The code above demonstrates how to register a Service Worker for offline capabilities.
 - First, it checks if the browser supports Service Workers.
-- If supported, it registers the Service Worker script (`service-worker.js`) using the `register()` method.
+- If supported, it registers the Service Worker script (`service-worker.js` - what the script does is outside the scope of this book) using the `register()` method.
 - The Service Worker script can intercept network requests, cache assets, and manage offline behavior.
 
 ##### Example: Caching Assets for Offline Use
 
 ```javascript
-var CACHE_NAME = 'my-site-cache-v1';
-var urlsToCache = [
-  '/',
-  '/styles/main.css',
-  '/scripts/main.js',
-  '/images/logo.png'
+const CACHE_NAME = 'my-site-cache-v1';
+const urlsToCache = [
+  "index.html",
+  "./", // Alias for index.html
+  "styles.css",
+  "script.js",
+  "example.png",
 ];
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(function(cache) {
-        console.log('Cache opened');
+        alert('Cache opened');
         return cache.addAll(urlsToCache);
       })
   );
 });
 ```
 
+In `script.js`, write a simple script:
+
+```javascript
+alert("to be cached script.js");
+```
+
+In `styles.css`, add simple styling:
+
+```css
+h1 {
+    color: navy;
+}
+```
+
+[![Edit 119-Caching Assets for Offline Use](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/119-caching-assets-for-offline-use-tmpq6w)
+
+- [^119]CodeSandbox: Caching Assets for Offline Use.
+
+[^119]:[CodeSandbox: Caching Assets for Offline Use.](https://tmpq6w.csb.app/), last access: October 11, 2024.
+
 - The code above demonstrates how to cache assets for offline use using a Service Worker.
 - During the Service Worker installation phase (`install` event), it opens a cache named `my-site-cache-v1`.
 - It then adds specified URLs (including HTML, CSS, JavaScript, and image files) to the cache using the `addAll()` method.
 - The cached assets can be served from the cache when the user is offline, providing offline access to the application.
+- **There is a problem with this example in CodeSandbox environment to get it fully working, it's just for your information how it should work, sorry for that.**
 
 ##### Example: Offline Data Synchronization
 
