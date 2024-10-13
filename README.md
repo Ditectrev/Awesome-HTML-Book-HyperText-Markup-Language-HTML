@@ -4256,18 +4256,29 @@ Offline Applications and Service Workers are integral parts of modern web develo
 ##### Example: Implementing Offline Capabilities with Service Workers
 
 ```javascript
-// Register service worker
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('service-worker.js')
-      .then(function(registration) {
-        alert('Service Worker registered with scope: ' + registration.scope);
-      })
-      .catch(function(error) {
-        alert('Service Worker registration failed: ' + error);
-      });
-  });
-}
+const registerServiceWorker = async () => {
+  if ("serviceWorker" in navigator) {
+    try {
+      const registration = await navigator.serviceWorker.register(
+        "/service-worker.js",
+          {
+            scope: "/",
+          }
+      );
+      if (registration.installing) {
+        alert("Service Worker installing");
+      } else if (registration.waiting) {
+        alert("Service Worker installed");
+      } else if (registration.active) {
+        alert("Service Worker active with scope: " + registration.scope);
+      }
+    } catch (error) {
+      alert(`Registration failed with ${error}`);
+    }
+  }
+};
+
+registerServiceWorker();
 ```
 
 [![Edit 118-Implementing Offline Capabilities with Service Workers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/118-implementing-offline-capabilities-with-service-workers-zjm7tx)
@@ -4280,6 +4291,7 @@ if ('serviceWorker' in navigator) {
 - First, it checks if the browser supports Service Workers.
 - If supported, it registers the Service Worker script (`service-worker.js` - what the script does is outside the scope of this book) using the `register()` method.
 - The Service Worker script can intercept network requests, cache assets, and manage offline behavior.
+- Please turn off your internet and reload the page; it will still load, showing the offline capabilities of the Service Worker.
 
 ##### Example: Caching Assets for Offline Use
 
@@ -4341,9 +4353,15 @@ self.addEventListener('sync', function(event) {
 
 function syncData() {
   // Perform data synchronization logic here
-  console.log('Syncing data...');
+  alert('Syncing data...');
 }
 ```
+
+[![Edit 120-Offline Data Synchronization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/120-offline-data-synchronization-5gpt4c)
+
+- [^120]CodeSandbox: Offline Data Synchronization.
+
+[^120]:[CodeSandbox: Offline Data Synchronization.](https://tmpq6w.csb.app/), last access: October 13, 2024.
 
 - The code above demonstrates how to perform offline data synchronization using a background sync event (`sync` event).
 - When a sync event with the tag `sync-data` is triggered, it calls the `syncData()` function.
