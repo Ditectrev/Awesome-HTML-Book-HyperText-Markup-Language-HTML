@@ -3852,6 +3852,7 @@ h1 {
 [^104]:[CodeSandbox: HTML Performance Optimization Techniques.](https://qm3w7j.csb.app/), last access: September 10, 2024.
 
 - In this example, the `<link rel="preload">` tag is used to prioritize the loading of critical resources (CSS and JavaScript files) by indicating their importance and specifying the `as` attribute to define the resource type.
+- **There is a problem with this example in CodeSandbox environment to get it fully working, it's just for your information how it should work, sorry for that. Follow https://github.com/codesandbox/codesandbox-client/issues/8610 for more information.**
 
 ##### Code Example: HTML Minification and Compression
 
@@ -4296,22 +4297,20 @@ registerServiceWorker();
 ##### Example: Caching Assets for Offline Use
 
 ```javascript
-const CACHE_NAME = 'my-site-cache-v1';
-const urlsToCache = [
-  "index.html",
-  "./", // Alias for index.html
-  "styles.css",
-  "script.js",
-  "example.png",
-];
+const addResourcesToCache = async (resources) => {
+  const cache = await caches.open("v1");
+  await cache.addAll(resources);
+};
 
-self.addEventListener('install', function(event) {
+self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(function(cache) {
-        alert('Cache opened');
-        return cache.addAll(urlsToCache);
-      })
+    addResourcesToCache([
+      "/",
+      "/index.html",
+      "/style.css",
+      "/script.js",
+      "/example.png",
+    ])
   );
 });
 ```
@@ -4337,10 +4336,9 @@ h1 {
 [^119]:[CodeSandbox: Caching Assets for Offline Use.](https://tmpq6w.csb.app/), last access: October 11, 2024.
 
 - The code above demonstrates how to cache assets for offline use using a Service Worker.
-- During the Service Worker installation phase (`install` event), it opens a cache named `my-site-cache-v1`.
-- It then adds specified URLs (including HTML, CSS, JavaScript, and image files) to the cache using the `addAll()` method.
+- During the Service Worker installation phase (`install` event), it opens a cache named `v1`.
+- It then adds specified URLs (including HTML, CSS, JavaScript, and image files) to the cache using the `addAll()` method, embedded in `addResourcesToCache()`.
 - The cached assets can be served from the cache when the user is offline, providing offline access to the application.
-- **There is a problem with this example in CodeSandbox environment to get it fully working, it's just for your information how it should work, sorry for that.**
 
 ##### Example: Offline Data Synchronization
 
