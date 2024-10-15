@@ -455,7 +455,7 @@ h1 {
 6. **Include a JavaScript File**: in `script.js`, write a simple script:
 
 ```javascript
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener("DOMContentLoaded", function() {
     alert("Welcome to My First Website!");
 });
 ```
@@ -492,8 +492,8 @@ Here's a simple exercise to manipulate the DOM using JavaScript:
 2. **JavaScript to Change Text Color**: in `script.js`, add a script to change the color of the paragraph when the button is clicked:
 
 ```javascript
-document.getElementById('changeColorButton').addEventListener('click', function() {
-    document.querySelector('p').style.color = 'red';
+document.getElementById("changeColorButton").addEventListener("click", function() {
+    document.querySelector("p").style.color = "red";
 });
 ```
 
@@ -1155,10 +1155,10 @@ Add inline JavaScript to enhance validation.
 
 ```html
 <script>
-document.getElementById('registrationForm').addEventListener('submit', function(event) {
+document.getElementById("registrationForm").addEventListener("submit", function(event) {
     if (!this.checkValidity()) {
         event.preventDefault(); // Prevent form submission if validation fails
-        alert('Please fill out the form correctly.');
+        alert("Please fill out the form correctly.");
     }
 });
 </script>
@@ -1225,16 +1225,16 @@ Using JavaScript, we'll add event listeners to dynamically update the form.
 
 ```html
 <script>
-document.getElementById('choice').addEventListener('change', function() {
+document.getElementById("choice").addEventListener("change", function() {
     const value = this.value;
-    const additionalFields = document.getElementById('additionalFields');
+    const additionalFields = document.getElementById("additionalFields");
 
-    additionalFields.innerHTML = ''; // Clear existing fields
+    additionalFields.innerHTML = ""; // Clear existing fields
 
-    if (value === 'books') {
-        additionalFields.innerHTML = '<label for="author">Author:</label><input type="text" id="author" name="author">';
-    } else if (value === 'movies') {
-        additionalFields.innerHTML = '<label for="director">Director:</label><input type="text" id="director" name="director">';
+    if (value === "books") {
+        additionalFields.innerHTML = "<label for="author">Author:</label><input type="text" id="author" name="author">";
+    } else if (value === "movies") {
+        additionalFields.innerHTML = "<label for="director">Director:</label><input type="text" id="director" name="director">";
     }
 });
 </script>
@@ -1479,17 +1479,17 @@ In `app.js`, you might have functions that dynamically load content into the `<m
 
 ```javascript
 function loadHome() {
-    document.getElementById('mainContent').innerHTML = '<h1>Welcome to Our SPA</h1><p>This is the home page content.</p>';
+    document.getElementById("mainContent").innerHTML = "<h1>Welcome to Our SPA</h1><p>This is the home page content.</p>";
     // Additional scripting to enhance accessibility and SEO
 }
 
 function loadAbout() {
-    document.getElementById('mainContent').innerHTML = '<h1>About Us</h1><p>Learn more about our mission and values.</p>';
+    document.getElementById("mainContent").innerHTML = "<h1>About Us</h1><p>Learn more about our mission and values.</p>";
     // Additional scripting to enhance accessibility and SEO
 }
 
 function loadContact() {
-    document.getElementById('mainContent').innerHTML = '<h1>Contact Us</h1><p>Contact details and form.</p>';
+    document.getElementById("mainContent").innerHTML = "<h1>Contact Us</h1><p>Contact details and form.</p>";
     // Additional scripting to enhance accessibility and SEO
 }
 ```
@@ -2558,7 +2558,7 @@ JavaScript code can be embedded directly within HTML documents using the `<scrip
     <script>
         // Inline JavaScript code
         function greet() {
-            alert('Hello, world!');
+            alert("Hello, world!");
         }
     </script>
   </head>
@@ -2649,7 +2649,7 @@ JavaScript interacts with HTML through the Document Object Model (DOM), a hierar
 
     <script>
       function changeText() {
-        document.getElementById('heading').textContent = 'New Heading';
+        document.getElementById("heading").textContent = "New Heading";
       }
     </script>
   </body>
@@ -2700,8 +2700,8 @@ JavaScript enables developers to handle user interactions and browser events thr
     <button id="btn">Click me</button>
 
     <script>
-      document.getElementById('btn').addEventListener('click', function() {
-        alert('Button clicked!');
+      document.getElementById("btn").addEventListener("click", function() {
+        alert("Button clicked!");
       });
     </script>
   </body>
@@ -2723,10 +2723,10 @@ Advanced event handling techniques involve event delegation, capturing and bubbl
 
 ```javascript
 // Event delegation: Handling events on parent elements for dynamically created child elements
-document.getElementById('parent').addEventListener('click', function(event) {
-    alert('event.target.tagName is equal ' + event.target.tagName);
-    if (event.target.tagName === 'BUTTON') {
-        alert('Button clicked!');
+document.getElementById("parent").addEventListener("click", function(event) {
+    alert("event.target.tagName is equal " + event.target.tagName);
+    if (event.target.tagName === "BUTTON") {
+        alert("Button clicked!");
     }
 });
 ```
@@ -4210,12 +4210,12 @@ The WebRTC (Web Real-Time Communication) API enables peer-to-peer communication 
 <script>
 navigator.mediaDevices.getUserMedia({ audio: true, video: true })
   .then(function(stream) {
-    const videoElement = document.createElement('video');
+    const videoElement = document.createElement("video");
     videoElement.srcObject = stream;
     document.body.appendChild(videoElement);
   })
   .catch(function(error) {
-    alert('getUserMedia error: ' + error);
+    alert("getUserMedia error: " + error);
   });
 </script>
 ```
