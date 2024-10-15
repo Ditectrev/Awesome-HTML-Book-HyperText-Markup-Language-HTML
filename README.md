@@ -1,8 +1,6 @@
 # Awesome HTML Book: HyperText Markup Language (HTML)
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+## Table of Contents
 
 - [Introduction to HTML](#introduction-to-html)
   - [What is HTML?](#what-is-html)
@@ -39,6 +37,8 @@
     - [Example: Lists in HTML](#example-lists-in-html)
   - [Hyperlinks (`<a>`)](#hyperlinks-a)
     - [Example: Creating a Hyperlink](#example-creating-a-hyperlink)
+  - [Displaying Images (`<img>`)](#displaying-images-img)
+    - [Example: Embedding an Image](#example-embedding-an-image)
   - [Creating Tables (`<table>`, `<tr>`, `<td>`, `<th>`)](#creating-tables-table-tr-td-th)
     - [Example: A Simple Table](#example-a-simple-table)
   - [Line Breaks (`<br>`) and Horizontal Rules (`<hr>`)](#line-breaks-br-and-horizontal-rules-hr)
@@ -266,8 +266,6 @@
       - [Code Example: Mobile Optimization](#code-example-mobile-optimization)
     - [Accessibility Features](#accessibility-features)
       - [Code Example: Accessibility Features](#code-example-accessibility-features)
-    - [Performance Optimization](#performance-optimization)
-      - [Code Example: Performance Optimization](#code-example-performance-optimization)
     - [Code Organization and Commenting](#code-organization-and-commenting)
     - [HTML Performance Optimization Techniques](#html-performance-optimization-techniques)
       - [Code Example: HTML Minification and Compression](#code-example-html-minification-and-compression)
@@ -313,8 +311,6 @@
   - [Community Forums and Discussion Platforms](#community-forums-and-discussion-platforms)
   - [Developer Tools and Extensions](#developer-tools-and-extensions)
   - [Online Courses and Learning Platforms](#online-courses-and-learning-platforms)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Introduction to HTML
 
