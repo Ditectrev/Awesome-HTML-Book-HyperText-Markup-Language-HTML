@@ -1,5 +1,7 @@
 # Awesome HTML Book: HyperText Markup Language (HTML)
 
+[![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
+
 ## Table of Contents
 
 - [Introduction to HTML](#introduction-to-html)
@@ -320,7 +322,7 @@ HTML, which stands for HyperText Markup Language, is the standard language used 
 
 #### Brief History of HTML and Its Evolution
 
-![A timeline graphic showing key milestones in the history of HTML, from HTML 1.0 to HTML5.](images/section1_1.png)
+![A timeline graphic showing key milestones in the history of HTML, from HTML 1.0 to HTML5.](images/html_timeline.png)
 The journey of HTML began in the early 1990s, devised by Tim Berners-Lee, a physicist at the CERN research facility in Switzerland. Initially created to facilitate information sharing between scientists across different universities and institutes, HTML has evolved significantly over the years. Key milestones include:
 
 - HTML 2.0 (1995): The first standard version, which set the core features of HTML.
@@ -332,12 +334,12 @@ These developments were guided by organizations such as the World Wide Web Conso
 
 #### Understanding the Role of HTML in Web Development
 
-![HTML, CSS, JavaScript Interaction Diagram: A Venn diagram illustrating how HTML, CSS, and JavaScript overlap and interact in web development.](images/section1_2.png)
+![HTML, CSS, JavaScript Interaction Diagram: A Venn diagram illustrating how HTML, CSS, and JavaScript overlap and interact in web development.](images/html_css_javascript_interaction.png)
 HTML is a key component of the web development ecosystem, used in conjunction with Cascading Style Sheets (CSS) and JavaScript. While HTML lays out the structure of the page, CSS is used for styling, and JavaScript for adding interactivity and dynamic content. This combination is essential in creating a diverse range of web applications, from simple static websites to complex interactive platforms.
 
 #### Overview of Web Browsers and How They Interpret HTML
 
-![Browser Rendering: showing how a sample HTML code is rendered in different browsers (Chrome, Firefox, Safari).](images/section1_3.png)
+![Browser Rendering: showing how a sample HTML code is rendered in different browsers (Chrome, Firefox, Safari).](images/browser_rendering.png)
 Web browsers like Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge are the tools through which users interact with HTML documents. Each browser interprets HTML code to display web pages. Understanding how different browsers parse and render HTML is crucial for developers to ensure consistency and compatibility across the web. This section can delve into the concept of browser rendering engines, cross-browser compatibility issues, and the importance of following web standards to minimize inconsistencies.
 
 ##### Example: Basic HTML Structure
@@ -383,7 +385,7 @@ Before diving into HTML coding, it's essential to choose and set up a text edito
 
 #### Understanding the File Structure for Web Projects
 
-![Web Project File Structure Diagram: A flowchart or tree diagram showing a typical web project's file structure, including HTML, CSS, JavaScript files, and a folder for images.](images/section2_2.png)
+![Web Project File Structure Diagram: A flowchart or tree diagram showing a typical web project's file structure, including HTML, CSS, JavaScript files, and a folder for images.](images/html_css_javascript_project_structure.png)
 Organizing files and folders properly is crucial in web development. A basic project might include separate HTML, CSS, and JavaScript files, along with a directory for images and other media.
 
 Proper organization of web project files is crucial for maintainability and scalability. A typical HTML project might include:
@@ -464,7 +466,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Basics of Document Object Model (DOM)
 
-![Anatomy of an HTML Document: A labeled diagram showing the structure of an HTML document, with tags like <!DOCTYPE>, <html>, <head>, and <body>.](images/section2_3.png)
+![Anatomy of an HTML Document: A labeled diagram showing the structure of an HTML document, with tags like <!DOCTYPE>, <html>, <head>, and <body>.](images/dom_structure.png)
 Understanding the Document Object Model (DOM) is fundamental in web development. It's a programming interface for HTML and XML documents that defines the logical structure of documents and the way a document is accessed and manipulated.
 
 - **What is the DOM?**: An explanation of how the DOM represents a web page as a tree-like structure.
@@ -1572,7 +1574,7 @@ This example demonstrates how to use microdata within an HTML document to descri
 
 ### Evolution and Future Trends in HTML5 and Semantic Elements
 
-![Evolution and Future Trends in HTML5 and Semantic Elements.](images/section6_7.png)
+![Evolution and Future Trends in HTML5 and Semantic Elements.](images/html_evolution.png)
 The evolution of HTML5 and its semantic elements represents a significant leap forward in web development. As we look toward the future, it's clear that the emphasis on semantics, accessibility, and machine-readable code will continue to shape the development of HTML standards and practices. In this section, we'll explore some of the current trends and future directions in the use of semantic HTML, including code examples to illustrate these concepts.
 
 #### Increased Emphasis on Accessibility
