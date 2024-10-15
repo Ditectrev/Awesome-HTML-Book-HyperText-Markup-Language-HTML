@@ -4257,7 +4257,7 @@ Offline Applications and Service Workers are integral parts of modern web develo
 ##### Example: Implementing Offline Capabilities with Service Workers
 
 ```javascript
-const registerServiceWorker = async () => {
+const registerServiceWorker = async function () {
   if ("serviceWorker" in navigator) {
     try {
       const registration = await navigator.serviceWorker.register(
@@ -4343,15 +4343,29 @@ h1 {
 ##### Example: Offline Data Synchronization
 
 ```javascript
-self.addEventListener('sync', function(event) {
-  if (event.tag === 'sync-data') {
+const syncMessagesLater = async function () {
+  const registration = await navigator.serviceWorker.ready;
+    try {
+      await registration.sync.register("sync-data");
+      alert("Background Sync registered");
+    } catch {
+      alert("Background Sync could not be registered!");
+    }
+};
+
+syncMessagesLater();
+```
+
+```javascript
+self.addEventListener("sync", function(event) {
+  if (event.tag === "sync-data") {
     event.waitUntil(syncData());
   }
 });
 
 function syncData() {
   // Perform data synchronization logic here
-  alert('Syncing data...');
+  alert("Syncing data...");
 }
 ```
 
@@ -4362,6 +4376,7 @@ function syncData() {
 [^120]:[CodeSandbox: Offline Data Synchronization.](https://tmpq6w.csb.app/), last access: October 13, 2024.
 
 - The code above demonstrates how to perform offline data synchronization using a background sync event (`sync` event).
+- The `syncMessagesLater()` asynchronous function registers a background sync from a browsing context.
 - When a sync event with the tag `sync-data` is triggered, it calls the `syncData()` function.
 - Developers can implement custom synchronization logic inside the `syncData()` function to synchronize data with a server or local storage.
 
