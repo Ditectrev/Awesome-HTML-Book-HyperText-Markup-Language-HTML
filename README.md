@@ -206,7 +206,7 @@
         - [Fluid Grids](#fluid-grids)
         - [Media Queries](#media-queries)
       - [Flexible Units](#flexible-units)
-        - [Percentage (%)](#percentage-%25)
+        - [Percentage (%)](#percentage-)
         - [Viewport Width (vw) and Viewport Height (vh)](#viewport-width-vw-and-viewport-height-vh)
         - [Viewport Settings](#viewport-settings)
         - [Em (em)](#em-em)
