@@ -1,5 +1,7 @@
 # Awesome HTML Book: HyperText Markup Language (HTML)
 
+![Promotional image](images/promotional.png)
+
 [![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
 
 ## Table of Contents
