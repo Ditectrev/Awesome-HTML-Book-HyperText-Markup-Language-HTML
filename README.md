@@ -364,7 +364,7 @@ Below is an example of a basic HTML document structure:
 
 [![Edit 001-Basic HTML Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/001-basic-html-structure-7gq85k)
 
-- [^1]CodeSandbox: Basic HTML Structure.
+[^1]CodeSandbox: Basic HTML Structure.
 
 [^1]:[CodeSandbox: Basic HTML Structure](https://7gq85k.csb.app/), last access: May 11, 2024.
 
@@ -462,7 +462,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 [![Edit 002-Setting Up a Basic HTML File Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/002-setting-up-a-basic-html-file-structure-hrm893)
 
-- [^2]CodeSandbox: Setting Up a Basic HTML File Structure.
+[^2]CodeSandbox: Setting Up a Basic HTML File Structure.
 
 [^2]:[CodeSandbox: Setting Up a Basic HTML File Structure](https://hrm893.csb.app/), last access: May 11, 2024.
 
@@ -499,7 +499,7 @@ document.getElementById("changeColorButton").addEventListener("click", function(
 
 [![Edit 003-Exploring the DOM](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/003-exploring-the-dom-8kyhj7)
 
-- [^3]CodeSandbox: Exploring the DOM.
+[^3]CodeSandbox: Exploring the DOM.
 
 [^3]:[CodeSandbox: Exploring the DOM](https://8kyhj7.csb.app/), last access: May 11, 2024.
 
@@ -531,7 +531,7 @@ An HTML document is structured with various elements, each serving a specific pu
 
 [![Edit 004-Basic Anatomy of an HTML Document](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/004-basic-anatomy-of-an-html-document-cqc9qw)
 
-- [^4]CodeSandbox: Basic Anatomy of an HTML Document.
+[^4]CodeSandbox: Basic Anatomy of an HTML Document.
 
 [^4]:[CodeSandbox: Basic Anatomy of an HTML Document](https://cqc9qw.csb.app/), last access: May 12, 2024.
 
@@ -587,7 +587,7 @@ The DOCTYPE declaration should be the very first thing in an HTML document, befo
 
 [![Edit 005-Creating a Simple HTML Page](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/005-creating-a-simple-html-page-gkxq6z)
 
-- [^5]CodeSandbox: Creating a Simple HTML Page.
+[^5]CodeSandbox: Creating a Simple HTML Page.
 
 [^5]:[CodeSandbox: Creating a Simple HTML Page](https://gkxq6z.csb.app/), last access: May 12, 2024.
 
@@ -612,7 +612,7 @@ Headings are used to define the hierarchy and importance of content on a web pag
 
 [![Edit 006-Using Headings](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/006-using-headings-6p6kkp)
 
-- [^6]CodeSandbox: Using Headings.
+[^6]CodeSandbox: Using Headings.
 
 [^6]:[CodeSandbox: Using Headings](https://6p6kkp.csb.app/), last access: May 12, 2024.
 
@@ -629,7 +629,7 @@ The `<p>` tag defines a paragraph. Other tags like `<strong>`, `<em>`, `<mark>`,
 
 [![Edit 007-Paragraphs and Formatting](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/007-paragraphs-and-formatting-hcdvjw)
 
-- [^7]CodeSandbox: Paragraphs and Formatting.
+[^7]CodeSandbox: Paragraphs and Formatting.
 
 [^7]:[CodeSandbox: Paragraphs and Formatting](https://hcdvjw.csb.app/), last access: May 13, 2024.
 
@@ -663,7 +663,7 @@ There are three types of lists in HTML: ordered lists (`<ol>`), unordered lists 
 
 [![Edit 008-Lists in HTML](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/008-lists-in-html-xlyz8s)
 
-- [^8]CodeSandbox: Lists in HTML.
+[^8]CodeSandbox: Lists in HTML.
 
 [^8]:[CodeSandbox: Lists in HTML](https://xlyz8s.csb.app/), last access: May 13, 2024.
 
@@ -686,7 +686,7 @@ Hyperlinks, defined with the `<a>` tag, are crucial for navigation, allowing use
 
 [![Edit 009-Creating a Hyperlink](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/009-creating-a-hyperlink-fqmf24)
 
-- [^9]CodeSandbox: Creating a Hyperlink.
+[^9]CodeSandbox: Creating a Hyperlink.
 
 [^9]:[CodeSandbox: Creating a Hyperlink](https://fqmf24.csb.app/), last access: May 13, 2024.
 
@@ -703,7 +703,7 @@ The `<img>` tag embeds images into your HTML document. Attributes like `src`, `a
 
 [![Edit 010-Embedding an Image](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/010-embedding-an-image-cp8ht6)
 
-- [^10]CodeSandbox: Embedding an Image.
+[^10]CodeSandbox: Embedding an Image.
 
 [^10]:[CodeSandbox: Embedding an Image](https://cp8ht6.csb.app/), last access: May 13, 2024.
 
@@ -729,7 +729,7 @@ Tables are created with `<table>`, and their structure is defined using `<tr>` f
 
 [![Edit 011-A Simple Table](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/011-a-simple-table-jxrk65)
 
-- [^11]CodeSandbox: A Simple Table.
+[^11]CodeSandbox: A Simple Table.
 
 [^11]:[CodeSandbox: A Simple Table](https://jxrk65.csb.app/), last access: May 13, 2024.
 
@@ -748,7 +748,7 @@ The `<br>` tag inserts a single line break, useful for content separation within
 
 [![Edit 012-Using Line Breaks and Horizontal Rules](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/012-using-line-breaks-and-horizontal-rules-q3p3lx)
 
-- [^12]CodeSandbox: Using Line Breaks and Horizontal Rules.
+[^12]CodeSandbox: Using Line Breaks and Horizontal Rules.
 
 [^12]:[CodeSandbox: Using Line Breaks and Horizontal Rules](https://q3p3lx.csb.app/), last access: May 13, 2024.
 
@@ -777,7 +777,7 @@ Forms are essential for user interactions on websites. They are used to collect 
 
 [![Edit 013-Basic Form Syntax](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/013-basic-form-syntax-8grgqh)
 
-- [^13]CodeSandbox: Basic Form Syntax.
+[^13]CodeSandbox: Basic Form Syntax.
 
 [^13]:[CodeSandbox: Basic Form Syntax](https://8grgqh.csb.app/), last access: May 15, 2024.
 
@@ -795,7 +795,7 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 
 [![Edit 014-Text Inputs](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/014-text-inputs-hgzcj8)
 
-- [^14]CodeSandbox: Text Inputs.
+[^14]CodeSandbox: Text Inputs.
 
 [^14]:[CodeSandbox: Text Inputs](https://hgzcj8.csb.app/), last access: May 22, 2024.
 
@@ -812,7 +812,7 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 
 [![Edit 015-Radio Buttons](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/015-radio-buttons-9ny4lk)
 
-- [^15]CodeSandbox: Radio Buttons.
+[^15]CodeSandbox: Radio Buttons.
 
 [^15]:[CodeSandbox: Radio Buttons](https://9ny4lk.csb.app/), last access: May 22, 2024.
 
@@ -827,7 +827,7 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 
 [![Edit 016-Checkboxes](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/016-checkboxes-8y2kr3)
 
-- [^16]CodeSandbox: Checkboxes.
+[^16]CodeSandbox: Checkboxes.
 
 [^16]:[CodeSandbox: Checkboxes](https://8y2kr3.csb.app/), last access: May 22, 2024.
 
@@ -847,7 +847,7 @@ Select menus provide a drop-down list of options.
 
 [![Edit 017-Creating Select Menus](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/017-creating-select-menus-cjrj6p)
 
-- [^17]CodeSandbox: Creating Select Menus.
+[^17]CodeSandbox: Creating Select Menus.
 
 [^17]:[CodeSandbox: Creating Select Menus](https://cjrj6p.csb.app/), last access: May 22, 2024.
 
@@ -865,7 +865,7 @@ Buttons to submit or reset the form data.
 
 [![Edit 018-Submit Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/018-submit-button-4g2k2t)
 
-- [^18]CodeSandbox: Submit Button.
+[^18]CodeSandbox: Submit Button.
 
 [^18]:[CodeSandbox: Submit Button](https://4g2k2t.csb.app/), last access: May 22, 2024.
 
@@ -877,7 +877,7 @@ Buttons to submit or reset the form data.
 
 [![Edit 019-Reset Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/019-reset-button-6tqsmk)
 
-- [^19]CodeSandbox: Reset Button.
+[^19]CodeSandbox: Reset Button.
 
 [^19]:[CodeSandbox: Reset Button](https://6tqsmk.csb.app/), last access: May 22, 2024.
 
@@ -890,7 +890,7 @@ Buttons to submit or reset the form data.
 
 [![Edit 020-Form Validation Basics](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/020-form-validation-basics-nzcplr)
 
-- [^20]CodeSandbox: Form Validation Basics.
+[^20]CodeSandbox: Form Validation Basics.
 
 [^20]:[CodeSandbox: Form Validation Basics](https://nzcplr.csb.app/), last access: May 22, 2024.
 
@@ -904,7 +904,7 @@ Buttons to submit or reset the form data.
 
 [![Edit 021-File Uploads](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/021-file-uploads-q82hj2)
 
-- [^21]CodeSandbox: File Uploads.
+[^21]CodeSandbox: File Uploads.
 
 [^21]:[CodeSandbox: File Uploads](https://q82hj2.csb.app/), last access: May 22, 2024.
 
@@ -917,7 +917,7 @@ Buttons to submit or reset the form data.
 
 [![Edit 022-HTML5 Input Types](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/022-html5-input-types-sjwsrk)
 
-- [^22]CodeSandbox: HTML5 Input Types.
+[^22]CodeSandbox: HTML5 Input Types.
 
 [^22]:[CodeSandbox: HTML5 Input Types](https://sjwsrk.csb.app/), last access: May 22, 2024.
 
@@ -1166,7 +1166,7 @@ document.getElementById("registrationForm").addEventListener("submit", function(
 
 [![Edit 023-Building a Comprehensive Registration Form](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/023-building-a-comprehensive-registration-form-kk58h2)
 
-- [^23]CodeSandbox: Building a Comprehensive Registration Form.
+[^23]CodeSandbox: Building a Comprehensive Registration Form.
 
 [^23]:[CodeSandbox: Exploring the DOM](https://kk58h2.csb.app/), last access: May 22, 2024.
 
@@ -1253,7 +1253,7 @@ Add a submit button for the form.
 
 [![Edit 024-Dynamic Form with JavaScript](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/024-dynamic-form-with-javascript-czrr4l)
 
-- [^24]CodeSandbox: Dynamic Form with JavaScript.
+[^24]CodeSandbox: Dynamic Form with JavaScript.
 
 [^24]:[CodeSandbox: Dynamic Form with JavaScript](https://czrr4l.csb.app/), last access: May 24, 2024.
 
@@ -1345,7 +1345,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 
 [![Edit 025-The `<article>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/025-the-article-element-tcc2rz)
 
-- [^25]CodeSandbox: The `<article>` Element.
+[^25]CodeSandbox: The `<article>` Element.
 
 [^25]:[CodeSandbox: The `<article>` Element](https://tcc2rz.csb.app/), last access: May 25, 2024.
 
@@ -1362,7 +1362,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 
 [![Edit 026-The `<section>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/026-the-section-element-djdp6h)
 
-- [^26]CodeSandbox: The `<section>` Element.
+[^26]CodeSandbox: The `<section>` Element.
 
 [^26]:[CodeSandbox: The `<section>` Element](https://djdp6h.csb.app/), last access: May 26, 2024.
 
@@ -1382,7 +1382,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 
 [![Edit 027-The `<nav>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/027-the-nav-element-3mqmnr)
 
-- [^27]CodeSandbox: The `<nav>` Element.
+[^27]CodeSandbox: The `<nav>` Element.
 
 [^27]:[CodeSandbox: The `<nav>` Element](https://3mqmnr.csb.app/), last access: May 26, 2024.
 
@@ -1399,7 +1399,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 
 [![Edit 028-The `<header>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/028-the-header-element-2mcn2c)
 
-- [^28]CodeSandbox: The `<header>` Element.
+[^28]CodeSandbox: The `<header>` Element.
 
 [^28]:[CodeSandbox: The `<header>` Element](https://2mcn2c.csb.app/), last access: May 26, 2024.
 
@@ -1415,7 +1415,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 
 [![Edit 029-The `<footer>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/029-the-footer-element-2hcsgy)
 
-- [^29]CodeSandbox: The `<footer>` Element.
+[^29]CodeSandbox: The `<footer>` Element.
 
 [^29]:[CodeSandbox: The `<footer>` Element](https://2hcsgy.csb.app/), last access: May 26, 2024.
 
@@ -1496,7 +1496,7 @@ function loadContact() {
 
 [![Edit 030-Semantic SPA Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/030-semantic-spa-structure-d969pp)
 
-- [^30]CodeSandbox: Semantic SPA Structure.
+[^30]CodeSandbox: Semantic SPA Structure.
 
 [^30]:[CodeSandbox: Semantic SPA Structure](https://d969pp.csb.app/), last access: May 28, 2024.
 
@@ -1552,7 +1552,7 @@ Here's an example of how to use microdata in an HTML document to define an artic
 
 [![Edit 031-Article with Microdata for Rich Snippets](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/031-article-with-microdata-for-rich-snippets-36f5kf)
 
-- [^31]CodeSandbox: Article with Microdata for Rich Snippets.
+[^31]CodeSandbox: Article with Microdata for Rich Snippets.
 
 [^31]:[CodeSandbox: Article with Microdata for Rich Snippets](https://36f5kf.csb.app/), last access: May 28, 2024.
 
@@ -1598,7 +1598,7 @@ Accessibility is becoming increasingly important in web development. Future HTML
 
 [![Edit 032-Using ARIA (Accessible Rich Internet Applications) Attributes](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/032-using-aria-accessible-rich-internet-applications-attributes-883g8q)
 
-- [^32]CodeSandbox: Using ARIA (Accessible Rich Internet Applications) Attributes.
+[^32]CodeSandbox: Using ARIA (Accessible Rich Internet Applications) Attributes.
 
 [^32]:[CodeSandbox: Using ARIA (Accessible Rich Internet Applications) Attributes](https://883g8q.csb.app/), last access: May 28, 2024.
 
@@ -1620,7 +1620,7 @@ As web applications become more complex, there's a growing need for semantic ele
 
 [![Edit 033-Speculative `<toolbar>` Semantic Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/033-speculative-toolbar-semantic-element-wfkyhq)
 
-- [^33]CodeSandbox: Speculative `<toolbar>` Semantic Element.
+[^33]CodeSandbox: Speculative `<toolbar>` Semantic Element.
 
 [^33]:[CodeSandbox: Speculative `<toolbar>` Semantic Element](https://wfkyhq.csb.app/), last access: May 28, 2024.
 
@@ -1642,7 +1642,7 @@ Semantic HTML is also likely to evolve in tandem with emerging web technologies,
 
 [![Edit 034-Using Custom Elements with Semantic Meaning](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/034-using-custom-elements-with-semantic-meaning-ln6g7r)
 
-- [^34]CodeSandbox: Using Custom Elements with Semantic Meaning.
+[^34]CodeSandbox: Using Custom Elements with Semantic Meaning.
 
 [^34]:[CodeSandbox: Using Custom Elements with Semantic Meaning](https://ln6g7r.csb.app/), last access: May 28, 2024.
 
@@ -1698,7 +1698,7 @@ Semantic HTML plays a crucial role in SEO (Search Engine Optimization) by provid
 
 [![Edit 035-Semantic Headings](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/035-semantic-headings-l8v69w)
 
-- [^35]CodeSandbox: Semantic Headings.
+[^35]CodeSandbox: Semantic Headings.
 
 [^35]:[CodeSandbox: Semantic Headings](https://l8v69w.csb.app/), last access: May 29, 2024.
 
@@ -1720,7 +1720,7 @@ Semantic HTML plays a crucial role in SEO (Search Engine Optimization) by provid
 
 [![Edit 036-Semantic Navigation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/036-semantic-navigation-9lnsgj)
 
-- [^36]CodeSandbox: Semantic Navigation.
+[^36]CodeSandbox: Semantic Navigation.
 
 [^36]:[CodeSandbox: Semantic Navigation](https://9lnsgj.csb.app/), last access: May 29, 2024.
 
@@ -1756,7 +1756,7 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 
 [![Edit 037-Proper Heading Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/037-proper-heading-structure-x22m79)
 
-- [^37]CodeSandbox: Proper Heading Structure.
+[^37]CodeSandbox: Proper Heading Structure.
 
 [^37]:[CodeSandbox: Proper Heading Structure](https://x22m79.csb.app/), last access: May 29, 2024.
 
@@ -1780,7 +1780,7 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 
 [![Edit 038-Form Labels and Inputs](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/038-form-labels-and-inputs-3rm7jk)
 
-- [^38]CodeSandbox: Form Labels and Inputs.
+[^38]CodeSandbox: Form Labels and Inputs.
 
 [^38]:[CodeSandbox: Form Labels and Inputs](https://3rm7jk.csb.app/), last access: May 29, 2024.
 
@@ -1802,7 +1802,7 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 
 [![Edit 039-Use of `<nav>` and `<nav>` Landmarks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/039-use-of-nav-and-nav-landmarks-85hjqc)
 
-- [^39]CodeSandbox: Use of `<nav>` and `<nav>` Landmarks.
+[^39]CodeSandbox: Use of `<nav>` and `<nav>` Landmarks.
 
 [^39]:[CodeSandbox: Use of `<nav>` and `<nav>` Landmarks](https://85hjqc.csb.app/), last access: May 29, 2024.
 
@@ -1822,7 +1822,7 @@ In addition to semantic HTML elements, ARIA (Accessible Rich Internet Applicatio
 
 [![Edit 040-ARIA Role for a Live Region](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/040-aria-role-for-a-live-region-6vyl6n)
 
-- [^40]CodeSandbox: ARIA Role for a Live Region.
+[^40]CodeSandbox: ARIA Role for a Live Region.
 
 [^40]:[CodeSandbox: ARIA Role for a Live Region](https://6vyl6n.csb.app/), last access: May 29, 2024.
 
@@ -1837,7 +1837,7 @@ The `role="status"` attribute signifies that this element provides live updates.
 
 [![Edit 041-ARIA Role for a Slider](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/041-aria-role-for-a-slider-gsjppj)
 
-- [^41]CodeSandbox: ARIA Role for a Slider.
+[^41]CodeSandbox: ARIA Role for a Slider.
 
 [^41]:[CodeSandbox: ARIA Role for a Slider](https://gsjppj.csb.app/), last access: May 29, 2024.
 
@@ -1899,7 +1899,7 @@ The homepage of "EcoShop" is structured to provide a clear hierarchy and meaning
 
 [![Edit 042-Homepage Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/042-homepage-structure-tq6vp3)
 
-- [^42]CodeSandbox: Homepage Structure.
+[^42]CodeSandbox: Homepage Structure.
 
 [^42]:[CodeSandbox: Homepage Structure](https://tq6vp3.csb.app/), last access: May 29, 2024.
 
@@ -1919,7 +1919,7 @@ For the product listing, "EcoShop" employs `<article>` tags to semantically repr
 
 [![Edit 043-Product Listing with Semantic Markup](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/043-product-listing-with-semantic-markup-6sngw9)
 
-- [^43]CodeSandbox: Product Listing with Semantic Markup.
+[^43]CodeSandbox: Product Listing with Semantic Markup.
 
 [^43]:[CodeSandbox: Product Listing with Semantic Markup](https://6sngw9.csb.app/), last access: May 29, 2024.
 
@@ -1956,7 +1956,7 @@ The `<audio>` element in HTML5 is a powerful tool for embedding audio content di
 
 [![Edit 044-Audio Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/044-audio-element-hmf35t)
 
-- [^44]CodeSandbox: Audio Element.
+[^44]CodeSandbox: Audio Element.
 
 [^44]:[CodeSandbox: Audio Element](https://hmf35t.csb.app/), last access: May 29, 2024.
 
@@ -1978,7 +1978,7 @@ The `<video>` element, similar to the `<audio>` element, enables the integration
 
 [![Edit 045-Video Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/045-video-element-yx2ytt)
 
-- [^45]CodeSandbox: Video Element.
+[^45]CodeSandbox: Video Element.
 
 [^45]:[CodeSandbox: Video Element](https://yx2ytt.csb.app/), last access: May 29, 2024.
 
@@ -2010,7 +2010,7 @@ ctx.stroke();
 
 [![Edit 046-Canvas for Graphics](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/046-canvas-for-graphics-wxtng3)
 
-- [^46]CodeSandbox: Canvas for Graphics.
+[^46]CodeSandbox: Canvas for Graphics.
 
 [^46]:[CodeSandbox: Canvas for Graphics](https://wxtng3.csb.app/), last access: May 29, 2024.
 
@@ -2046,7 +2046,7 @@ function showPosition(position) {
 
 [![Edit 047-Geolocation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/047-geolocation-jkgprf)
 
-- [^47]CodeSandbox: Geolocation.
+[^47]CodeSandbox: Geolocation.
 
 [^47]:[CodeSandbox: Geolocation](https://jkgprf.csb.app/), last access: June 4, 2024.
 
@@ -2063,7 +2063,7 @@ Web Storage, comprising Local Storage and Session Storage, allows data to be sto
 
 [![Edit 048-Local Storage](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/048-local-storage-7wz96c)
 
-- [^48]CodeSandbox: Local Storage.
+[^48]CodeSandbox: Local Storage.
 
 [^48]:[CodeSandbox: Local Storage](https://7wz96c.csb.app/), last access: June 4, 2024.
 
@@ -2105,7 +2105,7 @@ function saveSessionData() {
 
 [![Edit 049-Session Storage](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/049-session-storage-jlmh4x)
 
-- [^49]CodeSandbox: Session Storage.
+[^49]CodeSandbox: Session Storage.
 
 [^49]:[CodeSandbox: Session Storage](https://jlmh4x.csb.app/), last access: June 4, 2024.
 
@@ -2136,7 +2136,7 @@ function drop(event) {
 
 [![Edit 050-Drag and Drop](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/050-drag-and-drop-hfgnpw)
 
-- [^50]CodeSandbox: Drag and Drop.
+[^50]CodeSandbox: Drag and Drop.
 
 [^50]:[CodeSandbox: Drag and Drop](https://hfgnpw.csb.app/), last access: June 4, 2024.
 
@@ -2155,7 +2155,7 @@ Iframes (Inline Frames) allow you to embed one HTML document within another. The
 
 [![Edit 051-Iframes](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/051-iframes-l2fyl4)
 
-- [^51]CodeSandbox: Iframes.
+[^51]CodeSandbox: Iframes.
 
 [^51]:[CodeSandbox: Iframes](https://l2fyl4.csb.app/), last access: June 4, 2024.
 
@@ -2177,7 +2177,7 @@ SVG is a powerful XML-based vector image format that can be embedded directly in
 
 [![Edit 052-SVG (Scalable Vector Graphics)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/052-svg-scalable-vector-graphics-3nx6c6)
 
-- [^52]CodeSandbox: SVG (Scalable Vector Graphics).
+[^52]CodeSandbox: SVG (Scalable Vector Graphics).
 
 [^52]:[CodeSandbox: SVG (Scalable Vector Graphics)](https://3nx6c6.csb.app/), last access: June 5, 2024.
 
@@ -2196,7 +2196,7 @@ Data attributes allow you to store custom data private to the page or applicatio
 
 [![Edit 053-Data Attributes](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/053-data-attributes-ww7npw)
 
-- [^53]CodeSandbox: Data Attributes.
+[^53]CodeSandbox: Data Attributes.
 
 [^53]:[CodeSandbox: Data Attributes](https://ww7npw.csb.app/), last access: June 5, 2024.
 
@@ -2239,7 +2239,7 @@ p {
 
 [![Edit 054-Selectors](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/054-selectors-sl9z4d)
 
-- [^54]CodeSandbox: Selectors.
+[^54]CodeSandbox: Selectors.
 
 [^54]:[CodeSandbox: Selectors](https://sl9z4d.csb.app/), last access: June 5, 2024.
 
@@ -2272,7 +2272,7 @@ p {
 
 [![Edit 055-Properties and Values](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/055-properties-and-values-f4437y)
 
-- [^55]CodeSandbox: Properties and Values.
+[^55]CodeSandbox: Properties and Values.
 
 [^55]:[CodeSandbox: Properties and Values](https://f4437y.csb.app/), last access: June 5, 2024.
 
@@ -2299,7 +2299,7 @@ The CSS box model describes how elements are rendered on a web page, consisting 
 
 [![Edit 056-Box Model](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/056-box-model-pjx5ch)
 
-- [^56]CodeSandbox: Box Model.
+[^56]CodeSandbox: Box Model.
 
 [^56]:[CodeSandbox: Box Model](https://pjx5ch.csb.app/), last access: June 5, 2024.
 
@@ -2321,7 +2321,7 @@ p {
 
 [![Edit 057-CSS Comments](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/057-css-comments-vny2rf)
 
-- [^57]CodeSandbox: CSS Comments.
+[^57]CodeSandbox: CSS Comments.
 
 [^57]:[CodeSandbox: CSS Comments](https://vny2rf.csb.app/), last access: June 11, 2024.
 
@@ -2340,7 +2340,7 @@ Inline CSS involves applying styles directly to individual HTML elements using t
 
 [![Edit 058-Inline CSS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/058-inline-css-pptd9v)
 
-- [^58]CodeSandbox: Inline CSS.
+[^58]CodeSandbox: Inline CSS.
 
 [^58]:[CodeSandbox: Inline CSS](https://pptd9v.csb.app/), last access: June 11, 2024.
 
@@ -2372,7 +2372,7 @@ Internal CSS, also known as embedded CSS, involves placing CSS rules within a `<
 
 [![Edit 059-Internal (Embedded) CSS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/059-internal-embedded-css-n8rn6n)
 
-- [^59]CodeSandbox: Internal (Embedded) CSS.
+[^59]CodeSandbox: Internal (Embedded) CSS.
 
 [^59]:[CodeSandbox: Internal (Embedded) CSS](https://n8rn6n.csb.app/), last access: June 11, 2024.
 
@@ -2408,7 +2408,7 @@ p {
 
 [![Edit 060-External CSS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/060-external-css-w9r4jj)
 
-- [^60]CodeSandbox: External CSS.
+[^60]CodeSandbox: External CSS.
 
 [^60]:[CodeSandbox: External CSS](https://w9r4jj.csb.app/), last access: June 11, 2024.
 
@@ -2439,7 +2439,7 @@ CSS frameworks like Bootstrap, Foundation, and Bulma provide pre-designed styles
 
 [![Edit 061-CSS Frameworks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/061-css-frameworks-tnxxzj)
 
-- [^61]CodeSandbox: CSS Frameworks.
+[^61]CodeSandbox: CSS Frameworks.
 
 [^61]:[CodeSandbox: CSS Frameworks](https://tnxxzj.csb.app/), last access: June 12, 2024.
 
@@ -2464,7 +2464,7 @@ $primary-color: #007bff;
 
 [![Edit 062-CSS Preprocessors](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/062-css-preprocessors-lzkls6)
 
-- [^62]CodeSandbox: CSS Preprocessors.
+[^62]CodeSandbox: CSS Preprocessors.
 
 [^62]:[CodeSandbox: CSS Preprocessors](https://lzkls6.csb.app/), last access: June 12, 2024.
 
@@ -2497,7 +2497,7 @@ Flexbox, short for Flexible Box Layout, is a one-dimensional layout model that a
 
 [![Edit 063-Flexbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/063-flexbox-f4c853)
 
-- [^63]CodeSandbox: Flexbox.
+[^63]CodeSandbox: Flexbox.
 
 [^63]:[CodeSandbox: Flexbox](https://f4c853.csb.app/), last access: June 12, 2024.
 
@@ -2527,7 +2527,7 @@ Grid Layouts are a two-dimensional layout model that allows for the precise posi
 
 [![Edit 064-Grid Layouts](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/064-grid-layouts-nykj4p)
 
-- [^64]CodeSandbox: Grid Layouts.
+[^64]CodeSandbox: Grid Layouts.
 
 [^64]:[CodeSandbox: Grid Layouts](https://nykj4p.csb.app/), last access: June 13, 2024.
 
@@ -2571,7 +2571,7 @@ JavaScript code can be embedded directly within HTML documents using the `<scrip
 
 [![Edit 065-Embedded JavaScript Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/065-embedded-javascript-example-2ch5rl)
 
-- [^65]CodeSandbox: Embedded JavaScript Example.
+[^65]CodeSandbox: Embedded JavaScript Example.
 
 [^65]:[CodeSandbox: Embedded JavaScript Example](https://2ch5rl.csb.app/), last access: June 13, 2024.
 
@@ -2616,7 +2616,7 @@ function greet() {
 
 [![Edit 066-External JavaScript Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/066-external-javascript-example-sttc6x)
 
-- [^66]CodeSandbox: External JavaScript Example.
+[^66]CodeSandbox: External JavaScript Example.
 
 [^66]:[CodeSandbox: External JavaScript Example](https://sttc6x.csb.app/), last access: June 18, 2024.
 
@@ -2658,7 +2658,7 @@ JavaScript interacts with HTML through the Document Object Model (DOM), a hierar
 
 [![Edit 067-DOM Manipulation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/067-dom-manipulation-7k5drg)
 
-- [^67]CodeSandbox: DOM Manipulation.
+[^67]CodeSandbox: DOM Manipulation.
 
 [^67]:[CodeSandbox: DOM Manipulation](https://7k5drg.csb.app/), last access: June 18, 2024.
 
@@ -2681,7 +2681,7 @@ function changeParagraphText() {
 
 [![Edit 068-Advanced DOM Manipulation Techniques](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/068-advanced-dom-manipulation-techniques-mj9mr7)
 
-- [^68]CodeSandbox: Advanced DOM Manipulation Techniques.
+[^68]CodeSandbox: Advanced DOM Manipulation Techniques.
 
 [^68]:[CodeSandbox: Advanced DOM Manipulation Techniques](https://mj9mr7.csb.app/), last access: June 18, 2024.
 
@@ -2710,7 +2710,7 @@ JavaScript enables developers to handle user interactions and browser events thr
 
 [![Edit 069-Event Handling](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/069-event-handling-rwd3qd)
 
-- [^69]CodeSandbox: Event Handling.
+[^69]CodeSandbox: Event Handling.
 
 [^69]:[CodeSandbox: Event Handling](https://rwd3qd.csb.app/), last access: June 18, 2024.
 
@@ -2733,7 +2733,7 @@ document.getElementById("parent").addEventListener("click", function(event) {
 
 [![Edit 070-Advanced Event Handling](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/070-advanced-event-handling-mcrl3w)
 
-- [^70]CodeSandbox: Advanced Event Handling.
+[^70]CodeSandbox: Advanced Event Handling.
 
 [^70]:[CodeSandbox: Advanced Event Handling](https://mcrl3w.csb.app/), last access: June 18, 2024.
 
@@ -2770,7 +2770,7 @@ Adopting a mobile-first approach involves designing for mobile devices first, th
 
 [![Edit 071-Mobile-First Approach](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/071-mobile-first-approach-fd8cvs)
 
-- [^71]CodeSandbox: Mobile-First Approach.
+[^71]CodeSandbox: Mobile-First Approach.
 
 [^71]:[CodeSandbox: Mobile-First Approach](https://fd8cvs.csb.app/), last access: June 20, 2024.
 
@@ -2833,7 +2833,7 @@ A fluid grid layout adjusts its column widths and spacing proportionally based o
 
 [![Edit 072-Fluid Grids](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/072-fluid-grids-qxh5zz)
 
-- [^72]CodeSandbox: Fluid Grids.
+[^72]CodeSandbox: Fluid Grids.
 
 [^72]:[CodeSandbox: Fluid Grids](https://qxh5zz.csb.app/), last access: June 20, 2024.
 
@@ -2856,7 +2856,7 @@ Media queries allow you to apply specific styles based on the characteristics of
 
 [![Edit 073-Media Queries](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/073-media-queries-dwprjz)
 
-- [^73]CodeSandbox: Media Queries.
+[^73]CodeSandbox: Media Queries.
 
 [^73]:[CodeSandbox: Media Queries](https://dwprjz.csb.app/), last access: June 20, 2024.
 
@@ -2880,7 +2880,7 @@ Percentage units allow you to define dimensions, margins, and padding relative t
 
 [![Edit 074-Percentage (%)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/074-percentage-ct6wzy)
 
-- [^74]CodeSandbox: Percentage (%).
+[^74]CodeSandbox: Percentage (%).
 
 [^74]:[CodeSandbox: Percentage (%)](https://ct6wzy.csb.app/), last access: June 20, 2024.
 
@@ -2903,7 +2903,7 @@ Viewport units represent a percentage of the viewport's width or height, allowin
 
 [![Edit 075-Viewport Width (vw) and Viewport Height (vh)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/075-viewport-width-vw-and-viewport-height-vh-ckqpy3)
 
-- [^75]CodeSandbox: Viewport Width (vw) and Viewport Height (vh).
+[^75]CodeSandbox: Viewport Width (vw) and Viewport Height (vh).
 
 [^75]:[CodeSandbox: Viewport Width (vw) and Viewport Height (vh)](https://ckqpy3.csb.app/), last access: June 25, 2024.
 
@@ -2927,7 +2927,7 @@ Let's have an example of Responsive Meta Tag.
 
 [![Edit 076-Viewport Settings](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/076-viewport-settings-7gjptw)
 
-- [^76]CodeSandbox: Viewport Settings.
+[^76]CodeSandbox: Viewport Settings.
 
 [^76]:[CodeSandbox: Viewport Settings](https://7gjptw.csb.app/), last access: June 25, 2024.
 
@@ -2952,7 +2952,7 @@ The em unit represents the font size of the element's parent container. It is co
 
 [![Edit 077-Em (em)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/077-em-em-gw6ctx)
 
-- [^77]CodeSandbox: Em (em).
+[^77]CodeSandbox: Em (em).
 
 [^77]:[CodeSandbox: Em (em)](https://gw6ctx.csb.app/), last access: June 25, 2024.
 
@@ -2992,7 +2992,7 @@ In responsive web design, not all content is equally important or relevant to us
 
 [![Edit 078-Importance of Content Prioritization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/078-importance-of-content-prioritization-8h7t4q)
 
-- [^78]CodeSandbox: Importance of Content Prioritization.
+[^78]CodeSandbox: Importance of Content Prioritization.
 
 [^78]:[CodeSandbox: Importance of Content Prioritization](https://8h7t4q.csb.app/), last access: June 25, 2024.
 
@@ -3027,7 +3027,7 @@ p.paragraph-bolded {
 
 [![Edit 079-Visual Hierarchy](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/079-visual-hierarchy-rqvhyf)
 
-- [^79]CodeSandbox: Visual Hierarchy.
+[^79]CodeSandbox: Visual Hierarchy.
 
 [^79]:[CodeSandbox: Visual Hierarchy](https://rqvhyf.csb.app/), last access: June 25, 2024.
 
@@ -3048,7 +3048,7 @@ Reorganizing content based on its importance and relevance to users can help ens
 
 [![Edit 080-Content Reorganization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/080-content-reorganization-xr6npx)
 
-- [^80]CodeSandbox: Content Reorganization.
+[^80]CodeSandbox: Content Reorganization.
 
 [^80]:[CodeSandbox: Content Reorganization](https://xr6npx.csb.app/), last access: June 25, 2024.
 
@@ -3092,7 +3092,7 @@ When selecting the appropriate file format for images and media, consider factor
 
 [![Edit 081-Choose the Right File Format](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/081-choose-the-right-file-format-swxx45)
 
-- [^81]CodeSandbox: Choose the Right File Format.
+[^81]CodeSandbox: Choose the Right File Format.
 
 [^81]:[CodeSandbox: Choose the Right File Format](https://swxx45.csb.app/), last access: August 28, 2024.
 
@@ -3114,7 +3114,7 @@ Use image compression techniques to reduce file size without sacrificing quality
 
 [![Edit 082-Optimizing Compression](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/082-optimizing-compression-lwj6ct)
 
-- [^82]CodeSandbox: Optimizing Compression.
+[^82]CodeSandbox: Optimizing Compression.
 
 [^82]:[CodeSandbox: Optimizing Compression](https://lwj6ct.csb.app/), last access: September 2, 2024.
 
@@ -3132,7 +3132,7 @@ Implement lazy loading techniques to defer the loading of images and media until
 
 [![Edit 083-Lazy Loading](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/083-lazy-loading-mfcf6s)
 
-- [^83]CodeSandbox: Lazy Loading.
+[^83]CodeSandbox: Lazy Loading.
 
 [^83]:[CodeSandbox: Lazy Loading](https://mfcf6s.csb.app/), last access: September 2, 2024.
 
@@ -3156,7 +3156,7 @@ Serve responsive images that are appropriately sized for different screen resolu
 
 [![Edit 084-Serving Responsive Images](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/084-serving-responsive-images-xxs4hy)
 
-- [^84]CodeSandbox: Serving Responsive Images.
+[^84]CodeSandbox: Serving Responsive Images.
 
 [^84]:[CodeSandbox: Serving Responsive Images](https://xxs4hy.csb.app/), last access: September 2, 2024.
 
@@ -3194,7 +3194,7 @@ Configure server-side caching and leverage browser caching mechanisms to store i
 
 [![Edit 085-Enable Browser Caching](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/085-enable-browser-caching-xl3wzp)
 
-- [^85]CodeSandbox: Enable Browser Caching.
+[^85]CodeSandbox: Enable Browser Caching.
 
 [^85]:[CodeSandbox: Enable Browser Caching](https://xl3wzp.csb.app/), last access: September 2, 2024.
 
@@ -3219,7 +3219,7 @@ Optimizing video files involves selecting the appropriate codecs and formats for
 
 [![Edit 086-Video Optimization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/086-video-optimization-688yvn)
 
-- [^86]CodeSandbox: Video Optimization.
+[^86]CodeSandbox: Video Optimization.
 
 [^86]:[CodeSandbox: Video Optimization](https://688yvn.csb.app/), last access: September 3, 2024.
 
@@ -3247,7 +3247,7 @@ Similar to video optimization, audio optimization involves selecting the appropr
 
 [![Edit 087-Audio Optimization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/087-audio-optimization-zy3cpv)
 
-- [^87]CodeSandbox: Audio Optimization.
+[^87]CodeSandbox: Audio Optimization.
 
 [^87]:[CodeSandbox: Audio Optimization](https://zy3cpv.csb.app/), last access: September 3, 2024.
 
@@ -3347,7 +3347,7 @@ CSS Flexbox is a powerful layout model that enables flexible and responsive desi
 
 [![Edit 088-Key Concepts of Flexbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/088-key-concepts-of-flexbox-zpmyxf)
 
-- [^88]CodeSandbox: Key Concepts of Flexbox.
+[^88]CodeSandbox: Key Concepts of Flexbox.
 
 [^88]:[CodeSandbox: Key Concepts of Flexbox](https://zpmyxf.csb.app/), last access: September 4, 2024.
 
@@ -3395,7 +3395,7 @@ CSS Grid Layout provides a powerful way to create responsive grid-based layouts.
 
 [![Edit 089-Key Concepts of CSS Grid](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/089-key-concepts-of-css-grid-fnt88c)
 
-- [^89]CodeSandbox: Key Concepts of CSS Grid.
+[^89]CodeSandbox: Key Concepts of CSS Grid.
 
 [^89]:[CodeSandbox: Key Concepts of CSS Grid](https://fnt88c.csb.app/), last access: September 4, 2024.
 
@@ -3421,7 +3421,7 @@ Media queries are essential for creating responsive designs that adapt to differ
 
 [![Edit 090-Media Queries for Responsive Design](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/090-media-queries-for-responsive-design-5pr5ll)
 
-- [^90]CodeSandbox: Media Queries for Responsive Design.
+[^90]CodeSandbox: Media Queries for Responsive Design.
 
 [^90]:[CodeSandbox: Media Queries for Responsive Design](https://5pr5ll.csb.app/), last access: September 4, 2024.
 
@@ -3458,7 +3458,7 @@ Web accessibility is crucial for ensuring that websites and web applications are
 
 [![Edit 091-Importance and Principles of Web Accessibility](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/091-importance-and-principles-of-web-accessibility-qtxl9q)
 
-- [^91]CodeSandbox: Importance and Principles of Web Accessibility.
+[^91]CodeSandbox: Importance and Principles of Web Accessibility.
 
 [^91]:[CodeSandbox: Importance and Principles of Web Accessibility](https://qtxl9q.csb.app/), last access: September 6, 2024.
 
@@ -3478,7 +3478,7 @@ Accessible Rich Internet Applications (ARIA) attributes and roles provide additi
 
 [![Edit 092-ARIA (Accessible Rich Internet Applications) Labels and Roles](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/092-aria-accessible-rich-internet-applications-labels-and-roles-vd3t4c)
 
-- [^92]CodeSandbox: ARIA (Accessible Rich Internet Applications) Labels and Roles.
+[^92]CodeSandbox: ARIA (Accessible Rich Internet Applications) Labels and Roles.
 
 [^92]:[CodeSandbox: ARIA (Accessible Rich Internet Applications) Labels and Roles](https://vd3t4c.csb.app/), last access: September 6, 2024.
 
@@ -3497,7 +3497,7 @@ HTML5 introduces several features and elements that support web accessibility, m
 
 [![Edit 093-Accessibility Features in HTML5](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/093-accessibility-features-in-html5-zwjmnz)
 
-- [^93]CodeSandbox: Accessibility Features in HTML5.
+[^93]CodeSandbox: Accessibility Features in HTML5.
 
 [^93]:[CodeSandbox: Accessibility Features in HTML5](https://zwjmnz.csb.app/), last access: September 6, 2024.
 
@@ -3534,7 +3534,7 @@ HTML provides a wide range of tags and attributes that can positively impact a w
 
 [![Edit 094-Image Alt Attribute](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/094-image-alt-attribute-fgcs54)
 
-- [^94]CodeSandbox: Image Alt Attribute.
+[^94]CodeSandbox: Image Alt Attribute.
 
 [^94]:[CodeSandbox: Image Alt Attribute](https://fgcs54.csb.app/), last access: September 6, 2024.
 
@@ -3566,7 +3566,7 @@ HTML provides a wide range of tags and attributes that can positively impact a w
 
 [![Edit 095-Semantic HTML Elements](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/095-semantic-html-elements-ncm57v)
 
-- [^95]CodeSandbox: Semantic HTML Elements.
+[^95]CodeSandbox: Semantic HTML Elements.
 
 [^95]:[CodeSandbox: Semantic HTML Elements](https://ncm57v.csb.app/), last access: September 6, 2024.
 
@@ -3593,7 +3593,7 @@ By utilizing these HTML tags and attributes effectively, webmasters can optimize
 
 [![Edit 096-Meta Keywords Tag](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/096-meta-keywords-tag-ykmyqn)
 
-- [^96]CodeSandbox: Meta Keywords Tag.
+[^96]CodeSandbox: Meta Keywords Tag.
 
 [^96]:[CodeSandbox: Meta Keywords Tag](https://ykmyqn.csb.app/), last access: September 7, 2024.
 
@@ -3607,7 +3607,7 @@ By utilizing these HTML tags and attributes effectively, webmasters can optimize
 
 [![Edit 097-Viewport Meta Tag](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/097-viewport-meta-tag-zzj7nh)
 
-- [^97]CodeSandbox: Viewport Meta Tag.
+[^97]CodeSandbox: Viewport Meta Tag.
 
 [^97]:[CodeSandbox: Viewport Meta Tag](https://zzj7nh.csb.app/), last access: September 7, 2024.
 
@@ -3678,7 +3678,7 @@ Semantic HTML elements provide meaning to the structure of a webpage, making it 
 
 [![Edit 098-Semantic Markup](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/098-semantic-markup-t9dcrs)
 
-- [^98]CodeSandbox: Semantic Markup.
+[^98]CodeSandbox: Semantic Markup.
 
 [^98]:[CodeSandbox: Semantic Markup](https://t9dcrs.csb.app/), last access: September 8, 2024.
 
@@ -3700,7 +3700,7 @@ HTML5 introduces new input types and attributes to enhance form usability and va
 
 [![Edit 099-Form Enhancements](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/099-form-enhancements-2pv533)
 
-- [^99]CodeSandbox: Form Enhancements.
+[^99]CodeSandbox: Form Enhancements.
 
 [^99]:[CodeSandbox: Form Enhancements](https://2pv533.csb.app/), last access: September 8, 2024.
 
@@ -3719,7 +3719,7 @@ The `<audio>` and `<video>` elements in HTML5 allow developers to embed audio an
 
 [![Edit 100-Multimedia Integration](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/100-multimedia-integration-zlskc5)
 
-- [^100]CodeSandbox: Multimedia Integration.
+[^100]CodeSandbox: Multimedia Integration.
 
 [^100]:[CodeSandbox: Multimedia Integration](https://zlskc5.csb.app/), last access: September 8, 2024.
 
@@ -3735,7 +3735,7 @@ With the increasing usage of mobile devices for accessing the web, it's essentia
 
 [![Edit 101-Mobile Optimization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/101-mobile-optimization-mmrlcx)
 
-- [^101]CodeSandbox: Mobile Optimization.
+[^101]CodeSandbox: Mobile Optimization.
 
 [^101]:[CodeSandbox: Mobile Optimization](https://mmrlcx.csb.app/), last access: September 9, 2024.
 
@@ -3751,7 +3751,7 @@ Accessibility is an important aspect of web development, ensuring that web conte
 
 [![Edit 102-Accessibility Features](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/102-accessibility-features-2tk54j)
 
-- [^102]CodeSandbox: Accessibility Features.
+[^102]CodeSandbox: Accessibility Features.
 
 [^102]:[CodeSandbox: Accessibility Features](https://2tk54j.csb.app/), last access: September 9, 2024.
 
@@ -3798,7 +3798,7 @@ Accessibility is an important aspect of web development, ensuring that web conte
 
 [![Edit 103-Code Organization and Commenting](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/103-code-organization-and-commenting-722xxt)
 
-- [^103]CodeSandbox: Code Organization and Commenting.
+[^103]CodeSandbox: Code Organization and Commenting.
 
 [^103]:[CodeSandbox: Code Organization and Commenting](https://722xxt.csb.app/), last access: September 9, 2024.
 
@@ -3847,7 +3847,7 @@ h1 {
 
 [![Edit 104-HTML Performance Optimization Techniques](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/104-html-performance-optimization-techniques-qm3w7j)
 
-- [^104]CodeSandbox: HTML Performance Optimization Techniques.
+[^104]CodeSandbox: HTML Performance Optimization Techniques.
 
 [^104]:[CodeSandbox: HTML Performance Optimization Techniques](https://qm3w7j.csb.app/), last access: September 10, 2024.
 
@@ -3862,7 +3862,7 @@ h1 {
 
 [![Edit 105-HTML Minification and Compression](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/105-html-minification-and-compression-vdpynt)
 
-- [^105]CodeSandbox: HTML Minification and Compression.
+[^105]CodeSandbox: HTML Minification and Compression.
 
 [^105]:[CodeSandbox: HTML Minification and Compression](https://vdpynt.csb.app/), last access: September 11, 2024.
 
@@ -3878,7 +3878,7 @@ h1 {
 
 [![Edit 106-Lazy Loading of Images](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/106-lazy-loading-of-images-mx2q9r)
 
-- [^106]CodeSandbox: Lazy Loading of Images.
+[^106]CodeSandbox: Lazy Loading of Images.
 
 [^106]:[CodeSandbox: Lazy Loading of Images](https://mx2q9r.csb.app/), last access: September 12, 2024.
 
@@ -3922,7 +3922,7 @@ body{font-family:Arial,sans-serif}h1{color:navy}
 
 [![Edit 107-CSS and JavaScript Optimization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/107-css-and-javascript-optimization-nz9jsn)
 
-- [^107]CodeSandbox: CSS and JavaScript Optimization.
+[^107]CodeSandbox: CSS and JavaScript Optimization.
 
 [^107]:[CodeSandbox: CSS and JavaScript Optimization](https://nz9jsn.csb.app/), last access: September 29, 2024.
 
@@ -3969,7 +3969,7 @@ The Geolocation API enables web applications to access the user's geographic loc
 
 [![Edit 108-Geolocation API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/108-geolocation-api-443vqt)
 
-- [^108]CodeSandbox: Geolocation API.
+[^108]CodeSandbox: Geolocation API.
 
 [^108]:[CodeSandbox: Geolocation API](https://443vqt.csb.app/), last access: September 30, 2024.
 
@@ -3993,7 +3993,7 @@ alert("Username: " + username);
 
 [![Edit 109-Web Storage API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/109-web-storage-api-729wnm)
 
-- [^109]CodeSandbox: Web Storage API.
+[^109]CodeSandbox: Web Storage API.
 
 [^109]:[CodeSandbox: Web Storage API](https://729wnm.csb.app/), last access: September 30, 2024.
 
@@ -4030,7 +4030,7 @@ ctx.fill();
 
 [![Edit 110-Canvas API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/110-canvas-api-lgtkpg)
 
-- [^110]CodeSandbox: Canvas API.
+[^110]CodeSandbox: Canvas API.
 
 [^110]:[CodeSandbox: Canvas API](https://lgtkpg.csb.app/), last access: October 1, 2024.
 
@@ -4066,7 +4066,7 @@ self.addEventListener("message", (e) => {
 
 [![Edit 111-Web Workers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/111-web-workers-snqmpz)
 
-- [^111]CodeSandbox: Web Workers.
+[^111]CodeSandbox: Web Workers.
 
 [^111]:[CodeSandbox: Web Workers](https://snqmpz.csb.app/), last access: October 1, 2024.
 
@@ -4100,7 +4100,7 @@ socket.send("Hello from client!");
 
 [![Edit 112-WebSocket API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/112-websocket-api-dypkvz)
 
-- [^112]CodeSandbox: WebSocket API.
+[^112]CodeSandbox: WebSocket API.
 
 [^112]:[CodeSandbox: WebSocket API](https://dypkvz.csb.app/), last access: October 2, 2024.
 
@@ -4137,7 +4137,7 @@ document.getElementById("dropzone").addEventListener("drop", function(event) {
 
 [![Edit 113-Drag and Drop API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/113-drag-and-drop-api-fsswsl)
 
-- [^113]CodeSandbox: Drag and Drop API.
+[^113]CodeSandbox: Drag and Drop API.
 
 [^113]:[CodeSandbox: Drag and Drop API](https://fsswsl.csb.app/), last access: October 2, 2024.
 
@@ -4163,7 +4163,7 @@ The Audio and Video API allows web applications to embed and control audio and v
 
 [![Edit 114-Audio and Video API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/114-audio-and-video-api-zzyzjg)
 
-- [^114]CodeSandbox: Audio and Video API.
+[^114]CodeSandbox: Audio and Video API.
 
 [^114]:[CodeSandbox: Audio and Video API](https://zzyzjg.csb.app/), last access: October 6, 2024.
 
@@ -4193,7 +4193,7 @@ function handleFile(event) {
 
 [![Edit 115-File API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/115-file-api-69c6jw)
 
-- [^115]CodeSandbox: File API.
+[^115]CodeSandbox: File API.
 
 [^115]:[CodeSandbox: File API](https://69c6jw.csb.app/), last access: October 6, 2024.
 
@@ -4222,7 +4222,7 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: true })
 
 [![Edit 116-WebRTC API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/116-webrtc-api-8kfdt8)
 
-- [^116]CodeSandbox: WebRTC API.
+[^116]CodeSandbox: WebRTC API.
 
 [^116]:[CodeSandbox: WebRTC API](https://8kfdt8.csb.app/), last access: October 7, 2024.
 
@@ -4240,7 +4240,7 @@ The Media Capture and Streams API enables web applications to capture audio, vid
 
 [![Edit 117-Media Capture and Streams API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/117-media-capture-and-streams-api-4s97wh)
 
-- [^117]CodeSandbox: Media Capture and Streams API.
+[^117]CodeSandbox: Media Capture and Streams API.
 
 [^117]:[CodeSandbox: Media Capture and Streams API](https://4s97wh.csb.app/), last access: October 7, 2024.
 
@@ -4284,7 +4284,7 @@ registerServiceWorker();
 
 [![Edit 118-Implementing Offline Capabilities with Service Workers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/118-implementing-offline-capabilities-with-service-workers-zjm7tx)
 
-- [^118]CodeSandbox: Implementing Offline Capabilities with Service Workers.
+[^118]CodeSandbox: Implementing Offline Capabilities with Service Workers.
 
 [^118]:[CodeSandbox: Implementing Offline Capabilities with Service Workers](https://zjm7tx.csb.app/), last access: October 8, 2024.
 
@@ -4331,7 +4331,7 @@ h1 {
 
 [![Edit 119-Caching Assets for Offline Use](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/119-caching-assets-for-offline-use-tmpq6w)
 
-- [^119]CodeSandbox: Caching Assets for Offline Use.
+[^119]CodeSandbox: Caching Assets for Offline Use.
 
 [^119]:[CodeSandbox: Caching Assets for Offline Use](https://tmpq6w.csb.app/), last access: October 11, 2024.
 
@@ -4371,7 +4371,7 @@ function syncData() {
 
 [![Edit 120-Offline Data Synchronization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/120-offline-data-synchronization-5gpt4c)
 
-- [^120]CodeSandbox: Offline Data Synchronization.
+[^120]CodeSandbox: Offline Data Synchronization.
 
 [^120]:[CodeSandbox: Offline Data Synchronization](https://tmpq6w.csb.app/), last access: October 13, 2024.
 
