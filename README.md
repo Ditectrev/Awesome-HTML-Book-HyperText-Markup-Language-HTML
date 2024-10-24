@@ -339,7 +339,6 @@ These developments were guided by organizations such as the World Wide Web Conso
 
 #### Understanding the Role of HTML in Web Development
 
-
 ![HTML, CSS, JavaScript Interaction Diagram: A Venn diagram illustrating how HTML, CSS, and JavaScript overlap and interact in web development.](images/html_css_javascript_interaction.png)
 |:--:| 
 | *HTML, CSS, JavaScript Interaction Diagram: A Venn diagram illustrating how HTML, CSS, and JavaScript overlap and interact in web development.* |
@@ -2306,7 +2305,6 @@ The CSS box model describes how elements are rendered on a web page, consisting 
 ![CSS Box Model.](images/css-box-model.png)
 |:--:| 
 | *CSS Box Model.* |
-
 
 ```css
 /* Box Model Properties */
