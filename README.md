@@ -41,9 +41,9 @@ There are many ways to support us; in exchange, you'll get this material in a pr
      - Tables (`<table>`, `<tr>`, `<td>`, `<th>`);
      - Line Breaks (`<br>`) and Horizontal Rules (`<hr>`);
    - Forms and User Input:
-     - Text Inputs, Radio Buttons, Checkboxes (`<input>`)
-     - Select Menus and Option Elements (`<select>`, `<option>`)
-     - Submit and Reset Buttons (`<select>`, `<option>`)
+     - Text Inputs, Radio Buttons, Checkboxes (`<input>`);
+     - Select Menus and Option Elements (`<select>`, `<option>`);
+     - Submit and Reset Buttons (`<select>`, `<option>`);
      - Form Validation Basics (`<input>`);
      - Advanced Form Features (`<input>`);
      - Best Practices in Form Design;
